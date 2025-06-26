@@ -1,39 +1,18 @@
 import itertools
 import logging
 import argparse
+import os
 from Data_generation.templates import ALL_DECOY_PRODUCTS
 
 from Predict.predict import generate_all_predictions
-from utils import get_bias_type_templates_defaults
-
-# the following models are tuned on instructions and will predict according generated text
-INSTURCT_MODELS = [
-    "text-davinci-002",
-    "text-davinci-003",
-    "flan-t5-xl",
-    "flan-t5-xxl",
-    "flan-t5-small",
-    "gpt-4-0314",
-    "gpt-4",
-]
-
-# the following models are vanilla and will predict according to log probs
-VANILLA_MODELS = [
-    "davinci",
-    "t5-v1_1-small",
-    "t5-v1_1-xl",
-    "t5-v1_1-xxl",
-    "t5-11b",
-    "t5-small",
-    "llama-7b",
-    "llama-13b",
-]
+from utils import INSTURCT_MODELS, VANILLA_MODELS, get_bias_type_templates_defaults, get_all_models_list_from_path
 
 
 def set_experiment_args(
     bias_name,
     input_file,
     engine,
+    model_path,
     should_normalize,
     overwrite_existing_predictions,
     k_shot,
@@ -47,6 +26,7 @@ def set_experiment_args(
         "bias_name": bias_name,
         "data_path": input_file,
         "engine": engine,
+        "model_path": model_path,
         "should_normalize": should_normalize,
         "overwrite_existing_predictions": overwrite_existing_predictions,
     }
@@ -61,9 +41,9 @@ def set_experiment_args(
 
     # set specific args for instruct or vanilla models
     if experiment_args["engine"] in INSTURCT_MODELS:
-        experiment_args[
-            "predict_according_to_log_probs"
-        ] = predict_instruct_according_to_log_probs
+        experiment_args["predict_according_to_log_probs"] = (
+            predict_instruct_according_to_log_probs
+        )
 
         experiment_args["k_shot"] = k_shot
 
@@ -90,13 +70,17 @@ def set_experiment_args(
         "text-davinci-003",
     ]:
         experiment_args["save_every_n_examples"] = 100
-    # gpt4 is slow, so we save every 10 examples
-    elif experiment_args["engine"] in ["gpt-4-0314", "gpt-4"]:
-        experiment_args["save_every_n_examples"] = 10
-
+    # gpt4 and llama-2 are slow, so we save every 10 examples
+    # elif experiment_args["engine"] in [
+    #     "gpt-4-0314",
+    #     "gpt-4",
+    #     "Llama-2-7b",
+    #     "Llama-2-7b-chat",
+    # ]:
+    #     experiment_args["save_every_n_examples"] = 10
     # for everything else, we save every 1000 examples
     else:
-        experiment_args["save_every_n_examples"] = 1000
+        experiment_args["save_every_n_examples"] = 10
 
     return experiment_args
 
@@ -111,12 +95,15 @@ def run_predict_all(
     all_k_shot_instruct,
     all_should_normalize_vanilla,
     all_models,
+    model_path,
     all_predict_instruct_according_to_log_probs,
     all_should_normalize_instruct,
     with_few_shot_task_or_format,
 ):
     all_input_files = get_input_files_names(bias_name, products, templates, bias_types)
 
+    if model_path is not None:
+        all_models = get_all_models_list_from_path(model_path)
     # predict across all models, input files, k-shot, and should_normalize
     for engine in all_models:
         logging.info("+" * 20 + " " + engine + " " + "+" * 20)
@@ -143,6 +130,7 @@ def run_predict_all(
                         bias_name,
                         input_file,
                         engine,
+                        model_path,
                         should_normalize,
                         overwrite_existing_predictions,
                         k_shot,
@@ -231,6 +219,7 @@ def parse_args(args):
         "all_k_shot_instruct": all_k_shot_instruct,
         "all_should_normalize_vanilla": all_should_normalize_vanilla,
         "all_models": all_models,
+        "model_path": args.model_path,
         "all_predict_instruct_according_to_log_probs": all_predict_instruct_according_to_log_probs,
         "all_should_normalize_instruct": all_should_normalize_instruct,
     }
@@ -262,6 +251,12 @@ def get_args():
         type=str,
         default=None,
         help="Which models to use.",
+    )
+    parser.add_argument(
+        "--model_path",
+        type=str,
+        default=None,
+        help="A path to load a model from.",
     )
     parser.add_argument(
         "--products",

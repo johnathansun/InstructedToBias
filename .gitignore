@@ -33,3 +33,4 @@ huggingface/.cache/tmptbzidune
 /huggingface
 .env
 rename_old_predictions.py
+*.log

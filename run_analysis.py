@@ -76,7 +76,7 @@ def parse_args(args):
 
     all_models = args.all_models.split(",")
     all_options_permutations = get_boolean_vals_from_str(args.all_options_permutations)
-
+    use_extraction_model = args.use_extraction_model
     return (
         bias_name,
         bias_types,
@@ -91,6 +91,7 @@ def parse_args(args):
         with_format_few_shot,
         all_models,
         all_options_permutations,
+        use_extraction_model,
     )
 
 
@@ -148,7 +149,13 @@ def set_run_args(args):
         with_format_few_shot,
         all_models,
         all_options_permutations,
+        use_extraction_model,
     ) = parse_args(args)
+
+    # addition to bias origin, add checkpoints of training instructions models to the instrcuted models
+    for model_name in all_models:
+        if '_step_' in model_name:
+            INSTURCT_MODELS.append(model_name)
 
     all_conditions = parse_conditions(args.all_conditions)
 
@@ -175,6 +182,7 @@ def set_run_args(args):
         "all_conditions": all_conditions,
         "with_task_few_shot": with_task_few_shot,
         "with_format_few_shot": with_format_few_shot,
+        "use_extraction_model": use_extraction_model,
     }
 
     experiment_args = {
@@ -210,7 +218,8 @@ def calc_scores(
     (
         diff_score,
         undecided_scores,
-        target_prob_mean,
+        # target_prob_mean,
+        choice_prob_mean,
         p_value,
     ) = get_bias_scores(bias_name, pred_df, confidences, full_df, comparing_dict)
 
@@ -218,7 +227,7 @@ def calc_scores(
     comparing_dict["p_value"].append(p_value)
 
     unpack_dict_to_dict(comparing_dict, undecided_scores)
-    unpack_dict_to_dict(comparing_dict, target_prob_mean)
+    unpack_dict_to_dict(comparing_dict, choice_prob_mean)  # target_prob_mean)
     unpack_dict_to_dict(comparing_dict, all_options_percentage)
 
 
@@ -272,6 +281,7 @@ def analyze_experiment(exp_args):
         "engine",
         "predict_according_to_log_probs",
         "templates",
+        "use_extraction_model",
     ]
     args_get_across_exp_result_file_prefix = [
         "pred_dir",
@@ -336,6 +346,7 @@ def set_experiment(
     predict_according_to_log_probs,
     should_normalize,
     permute,
+    use_extraction_model,   
 ):
     experiment_args["engine"] = engine
     experiment_args["comparing_dict"]["model"].append(engine)
@@ -362,7 +373,7 @@ def set_experiment(
     experiment_args["k_shot"] = k_shot
 
     experiment_args["predict_according_to_log_probs"] = predict_according_to_log_probs
-
+    experiment_args["use_extraction_model"] = use_extraction_model
     return experiment_args
 
 
@@ -425,13 +436,17 @@ def create_run_report_and_plot(experiment_args, all_models):
     )
     comparing_dict = pd.DataFrame(experiment_args["comparing_dict"])
     if experiment_args["bias_name"] == "false_belief":
-        split_false_belief_bias_scores(comparing_dict)
-        plot_false_belief(comparing_dict, experiment_args, all_models)
+        try:
+            split_false_belief_bias_scores(comparing_dict)
+            plot_false_belief(comparing_dict, experiment_args, all_models)
+        except Exception as e:
+            print(f"Error in split_false_belief_bias_scores or plot_false_belief: {e}")
 
     # save final results from comparing_dict as csv
-    comparing_dict.to_csv(
-        experiment_args["logging_path"].with_suffix(".csv"), float_format="%.3f"
-    )
+    if not comparing_dict.empty: # if comparing_dict is an empty df
+        comparing_dict.to_csv(
+            experiment_args["logging_path"].with_suffix(".csv"), float_format="%.3f"
+        )
 
 
 def across_products_diff_of_diff(
@@ -477,7 +492,7 @@ def set_instructed_args(engine, cross_experiment_settings):
     """
     select the k_shot, should_normalize and predict_according_to_log_probs according to the engine being an instruct model or not
     """
-    if engine in INSTURCT_MODELS:
+    if engine in INSTURCT_MODELS or '_step_' in engine: # support for bias origin, for instruction models mid training steps
         all_k_shot = cross_experiment_settings["all_k_shot_instruct"]
         predict_according_to_log_probs = cross_experiment_settings[
             "predict_instruct_according_to_log_probs"
@@ -515,6 +530,7 @@ def run_experiments_analysis(
                     predict_according_to_log_probs,
                     should_normalize,
                     permute,
+                    cross_experiment_settings["use_extraction_model"],
                 )
                 analyze_experiment(experiment_args)
             except Exception as e:
@@ -595,9 +611,15 @@ def create_all_results_files(args):
 
 
 def report_failures(all_failures):
-    for f in all_failures:
-        print(f)
-    print(f"Number of all_failures={len(all_failures)}")
+    if all_failures:
+        for f in all_failures:
+            print(f)
+        print(f"Number of all_failures={len(all_failures)}")
+        print("="*80)
+        print("="*80)
+        print("WARNING: Some runs failed !!!")
+        print("="*80)
+        print("="*80)
 
 
 def run_main(args):
@@ -731,6 +753,13 @@ def get_args():
         type=str,
         default=None,
         help="The bias type in the predicted file name.",
+    )
+
+    parser.add_argument(
+        "--use_extraction_model",
+        type=str,
+        default=False,
+        help="Use extraction model to get the answer.",
     )
 
     args = parser.parse_args()

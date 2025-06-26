@@ -5,12 +5,24 @@ import re
 
 from Analysis.certainty_analysis import analyze_certainty_answer, get_certainty_results
 from Analysis.decoy_analysis import analyze_decoy_answer, get_decoy_results
-from Analysis.fb_analysis import analyze_false_belief, get_false_belief_results
+from Analysis.fb_analysis import (
+    analyze_false_belief,
+    check_for_more_than_one_token_answer,
+    get_false_belief_results,
+)
 
 from utils import (
     FLAN_T5_MODELS,
+    OLMO_INSTRUCT_MODELS,
+    OLMO_FLAN_INSTRUCT_MODELS,
+    OLMO_MODELS,
     OPENAI_MODELS,
     T5_MODELS,
+    TULU_T5_MODELS,
+    LLAMA_CHAT_MODELS,
+    LLAMA_MODELS,
+    MISTRAL_INSTRUCT_MODELS,
+    MISTRAL_MODELS,
     get_results_comments_name,
 )
 from Predict.predict import get_possible_answers
@@ -55,6 +67,7 @@ def get_all_ans(
     file_prefix,
     pred_dir,
     is_conditions_are_logical_and_or_logical_or,
+    use_extraction_model,
 ):
     with open(logging_path.with_suffix(".txt"), "a+") as f:
         f.write("===Treatment===\n")
@@ -66,6 +79,7 @@ def get_all_ans(
         predict_according_to_log_probs,
         logging_path.with_suffix(".txt"),
         is_conditions_are_logical_and_or_logical_or,
+        use_extraction_model,
     )
 
     with open(logging_path.with_suffix(".txt"), "a+") as f:
@@ -78,6 +92,7 @@ def get_all_ans(
         predict_according_to_log_probs,
         logging_path.with_suffix(".txt"),
         is_conditions_are_logical_and_or_logical_or,
+        use_extraction_model,
     )
 
     all_ans, all_options_percentage = extract_ans_and_percentage_from_results(
@@ -102,6 +117,7 @@ def get_all_dfs(bias_name, all_ans, ylabel):
 
 def write_results_to_file(
     results_df,
+    full_df,
     confidences,
     logging_path,
     file_prefix,
@@ -114,6 +130,8 @@ def write_results_to_file(
         get_results_comments_name(conditions, templates, bias_types)
     ).with_suffix(".csv")
     results_df.to_csv(res_f_name)
+    if full_df is not None:
+        full_df.to_csv(res_f_name.with_stem(res_f_name.stem + "full_answers"))
     if confidences is not None:
         confidences.to_csv(res_f_name.with_stem(res_f_name.stem + "confidences"))
         with open(logging_path.with_suffix(".txt"), "a+") as f:
@@ -133,6 +151,7 @@ def get_predictions_analysis(
     file_prefix=None,
     pred_dir=None,
     is_conditions_are_logical_and_or_logical_or="logical_and",
+    use_extraction_model=False,
 ):
     all_ans, all_options_percentage = get_all_ans(
         bias_name,
@@ -144,12 +163,14 @@ def get_predictions_analysis(
         file_prefix,
         pred_dir,
         is_conditions_are_logical_and_or_logical_or,
+        use_extraction_model,
     )
 
     results_df, full_df, confidences = get_all_dfs(bias_name, all_ans, ylabel)
 
     write_results_to_file(
         results_df,
+        full_df,
         confidences,
         logging_path,
         file_prefix,
@@ -208,47 +229,209 @@ def check_for_undecided_answer(
     return model_ans, answer_log_prob
 
 
-def find_ans_in_tokens(bias_name, all_tokens, all_log_probs, valid_options):
+def find_ans_in_tokens(bias_name, engine, all_tokens, all_log_probs, valid_options):
     model_ans = -1
     answer_log_prob = -float("inf")
 
+    all_tokens_to_go_over = all_tokens.copy()
+    # remove the explanation part (mainly llama2-chat answers)
+    if "Explanation:" in all_tokens:
+        all_tokens_to_go_over = all_tokens_to_go_over[
+            : all_tokens_to_go_over.index("Explanation:")
+        ]
+
     # if long answer, reverse it since it's probably an explanation with an answer at the end (mainly GPT4 answers)
-    if len(all_tokens) > 100:
-        all_tokens = all_tokens[::-1]
+    if len(all_tokens_to_go_over) > 100 and engine in OPENAI_MODELS:
+        all_tokens_to_go_over = all_tokens_to_go_over[::-1]
 
     # Select the appropriate options based on bias_name
     valid_options = ANSWERS_TOKENS.get(bias_name, {})
 
     # Find the answer in the tokens
-    for i, token in enumerate(all_tokens):
+    for i, token in enumerate(all_tokens_to_go_over):
         token = token.strip()
         # if token is a valid option
         if token in valid_options:
             model_ans = valid_options[token]
-            answer_log_prob = all_log_probs[i]
+            # ugly patch, not sure why this is happening
+            if "T5-Tulu" in engine:
+                try:
+                    answer_log_prob = all_log_probs[i]
+                except Exception as e:
+                    answer_log_prob = -10000
+            else:
+                answer_log_prob = all_log_probs[i]
             break
 
     return model_ans, answer_log_prob
 
 
+def get_model_ans_according_to_extraction_model(prediction, bias_name, extraction_model="allenai/OLMo-7B-Instruct"):
+    '''
+    This function is used to get the model answer according to the extraction model.
+    The extraction model is a model that extracts the answer from the prediction.
+    We prompt the model to extract the answer from the prediction.
+    The answer can look like the options in ANSWERS_TOKENS.
+    '''
+    import os
+    import torch
+    from transformers import AutoTokenizer, AutoModelForCausalLM, GenerationConfig
+    #from hf_olmo import OLMoForCausalLM, OLMoTokenizerFast
+
+    def load_decision_extraction_model(device: str, extraction_model_name: str, cache_dir: str = "/mnt/nlp/datasets/huggingface"):
+        token = os.getenv("HF_TOKEN", None)
+        if token is None:
+            raise ValueError("HF_TOKEN is not set! Please set it in the .env file")
+        
+        extraction_model_name = "allenai/OLMo-2-1124-7B-Instruct"
+        
+        # Load the tokenizer
+        extraction_model_tokenizer = AutoTokenizer.from_pretrained(extraction_model_name, cache_dir=cache_dir, trust_remote_code=True)
+        #extraction_model_tokenizer = OLMoTokenizerFast.from_pretrained("allenai/OLMo-7B-SFT", cache_dir=cache_dir, trust_remote_code=True)
+        
+        if extraction_model_tokenizer.pad_token is None:
+            extraction_model_tokenizer.pad_token = extraction_model_tokenizer.eos_token
+            extraction_model_tokenizer.pad_token_id = extraction_model_tokenizer.eos_token_id
+        
+        device_map = "auto" if torch.cuda.is_available() else None
+        # Load the decision extraction model OLMo-7B-Instruct with float 16
+        model = AutoModelForCausalLM.from_pretrained(extraction_model_name, device_map=device_map, token=token, trust_remote_code=True, cache_dir=cache_dir, torch_dtype=torch.float16)
+        #model = OLMoForCausalLM.from_pretrained("allenai/OLMo-7B-Instruct", device_map=device_map, token=token, trust_remote_code=True, cache_dir=cache_dir, torch_dtype=torch.float16)
+        model.to(device)
+        model.eval()
+        return model, extraction_model_tokenizer
+
+    def convert_answer_to_int(bias_name, extracted_answer):
+        '''
+        According to the answer, convert it to the appropriate integer using ANSWERS_TOKENS and regular expressions.
+        for decoy and certainty, answers A, B, and C are 1, 2, and 3.
+        for false belief, answers True and False are the boolean values.
+        If the answer is `Undecided` or `Cannot be definitively`, return -1.
+        '''
+        import re
+        if  "Undecided" in extracted_answer or "Cannot be definitively" in extracted_answer:
+            return -1
+        # Verify that the extracted model managed to extract the answer, if not return -1
+        if bias_name == "false_belief":
+            if "True" in extracted_answer or "False" in extracted_answer:
+                return 0 if "True" in extracted_answer else 1
+            else:
+                return -1
+        
+        # If the answer is not a boolean, return the answer as an integer
+        elif bias_name == "decoy" or bias_name == "certainty":
+            re_answer = int(re.search(r'\d+', extracted_answer).group())
+            if re_answer in valid_options:
+                return re_answer
+            else:
+                -1
+        else:
+            raise ValueError(f"Bias name {bias_name} is not supported")
+        
+    # Print warning that extraction model is used
+    logging.warning(f"Extraction model is used to decide answers!")
+
+    # load the model and tokenizer
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model_extraction, tokenizer_extraction_model = load_decision_extraction_model(device, extraction_model)
+
+    valid_options = ANSWERS_TOKENS.get(bias_name, {})
+    
+    # if the bias is false belief, we need to add the options for true and false
+    if bias_name == "false_belief":
+        TRUE_OPTIONS_STRING = ",".join([option_string for option_value,option_string  in valid_options.items() if option_value == True])
+        FALSE_OPTIONS_STRING = ",".join([option_string for option_value,option_string  in valid_options.items() if option_value == False])
+        TRUE_OPTIONS_STRING += " or `something implies something else`, `something is true`, `something is valid`, `something is correct`" 
+        FALSE_OPTIONS_STRING += " or `something does not imply something else`, `something is false`, `something is invalid`, `something is incorrect`"
+        options_explanation = f"The answer can be `True` or `False`. True can look like the options: {TRUE_OPTIONS_STRING}. False can look like the options: {FALSE_OPTIONS_STRING}. Return `True` or `False` according to the answer."
+        wanted_answer_string = "True or False?"
+    # If the bias is decoy or certainty, we need to add the options for the decoy and certainty
+    elif bias_name == "decoy" or bias_name == "certainty":
+        valid_options_string = " ".join(list(valid_options.keys()))
+        options_explanation = f"The answer can be one of the options: {valid_options_string}. Return the option number according to the answer. First option or A is 1, second option or B is 2, and third option or C is 3."
+        wanted_answer_string = "1, 2, or 3?"
+    else:
+        raise ValueError(f"Bias name {bias_name} is not supported")
+
+    # prompt the model to extract the answer
+    prediction_text = prediction["prediction"]
+    prompt = f"Extract the answer from the PROVIDED TEXT.\n\n{options_explanation}.\n\nThe PROVIDED TEXT is:\n\nSTART\n{prediction_text}\nEND\n\nWrite only the answer expressed in the PROVIDED TEXT, no other text. If you cannot find the answer, write `Undecided`. From the options: {wanted_answer_string}. The answer is:"
+    tokenized_prompt = tokenizer_extraction_model.apply_chat_template([{"role": "user", "content": prompt}], tokenize=True, add_bos=True, add_eos=False, return_tensors="pt")
+    tokenized_prompt = tokenized_prompt.to(model_extraction.device)
+    #outputs = extraction_model.generate(tokenized_inputs, max_new_tokens=10, return_dict_in_generate=True,output_scores=True)
+    #exctracted_answer = extraction_model_tokenizer.decode(outputs[0], skip_special_tokens=True)
+    generation_config = GenerationConfig(
+        max_new_tokens=20,
+        return_dict_in_generate=True,
+        output_scores=True,
+        do_sample=False,
+        pad_token_id=tokenizer_extraction_model.pad_token_id,
+        truse_remote_code=True,
+    )
+
+    outputs = model_extraction.generate(
+        tokenized_prompt,
+        generation_config=generation_config,
+    )
+
+    # get the generated tokens
+    input_length = tokenized_prompt.shape[1]
+    generated_tokens = outputs.sequences[:, input_length:]
+
+    # decode the generated tokens
+    generated_tokens_decoded = tokenizer_extraction_model.batch_decode(
+        generated_tokens, skip_special_tokens=True
+    )
+
+    # 
+    exctracted_answer = generated_tokens_decoded[0].strip().strip(".")
+    # These are bad usally, print the extracted answer
+    logging.info(f"Extracted answer: {exctracted_answer}")
+
+    return convert_answer_to_int(bias_name, exctracted_answer)  
+
+
 def get_model_ans(
     pred_id,
+    prediction,
     all_tokens,
     all_log_probs,
     predict_according_to_log_probs,
     bias_name,
+    engine,
+    use_extraction_model,
 ):
     if predict_according_to_log_probs:  # the answser is one of the options
         return get_model_ans_according_to_log_probs(
             all_tokens, all_log_probs, bias_name
         )
+    if use_extraction_model:
+        return get_model_ans_according_to_extraction_model(
+            prediction, bias_name
+        )
 
     model_ans, answer_log_prob = find_ans_in_tokens(
-        bias_name, all_tokens, all_log_probs, valid_options=ANSWERS_TOKENS
+        bias_name, engine, all_tokens, all_log_probs, valid_options=ANSWERS_TOKENS
     )
 
     # check if the answer is an undecided answer
     if bias_name == "false_belief":
+        if "" in all_tokens:
+            first_line_index = all_tokens.index("")
+        else:
+            first_line_index = len(all_tokens)
+        first_line_model_ans, _ = find_ans_in_tokens(
+            bias_name,
+            engine,
+            all_tokens[:first_line_index],
+            all_log_probs,
+            valid_options=ANSWERS_TOKENS,
+        )
+        # if the answer is not a single token in the first line, check if it's few tokens
+        if first_line_model_ans == -1:
+            model_ans, answer_log_prob = check_for_more_than_one_token_answer(
+                all_tokens, answer_log_prob, model_ans, all_log_probs
+            )
         model_ans, answer_log_prob = check_for_undecided_answer(
             all_tokens, FB_UNDECIDED_ANSWERS, pred_id, model_ans, answer_log_prob
         )
@@ -494,6 +677,7 @@ def load_predictions(predictions_path, bias_name, conditions):
         logging.info(
             f"Could not load json!\npredictions_path={predictions_path}\nbias_name={bias_name}\nconditions={conditions}"
         )
+
         raise e
 
     logging.info(f"Extracting {len(preds_json)} Answers from file:{predictions_path}")
@@ -508,9 +692,27 @@ def preprocess_predictions(prediction, engine):
         all_log_probs = prediction["metadata"]["logprobs"]["token_logprobs"]
     elif engine == "gpt-4-0314":
         all_log_probs = [-10000] * len(all_tokens)  # no logprobs for this model
-    elif engine in FLAN_T5_MODELS:
+    elif (
+        engine in FLAN_T5_MODELS
+        or engine in TULU_T5_MODELS
+        or ("_step_" in engine and "T5" in engine)
+    ):
         all_log_probs = list(prediction["metadata"]["log_probs"].values())
     elif engine in T5_MODELS:
+        all_log_probs = [prediction["metadata"]["log_probs"]]
+    elif (
+        engine in LLAMA_CHAT_MODELS
+        or engine in MISTRAL_INSTRUCT_MODELS
+        or engine in OLMO_INSTRUCT_MODELS
+        or engine in OLMO_FLAN_INSTRUCT_MODELS
+        or ("_step_" in engine and "OLMo" in engine)
+    ):
+        # all_tokens = [t[0] for t in prediction["metadata"]["log_probs"]]
+        if type(prediction["metadata"]["log_probs"]) == type([]):
+            all_log_probs = [t[1] for t in prediction["metadata"]["log_probs"]]
+        else:
+            all_log_probs = [prediction["metadata"]["log_probs"]]
+    elif engine in LLAMA_MODELS or engine in MISTRAL_MODELS or engine in OLMO_MODELS:
         all_log_probs = [prediction["metadata"]["log_probs"]]
     else:
         raise ValueError(f"Cannot find tokens or logprobs for {engine =}")
@@ -526,6 +728,7 @@ def extract_answers_from_predictions(
     predict_according_to_log_probs: bool,
     logging_path: str,
     is_conditions_are_logical_and_or_logical_or: str,
+    use_extraction_model: bool,
 ):
     results = {
         "all_model_ans": [],
@@ -547,10 +750,13 @@ def extract_answers_from_predictions(
 
         model_ans, answer_log_prob = get_model_ans(
             pred_id,
+            prediction,
             all_tokens,
             all_log_probs,
             predict_according_to_log_probs,
             bias_name,
+            engine,
+            use_extraction_model=use_extraction_model,
         )
 
         human_or_right_answer = prediction["metadata"]["human_or_right_answer"]

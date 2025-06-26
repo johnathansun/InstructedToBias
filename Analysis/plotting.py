@@ -31,13 +31,13 @@ def preprocess_data(full_df, confidences, bias_name, values_list):
         )
     elif bias_name == "false_belief":
         plot_df = full_df.loc[full_df["Percentage"] != -1].copy()
-        plot_df.loc[
-            plot_df["Option"] == "Non-real Objects", "Believable"
-        ] = "Unbelievable"
+        plot_df.loc[plot_df["Option"] == "Non-real Objects", "Believable"] = (
+            "Unbelievable"
+        )
         plot_df["Type"] = plot_df.apply(
-            lambda row: row["Believable"]
-            if row["Option"] == "Real-life Objects"
-            else "Control",
+            lambda row: (
+                row["Believable"] if row["Option"] == "Real-life Objects" else "Control"
+            ),
             axis=1,
         )
         colors = ["tab:green", "tab:red", "tab:blue"]
@@ -70,7 +70,10 @@ def plot_histogram(
             palette=colors,
             edgecolor="black",
         )
-        plt.xlabel(get_map_model_names()[model])
+        if model in get_map_model_names():
+            plt.xlabel(get_map_model_names()[model])
+        else:
+            plt.xlabel(model)
     else:
         out = sns.barplot(
             x="model_pred",
@@ -88,7 +91,7 @@ def plot_histogram(
         plt.xlabel("Option")
 
     plt.ylabel(plot_ylabel)
-    plt.legend(bbox_to_anchor=(1.22, 0.98), loc="upper right", borderaxespad=1)
+    plt.legend(bbox_to_anchor=(1.22, 0.98), loc="upper left", borderaxespad=1)
     plt.savefig(fig_f_name, bbox_inches="tight")
     plt.clf()
 
@@ -136,51 +139,72 @@ def plot_acceptance_rates(results_df):
         y="real_valid_acceptance",
         data=results_df,
         label="Real Valid",
-        linewidth=1.5,
+        linewidth=3,
     )
     sns.lineplot(
         x="model",
         y="non_real_valid_acceptance",
         data=results_df,
         label="Non-Real Valid",
-        linewidth=1.5,
+        linewidth=3,
     )
     sns.lineplot(
         x="model",
         y="real_invalid_acceptance",
         data=results_df,
         label="Real Invalid",
-        linewidth=1.5,
+        linewidth=3,
     )
     ax = sns.lineplot(
         x="model",
         y="non_real_invalid_acceptance",
         data=results_df,
         label="Non-Real Invalid",
-        linewidth=1.5,
+        linewidth=3,
     )
+    # set legend on upper left
+    plt.legend(bbox_to_anchor=(1.02, 1), loc="upper left", borderaxespad=1)
+    # set figure size
+    sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
+    # set figure size
+    ax.figure.set_size_inches(10, 6)
+
     plt.ylabel("Acceptance Rate")
     return ax
 
 
 def save_belief_plot(experiment_args, ax, all_models, file_suffix):
     # Save the plot
-    plt.legend(bbox_to_anchor=(1.02, 1), loc="upper right", borderaxespad=1)
+    plt.legend(bbox_to_anchor=(1.02, 1), loc="upper left", borderaxespad=1)
     sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
     file_suffix += experiment_args["comments_results_name"]
 
-    plt.savefig(
-        experiment_args["logging_path"]
-        .with_stem(file_suffix + f"_{str(all_models)}")
-        .with_suffix(".png")
-    )
+    try:
+        plt.savefig(
+            experiment_args["logging_path"]
+            .with_stem(file_suffix + f"_{str(all_models)}")
+            .with_suffix(".png")
+        )
+    except Exception as e:
+        fig_name = experiment_args['logging_path'].with_stem(file_suffix + f'_{str(all_models)}').with_suffix('.png')
+        print(f"Error saving plot: {fig_name}")
+        print("Not using models in the file name")
+        plt.savefig(
+            experiment_args["logging_path"]
+            .with_stem(file_suffix + '_many_models')
+            .with_suffix(".png")
+        )
     plt.clf()
 
 
 def plot_false_belief(comparing_dict, experiment_args, all_models):
     plt.clf()
 
-    comparing_dict["model"] = comparing_dict["model"].map(get_map_model_names())
+    # if model is in get_map_model_names() then replace it with the name
+    if all(mod in get_map_model_names() for mod in comparing_dict["model"]):
+        comparing_dict["model"] = comparing_dict["model"].map(get_map_model_names())
+    else:
+        comparing_dict["model"] = comparing_dict["model"]
     ax_bias_scores = plot_bias_scores(comparing_dict)
     save_belief_plot(
         experiment_args,
