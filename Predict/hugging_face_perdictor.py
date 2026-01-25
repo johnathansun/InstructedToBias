@@ -57,7 +57,7 @@ class HFPredictor(Predictor):
 
     def set_device_and_cache_dir(self):
         cwd = os.getcwd()
-        cache_dir = cwd + "/huggingface/.cache"
+        cache_dir = cwd + "/hf_cache"
         os.makedirs(cache_dir, exist_ok=True)
 
         model_name = self.parameters["engine"]

@@ -17,6 +17,7 @@ def set_experiment_args(
     k_shot,
     predict_instruct_according_to_log_probs,
     with_few_shot_task_or_format,
+    n_samples=None,
 ):
     """
     sets the experiment args for the current experiment
@@ -27,6 +28,7 @@ def set_experiment_args(
         "engine": engine,
         "should_normalize": should_normalize,
         "overwrite_existing_predictions": overwrite_existing_predictions,
+        "n_samples": n_samples,
     }
 
     # set few-shot args (if k_shot == 0, then no few-shot)
@@ -96,6 +98,7 @@ def run_predict_all(
     all_predict_instruct_according_to_log_probs,
     all_should_normalize_instruct,
     with_few_shot_task_or_format,
+    n_samples=None,
 ):
     all_input_files = get_input_files_names(bias_name, products, templates, bias_types)
 
@@ -130,6 +133,7 @@ def run_predict_all(
                         k_shot,
                         predict_instruct_according_to_log_probs,
                         with_few_shot_task_or_format,
+                        n_samples=n_samples,
                     )
                     try:
                         for k, v in experiment_args.items():
@@ -215,6 +219,7 @@ def parse_args(args):
         "all_models": all_models,
         "all_predict_instruct_according_to_log_probs": all_predict_instruct_according_to_log_probs,
         "all_should_normalize_instruct": all_should_normalize_instruct,
+        "n_samples": args.n_samples,
     }
 
 
@@ -311,6 +316,13 @@ def get_args():
         type=str,
         default="format",
         help="Use few-shot samples from the same exact task.",
+    )
+
+    parser.add_argument(
+        "--n_samples",
+        type=int,
+        default=None,
+        help="Number of random samples to use from each data file. If not set, use all samples.",
     )
 
     args = parser.parse_args()

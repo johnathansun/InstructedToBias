@@ -14,6 +14,7 @@ INSTURCT_MODELS = [
     "Llama-2-13b-chat",
     "Llama-2-70b-chat",
     "Mistral-7B-Instruct",
+    "Olmo-3-7B-Instruct",
 ]
 VANILLA_MODELS = [
     "davinci",
@@ -79,6 +80,10 @@ MISTRAL_MODELS = [
 
 MISTRAL_INSTRUCT_MODELS = [
     "Mistral-7B-Instruct",
+]
+
+OLMO_INSTRUCT_MODELS = [
+    "Olmo-3-7B-Instruct",
 ]
 
 

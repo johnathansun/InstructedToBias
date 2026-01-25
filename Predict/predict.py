@@ -10,6 +10,7 @@ from Predict.llama2_predict import (
     add_llama2_chat_prompt_format_to_input,
 )
 from Predict.mistral_predict import MistralPredictor
+from Predict.olmo_predict import OlmoPredictor
 
 logging.basicConfig(level=logging.INFO)
 logging.getLogger().setLevel(logging.INFO)
@@ -24,6 +25,7 @@ from Predict.few_shots import *
 from utils import (
     MISTRAL_INSTRUCT_MODELS,
     MISTRAL_MODELS,
+    OLMO_INSTRUCT_MODELS,
     OPENAI_MODELS,
     T5_MODELS,
     FLAN_T5_MODELS,
@@ -117,6 +119,7 @@ def load_bias_data(
     with_format_few_shot,
     with_task_few_shot,
     k_shot=2,
+    n_samples=None,
 ):
     # if not with_format_few_shot and not with_task_few_shot:
     if with_format_few_shot or with_task_few_shot:
@@ -131,6 +134,13 @@ def load_bias_data(
     with open(data_path) as f_examples:
         examples = json.load(f_examples)
 
+    # Sample n_samples random examples if specified
+    if n_samples is not None and n_samples < len(examples):
+        total_examples = len(examples)
+        sampled_keys = random.sample(list(examples.keys()), n_samples)
+        examples = {str(i): examples[k] for i, k in enumerate(sampled_keys)}
+        logging.info(f"Sampled {n_samples} random examples from {total_examples} total")
+
     if with_format_few_shot or with_task_few_shot and k_shot > 0:
         for e in examples.values():
             few_shots_texts = get_few_shot_text(
@@ -144,7 +154,7 @@ def load_bias_data(
                 all_values,
                 options,
             )
-            if engine in LLAMA_CHAT_MODELS or engine in MISTRAL_INSTRUCT_MODELS:
+            if engine in LLAMA_CHAT_MODELS or engine in MISTRAL_INSTRUCT_MODELS or engine in OLMO_INSTRUCT_MODELS:
                 e["text"] = predictor.convert_to_chat_format(e["text"], few_shots_texts)
             else:
                 # few_shot_text = f"\n\n".join(few_shots_texts) + "\n\n"
@@ -154,7 +164,7 @@ def load_bias_data(
                 )
     # if 0-shot
     else:
-        if engine in LLAMA_CHAT_MODELS or engine in MISTRAL_INSTRUCT_MODELS:
+        if engine in LLAMA_CHAT_MODELS or engine in MISTRAL_INSTRUCT_MODELS or engine in OLMO_INSTRUCT_MODELS:
             for e in examples.values():
                 e["text"] = predictor.convert_to_chat_format(e["text"])
 
@@ -246,6 +256,15 @@ def load_predictor(
             should_normalize,
             save_every_n_examples,
         )
+    elif engine in OLMO_INSTRUCT_MODELS:
+        predictor = OlmoPredictor(
+            bias_name,
+            engine,
+            max_tokens,
+            predict_according_to_log_probs,
+            should_normalize,
+            save_every_n_examples,
+        )
     else:
         raise ValueError(f"Unknown engine: {engine}")
 
@@ -272,6 +291,7 @@ def generate_all_predictions(
     with_bias=True,
     product="",
     all_options_permutations=False,
+    n_samples=None,
 ):
     # set predictor mode for the prediction
     predictor = load_predictor(
@@ -294,6 +314,7 @@ def generate_all_predictions(
         with_format_few_shot,
         with_task_few_shot,
         k_shot=k_shot,
+        n_samples=n_samples,
     )
 
     # define prediction output files paths

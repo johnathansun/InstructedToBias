@@ -31,5 +31,6 @@ huggingface/.cache/tmptbzidune
 /Predictions
 /Predictions_test
 /huggingface
+/hf_cache
 .env
 rename_old_predictions.py

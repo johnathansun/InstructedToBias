@@ -19,6 +19,7 @@ from utils import (
     LLAMA_MODELS,
     MISTRAL_INSTRUCT_MODELS,
     MISTRAL_MODELS,
+    OLMO_INSTRUCT_MODELS,
     get_results_comments_name,
 )
 from Predict.predict import get_possible_answers
@@ -547,7 +548,7 @@ def preprocess_predictions(prediction, engine):
         all_log_probs = list(prediction["metadata"]["log_probs"].values())
     elif engine in T5_MODELS:
         all_log_probs = [prediction["metadata"]["log_probs"]]
-    elif engine in LLAMA_CHAT_MODELS or engine in MISTRAL_INSTRUCT_MODELS:
+    elif engine in LLAMA_CHAT_MODELS or engine in MISTRAL_INSTRUCT_MODELS or engine in OLMO_INSTRUCT_MODELS:
         # all_tokens = [t[0] for t in prediction["metadata"]["log_probs"]]
         if type(prediction["metadata"]["log_probs"]) == type([]):
             all_log_probs = [t[1] for t in prediction["metadata"]["log_probs"]]
