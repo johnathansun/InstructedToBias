@@ -1,0 +1,207 @@
+{
+  "0": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $22500, quality rating is 70.\nBrand 2 - price is $15000, quality rating is 70.\nBrand 3 - price is $5000, quality rating is 30.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "1": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nBrand 1 - price is $9000, quality rating is 30.\nBrand 2 - price is $43750, quality rating is 70.\nBrand 3 - price is $35000, quality rating is 70.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 3
+  },
+  "2": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $15000, and the quality rating is 70.\nBrand 2 - price is $22500, and the quality rating is 70.\nBrand 3 - price is $5000, and the quality rating is 30.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "3": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nBrand 1 - price is $9000, quality rating is 30.\nBrand 2 - price is $35000, quality rating is 70.\nBrand 3 - price is $52500, quality rating is 70.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "4": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $5000, and the quality rating is 30.\nBrand 2 - price is $15000, and the quality rating is 70.\nBrand 3 - price is $18750, and the quality rating is 70.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "5": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $5000, and the quality rating is 20.\nBrand 2 - price is $15000, and the quality rating is 60.\nBrand 3 - price is $18750, and the quality rating is 50.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "6": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nBrand 1 - price is $5000, quality rating is 20.\nBrand 2 - price is $18750, quality rating is 60.\nBrand 3 - price is $15000, quality rating is 60.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 3
+  },
+  "7": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $25000, and the quality rating is 60.\nBrand 2 - price is $7000, and the quality rating is 20.\nBrand 3 - price is $31250, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "8": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $35000, quality rating is 60.\nBrand 2 - price is $35000, quality rating is 50.\nBrand 3 - price is $9000, quality rating is 20.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 1
+  },
+  "9": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $30000, and the quality rating is 70.\nBrand 2 - price is $8000, and the quality rating is 40.\nBrand 3 - price is $30000, and the quality rating is 80.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "10": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nBrand 1 - price is $15000, quality rating is 70.\nBrand 2 - price is $15000, quality rating is 60.\nBrand 3 - price is $5000, quality rating is 30.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "11": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nBrand 1 - price is $8000, quality rating is 20.\nBrand 2 - price is $30000, quality rating is 50.\nBrand 3 - price is $30000, quality rating is 60.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "12": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $22500, and the quality rating is 60.\nBrand 2 - price is $15000, and the quality rating is 60.\nBrand 3 - price is $5000, and the quality rating is 20.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "13": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $37500, quality rating is 80.\nBrand 2 - price is $30000, quality rating is 80.\nBrand 3 - price is $8000, quality rating is 40.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "14": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $25000, quality rating is 70.\nBrand 2 - price is $6000, quality rating is 40.\nBrand 3 - price is $20000, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "15": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nBrand 1 - price is $30000, quality rating is 70.\nBrand 2 - price is $6000, quality rating is 30.\nBrand 3 - price is $20000, quality rating is 70.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 3
+  },
+  "16": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $6000, quality rating is 40.\nBrand 2 - price is $20000, quality rating is 70.\nBrand 3 - price is $20000, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "17": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $20000, and the quality rating is 60.\nBrand 2 - price is $25000, and the quality rating is 50.\nBrand 3 - price is $6000, and the quality rating is 20.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "18": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nBrand 1 - price is $25000, quality rating is 50.\nBrand 2 - price is $25000, quality rating is 60.\nBrand 3 - price is $7000, quality rating is 20.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "19": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nBrand 1 - price is $7000, quality rating is 30.\nBrand 2 - price is $31250, quality rating is 60.\nBrand 3 - price is $25000, quality rating is 70.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "20": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $37500, and the quality rating is 70.\nBrand 2 - price is $30000, and the quality rating is 80.\nBrand 3 - price is $8000, and the quality rating is 40.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "21": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nBrand 1 - price is $20000, quality rating is 80.\nBrand 2 - price is $30000, quality rating is 80.\nBrand 3 - price is $6000, quality rating is 40.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "22": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $18750, and the quality rating is 50.\nBrand 2 - price is $5000, and the quality rating is 20.\nBrand 3 - price is $15000, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "23": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nBrand 1 - price is $30000, quality rating is 60.\nBrand 2 - price is $30000, quality rating is 70.\nBrand 3 - price is $8000, quality rating is 30.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "24": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nBrand 1 - price is $45000, quality rating is 70.\nBrand 2 - price is $8000, quality rating is 30.\nBrand 3 - price is $30000, quality rating is 70.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 3
+  },
+  "25": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $8000, and the quality rating is 40.\nBrand 2 - price is $37500, and the quality rating is 70.\nBrand 3 - price is $30000, and the quality rating is 80.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "26": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $8000, and the quality rating is 30.\nBrand 2 - price is $30000, and the quality rating is 60.\nBrand 3 - price is $30000, and the quality rating is 70.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "27": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $15000, and the quality rating is 70.\nBrand 2 - price is $22500, and the quality rating is 70.\nBrand 3 - price is $5000, and the quality rating is 30.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "28": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nBrand 1 - price is $35000, quality rating is 80.\nBrand 2 - price is $9000, quality rating is 40.\nBrand 3 - price is $43750, quality rating is 80.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "29": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $25000, quality rating is 70.\nBrand 2 - price is $7000, quality rating is 30.\nBrand 3 - price is $25000, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 1
+  },
+  "30": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $5000, and the quality rating is 20.\nBrand 2 - price is $15000, and the quality rating is 60.\nBrand 3 - price is $18750, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "31": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $7000, and the quality rating is 20.\nBrand 2 - price is $25000, and the quality rating is 60.\nBrand 3 - price is $37500, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "32": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $25000, and the quality rating is 60.\nBrand 2 - price is $7000, and the quality rating is 20.\nBrand 3 - price is $31250, and the quality rating is 60.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "33": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $6000, quality rating is 20.\nBrand 2 - price is $25000, quality rating is 60.\nBrand 3 - price is $20000, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 3
+  },
+  "34": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $35000, and the quality rating is 70.\nBrand 2 - price is $9000, and the quality rating is 30.\nBrand 3 - price is $52500, and the quality rating is 70.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "35": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $15000, quality rating is 80.\nBrand 2 - price is $18750, quality rating is 80.\nBrand 3 - price is $5000, quality rating is 40.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "36": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $30000, quality rating is 80.\nBrand 2 - price is $8000, quality rating is 40.\nBrand 3 - price is $30000, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "37": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $6000, and the quality rating is 30.\nBrand 2 - price is $25000, and the quality rating is 70.\nBrand 3 - price is $20000, and the quality rating is 70.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 3
+  },
+  "38": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $9000, and the quality rating is 20.\nBrand 2 - price is $43750, and the quality rating is 50.\nBrand 3 - price is $35000, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "39": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $37500, and the quality rating is 60.\nBrand 2 - price is $8000, and the quality rating is 30.\nBrand 3 - price is $30000, and the quality rating is 70.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "40": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are three car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $15000, and the quality rating is 70.\nBrand 2 - price is $5000, and the quality rating is 30.\nBrand 3 - price is $22500, and the quality rating is 70.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  }
+}

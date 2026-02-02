@@ -1,0 +1,602 @@
+{
+  "0": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo mythical creatures are things that exist.\nNo dragons are things that exist.\nConclusion: No dragons are mythical creatures.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "1": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll old people are wealthy people.\nAll wealthy people are famous actors.\nConclusion: All old people are famous actors.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "2": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": true
+  },
+  "3": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome computers are electronics.\nSome computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "4": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll happy people are healthy people.\nAll happy people are librarians.\nConclusion: All healthy people are librarians.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "no",
+    "human_or_right_answer": false
+  },
+  "5": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome diamonds are transparent things.\nAll diamonds are gems.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "6": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll guns are weapons.\nAll guns are dangerous things.\nConclusion: All weapons are dangerous things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": false
+  },
+  "7": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome computers are expensive things.\nSome computers are electronics.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "8": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll diamonds are gems.\nSome gems are transparent things.\nConclusion: Some diamonds are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "9": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll expensive things are electronics.\nAll computers are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "10": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll dragons are things that exist.\nNo things that exist are mythical creatures.\nConclusion: No dragons are mythical creatures.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "11": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll guns are weapons.\nAll weapons are dangerous things.\nConclusion: All guns are dangerous things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "12": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll whales are mammals.\nSome whales are big things.\nConclusion: Some mammals are big things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "13": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo things that move are buildings.\nAll vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "14": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo mythical creatures are things that exist.\nNo dragons are things that exist.\nConclusion: No dragons are mythical creatures.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": false
+  },
+  "15": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "16": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo things that exist are mythical creatures.\nAll dragons are things that exist.\nConclusion: No dragons are mythical creatures.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "17": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo mythical creatures are things that exist.\nSome mythical creatures are dragons.\nConclusion: No dragons are things that exist.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "18": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "no",
+    "human_or_right_answer": false
+  },
+  "19": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome transparent things are gems.\nAll diamonds are gems.\nConclusion: All transparent things are diamonds.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "20": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll buildings are things that move.\nNo vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": false
+  },
+  "21": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome computers are electronics.\nSome computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": false
+  },
+  "22": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo buildings are things that move.\nAll vehicles are things that move.\nConclusion: No buildings are vehicles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "23": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "24": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome vegetables are foods.\nSome vegetables are healthy things.\nConclusion: Some foods are healthy things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": false
+  },
+  "25": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll diamonds are gems.\nSome gems are transparent things.\nConclusion: Some diamonds are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "26": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "27": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome whales are big things.\nAll whales are mammals.\nConclusion: Some mammals are big things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "28": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo things that exist are mythical creatures.\nAll dragons are things that exist.\nConclusion: No dragons are mythical creatures.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "29": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll diamonds are gems.\nSome transparent things are gems.\nConclusion: All transparent things are diamonds.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "30": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo things that move are buildings.\nAll vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "31": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll famous actors are wealthy people.\nSome famous actors are old people.\nConclusion: Some old people are wealthy people.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "32": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "33": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll guns are weapons.\nAll weapons are dangerous things.\nConclusion: All dangerous things are guns.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "34": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome electronics are computers.\nAll computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "35": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "36": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll healthy people are happy people.\nAll happy people are librarians.\nConclusion: All healthy people are librarians.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "37": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll guns are weapons.\nAll weapons are dangerous things.\nConclusion: All dangerous things are guns.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "38": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome politicians are dishonest people.\nSome dishonest people are people who lie.\nConclusion: Some politicians are people who lie.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": false
+  },
+  "39": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome transparent things are gems.\nAll diamonds are gems.\nConclusion: All transparent things are diamonds.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "40": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll computers are expensive things.\nSome electronics are computers.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "41": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "42": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome famous actors are old people.\nSome famous actors are wealthy people.\nConclusion: Some old people are wealthy people.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "43": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll guns are weapons.\nAll weapons are dangerous things.\nConclusion: All dangerous things are guns.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "False",
+    "human_or_right_answer": false
+  },
+  "44": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "45": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll buildings are things that move.\nNo vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "46": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll foods are vegetables.\nAll vegetables are healthy things.\nConclusion: All foods are healthy things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "47": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll dishonest people are people who lie.\nSome politicians are dishonest people.\nConclusion: Some politicians are people who lie.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "48": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo vehicles are buildings.\nAll buildings are things that move.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": false
+  },
+  "49": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome whales are big things.\nAll whales are mammals.\nConclusion: Some mammals are big things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "51": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll happy people are librarians.\nAll happy people are healthy people.\nConclusion: All healthy people are librarians.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "no",
+    "human_or_right_answer": false
+  },
+  "52": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll happy people are healthy people.\nAll happy people are librarians.\nConclusion: All healthy people are librarians.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "53": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll happy people are librarians.\nAll happy people are healthy people.\nConclusion: All healthy people are librarians.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "54": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll happy people are healthy people.\nAll happy people are librarians.\nConclusion: All healthy people are librarians.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "55": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll happy people are librarians.\nAll happy people are healthy people.\nConclusion: All healthy people are librarians.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "56": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome electronics are computers.\nAll computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": true
+  },
+  "57": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome electronics are computers.\nAll computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "58": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome electronics are computers.\nAll computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "59": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome electronics are computers.\nAll computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "60": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome electronics are computers.\nAll computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "61": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll computers are expensive things.\nSome electronics are computers.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": true
+  },
+  "62": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll computers are expensive things.\nSome electronics are computers.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "63": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll computers are expensive things.\nSome electronics are computers.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "64": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll computers are expensive things.\nSome electronics are computers.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "65": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll computers are expensive things.\nSome electronics are computers.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "66": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome electronics are computers.\nAll computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "67": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll computers are expensive things.\nSome electronics are computers.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "68": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome electronics are computers.\nAll computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "69": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll computers are expensive things.\nSome electronics are computers.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "70": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome computers are electronics.\nSome computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": false
+  },
+  "71": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome computers are electronics.\nSome computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "72": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome computers are electronics.\nSome computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": false
+  },
+  "73": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome computers are electronics.\nSome computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": false
+  },
+  "74": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome computers are electronics.\nSome computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": false
+  },
+  "75": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome computers are expensive things.\nSome computers are electronics.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": false
+  },
+  "76": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome computers are expensive things.\nSome computers are electronics.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "77": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome computers are expensive things.\nSome computers are electronics.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": false
+  },
+  "78": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome computers are expensive things.\nSome computers are electronics.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": false
+  },
+  "79": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome computers are expensive things.\nSome computers are electronics.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": false
+  },
+  "80": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome computers are electronics.\nSome computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "81": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome computers are expensive things.\nSome computers are electronics.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "82": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome computers are electronics.\nSome computers are expensive things.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "83": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome computers are expensive things.\nSome computers are electronics.\nConclusion: Some electronics are expensive things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "84": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll expensive things are electronics.\nAll electronics are computers.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "85": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll expensive things are electronics.\nAll electronics are computers.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "86": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll expensive things are electronics.\nAll electronics are computers.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "87": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll expensive things are electronics.\nAll electronics are computers.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "88": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll expensive things are electronics.\nAll electronics are computers.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "89": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll electronics are computers.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "90": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll electronics are computers.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "91": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll electronics are computers.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "92": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll electronics are computers.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "93": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll electronics are computers.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "94": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll expensive things are electronics.\nAll electronics are computers.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "95": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll electronics are computers.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "96": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll expensive things are electronics.\nAll electronics are computers.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "97": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll electronics are computers.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "98": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll computers are electronics.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "99": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll computers are electronics.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "100": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll computers are electronics.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "101": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll computers are electronics.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "102": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll computers are electronics.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "no",
+    "human_or_right_answer": false
+  },
+  "103": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll expensive things are electronics.\nAll computers are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "104": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll expensive things are electronics.\nAll computers are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "105": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll expensive things are electronics.\nAll computers are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "106": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll expensive things are electronics.\nAll computers are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "107": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll expensive things are electronics.\nAll computers are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "no",
+    "human_or_right_answer": false
+  },
+  "108": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll computers are electronics.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "109": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll expensive things are electronics.\nAll computers are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "110": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll computers are electronics.\nAll expensive things are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "111": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll expensive things are electronics.\nAll computers are electronics.\nConclusion: All expensive things are computers.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "112": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll trees are plants.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "113": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll trees are plants.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "114": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll trees are plants.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "115": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll trees are plants.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "116": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll trees are plants.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "117": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": true
+  },
+  "118": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "119": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "120": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  }
+}

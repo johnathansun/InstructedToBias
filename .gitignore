@@ -28,7 +28,7 @@ huggingface/.cache/tmptbzidune
 *pyc
 *pdf
 *.png
-/Predictions
+# /Predictions
 /Predictions_test
 /huggingface
 /hf_cache

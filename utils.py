@@ -113,6 +113,7 @@ def get_map_model_names():
         "Llama-2-70b-chat": "Llama-70B-Chat",
         "Mistral-7B": "Mistral",
         "Mistral-7B-Instruct": "Mistral-Inst",
+        "Olmo-3-7B-Instruct": "OLMo-7B-Inst",
     }
 
 

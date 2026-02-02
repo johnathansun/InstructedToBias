@@ -1,0 +1,41 @@
+================================================================================
+Olmo-3-7B-Instruct | k_shot =0 | _[1, 2, 3]_three_probs,two_probs_
+================================================================================
+===Treatment===
+Percentage in data of Option 1 - 62.00%
+Percentage in data of Option 2 - 62.00%
+Percentage in data of Option 3 - 0.00%
+Percentage of Option 1 - 74.00%
+Percentage of Option 2 - 26.00%
+Percentage of Option 3 - 0.00%
+Percentage of Undecided answers - 0.00%
+--------------------------------------------------Number of groups - 6
+Mean percentage of elements that have agreement within each group - 74.92%
+Percentage of model answers which is Target in agreement group frozenset({'template=2', 'target_option_location=1'}) - 100.00%
+Percentage of model answers which is Target in agreement group frozenset({'target_option_location=2', 'template=1'}) - 36.36%
+Percentage of model answers which is Target in agreement group frozenset({'target_option_location=2', 'template=3'}) - 0.00%
+Percentage of model answers which is Target in agreement group frozenset({'target_option_location=1', 'template=1'}) - 66.67%
+Percentage of model answers which is Target in agreement group frozenset({'target_option_location=1', 'template=3'}) - 69.23%
+Percentage of model answers which is Target in agreement group frozenset({'target_option_location=2', 'template=2'}) - 50.00%
+===Control===
+Percentage in data of Option 1 - 50.00%
+Percentage in data of Option 2 - 50.00%
+Percentage in data of Option 3 - 0.00%
+Percentage of Option 1 - 76.00%
+Percentage of Option 2 - 24.00%
+Percentage of Option 3 - 0.00%
+Percentage of Undecided answers - 0.00%
+--------------------------------------------------Number of groups - 6
+Mean percentage of elements that have agreement within each group - 74.11%
+Percentage of model answers which is Target in agreement group frozenset({'target_option_location=1', 'template=3'}) - 62.50%
+Percentage of model answers which is Target in agreement group frozenset({'target_option_location=1', 'template=1'}) - 50.00%
+Percentage of model answers which is Target in agreement group frozenset({'target_option_location=2', 'template=1'}) - 14.29%
+Percentage of model answers which is Target in agreement group frozenset({'target_option_location=2', 'template=2'}) - 0.00%
+Percentage of model answers which is Target in agreement group frozenset({'template=2', 'target_option_location=1'}) - 100.00%
+Percentage of model answers which is Target in agreement group frozenset({'target_option_location=2', 'template=3'}) - 28.57%
+===Bootstrapping Confidence Intervals===
+                        Condition             model_pred     low  mean    high  prob_mean
+0  Target is prize with certainty  better_expected_value  0.2600  0.40  0.5400   0.593477
+1  Target is prize with certainty                 target  0.4600  0.60  0.7400   0.662395
+2             Target is risky too  better_expected_value  0.4995  0.62  0.7600   0.688914
+3             Target is risky too                 target  0.2400  0.38  0.5005   0.608897
