@@ -3843,3 +3843,102 @@ INFO:root:generated predictions up to id 640 for false_belief using the Olmo-3-7
 INFO:root:saved predictions up to id 640 for false_belief using Olmo-3-7B-Instruct
 The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
 Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 641 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 642 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 643 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 644 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 645 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 646 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 647 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 648 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 649 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 650 for false_belief using the Olmo-3-7B-Instruct model
+INFO:root:saved predictions up to id 650 for false_belief using Olmo-3-7B-Instruct
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 651 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 652 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 653 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 654 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 655 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 656 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 657 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 658 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 659 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 660 for false_belief using the Olmo-3-7B-Instruct model
+INFO:root:saved predictions up to id 660 for false_belief using Olmo-3-7B-Instruct
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 661 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 662 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 663 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 664 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 665 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 666 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 667 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 668 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 669 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 670 for false_belief using the Olmo-3-7B-Instruct model
+INFO:root:saved predictions up to id 670 for false_belief using Olmo-3-7B-Instruct
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 671 for false_belief using the Olmo-3-7B-Instruct model
+INFO:root:finished generating predictions for all 672 examples of false_belief using Olmo-3-7B-Instruct
+INFO:root:
+================================================================================
+
+INFO:root:All Done!
