@@ -1,1 +1,3 @@
 NO GPU! model.device=device(type='cpu')
+NO GPU! model.device=device(type='cpu')
+NO GPU! model.device=device(type='cpu')

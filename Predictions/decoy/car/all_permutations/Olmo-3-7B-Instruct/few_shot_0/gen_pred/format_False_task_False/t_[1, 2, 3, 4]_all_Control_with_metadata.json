@@ -2298,5 +2298,3179 @@
       ]
     },
     "human_or_right_answer": 2
+  },
+  "51": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $30000, quality rating is 70.\nBrand 2 - price is $8000, quality rating is 30.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$30000",
+      "price2": "$8000",
+      "quality1": "70",
+      "quality2": "30",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $30000, quality rating is 70.\nBrand 2 - price is $8000, quality rating is 30.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.007546015549451113
+        ],
+        [
+          " ",
+          -0.0480227991938591
+        ],
+        [
+          "1",
+          -0.22541292011737823
+        ],
+        [
+          "<|endoftext|>",
+          -0.0010153858456760645
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "52": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $8000, quality rating is 40.\nBrand 2 - price is $30000, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$8000",
+      "price2": "$30000",
+      "quality1": "40",
+      "quality2": "80",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $8000, quality rating is 40.\nBrand 2 - price is $30000, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.017421316355466843
+        ],
+        [
+          " ",
+          -0.022462811321020126
+        ],
+        [
+          "2",
+          -0.011047860607504845
+        ],
+        [
+          "<|endoftext|>",
+          -0.00018892886873800308
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "53": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $30000, quality rating is 80.\nBrand 2 - price is $8000, quality rating is 40.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$30000",
+      "price2": "$8000",
+      "quality1": "80",
+      "quality2": "40",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $30000, quality rating is 80.\nBrand 2 - price is $8000, quality rating is 40.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.004590212367475033
+        ],
+        [
+          " ",
+          -0.04337210953235626
+        ],
+        [
+          "1",
+          -0.0071468655951321125
+        ],
+        [
+          "<|endoftext|>",
+          -0.0009112972766160965
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "54": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $9000, quality rating is 20.\nBrand 2 - price is $35000, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$9000",
+      "price2": "$35000",
+      "quality1": "20",
+      "quality2": "60",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $9000, quality rating is 20.\nBrand 2 - price is $35000, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.02516082674264908
+        ],
+        [
+          " ",
+          -0.024578724056482315
+        ],
+        [
+          "2",
+          -0.03804164379835129
+        ],
+        [
+          "<|endoftext|>",
+          -0.0002506657037883997
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "55": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $35000, quality rating is 60.\nBrand 2 - price is $9000, quality rating is 20.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$35000",
+      "price2": "$9000",
+      "quality1": "60",
+      "quality2": "20",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $35000, quality rating is 60.\nBrand 2 - price is $9000, quality rating is 20.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0082594258710742
+        ],
+        [
+          " ",
+          -0.04015396907925606
+        ],
+        [
+          "1",
+          -0.38687142729759216
+        ],
+        [
+          "<|endoftext|>",
+          -0.0009191579301841557
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "56": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $9000, quality rating is 30.\nBrand 2 - price is $35000, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$9000",
+      "price2": "$35000",
+      "quality1": "30",
+      "quality2": "70",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $9000, quality rating is 30.\nBrand 2 - price is $35000, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.030106062069535255
+        ],
+        [
+          " ",
+          -0.011566719971597195
+        ],
+        [
+          "2",
+          -0.003177833277732134
+        ],
+        [
+          "<|endoftext|>",
+          -0.00016318420239258558
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "57": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $35000, quality rating is 70.\nBrand 2 - price is $9000, quality rating is 30.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$35000",
+      "price2": "$9000",
+      "quality1": "70",
+      "quality2": "30",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $35000, quality rating is 70.\nBrand 2 - price is $9000, quality rating is 30.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.005774245597422123
+        ],
+        [
+          " ",
+          -0.022979043424129486
+        ],
+        [
+          "1",
+          -0.28115037083625793
+        ],
+        [
+          "<|endoftext|>",
+          -0.0008024332928471267
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "58": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $9000, quality rating is 40.\nBrand 2 - price is $35000, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$9000",
+      "price2": "$35000",
+      "quality1": "40",
+      "quality2": "80",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $9000, quality rating is 40.\nBrand 2 - price is $35000, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.016593774780631065
+        ],
+        [
+          " ",
+          -0.017744481563568115
+        ],
+        [
+          "2",
+          -0.011756186373531818
+        ],
+        [
+          "<|endoftext|>",
+          -0.00016807096835691482
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "59": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $35000, quality rating is 80.\nBrand 2 - price is $9000, quality rating is 40.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$35000",
+      "price2": "$9000",
+      "quality1": "80",
+      "quality2": "40",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find two car brands.\nYou know only the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = worst).\nBrand 1 - price is $35000, quality rating is 80.\nBrand 2 - price is $9000, quality rating is 40.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.004185607191175222
+        ],
+        [
+          " ",
+          -0.026599513366818428
+        ],
+        [
+          "1",
+          -0.01416344940662384
+        ],
+        [
+          "<|endoftext|>",
+          -0.0007359656738117337
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "60": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $5000, and the quality rating is 20.\nBrand 2 - price is $15000, and the quality rating is 60.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$5000",
+      "price2": "$15000",
+      "quality1": "20",
+      "quality2": "60",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $5000, and the quality rating is 20.\nBrand 2 - price is $15000, and the quality rating is 60.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.018992476165294647
+        ],
+        [
+          " ",
+          -0.036079972982406616
+        ],
+        [
+          "2",
+          -0.014163801446557045
+        ],
+        [
+          "<|endoftext|>",
+          -0.0004533693427219987
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "61": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $15000, and the quality rating is 60.\nBrand 2 - price is $5000, and the quality rating is 20.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$15000",
+      "price2": "$5000",
+      "quality1": "60",
+      "quality2": "20",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $15000, and the quality rating is 60.\nBrand 2 - price is $5000, and the quality rating is 20.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.03393850103020668
+        ],
+        [
+          " ",
+          -0.3147178888320923
+        ],
+        [
+          "1",
+          -0.0024760086089372635
+        ],
+        [
+          "<|endoftext|>",
+          -0.002581242239102721
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "62": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $5000, and the quality rating is 30.\nBrand 2 - price is $15000, and the quality rating is 70.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$5000",
+      "price2": "$15000",
+      "quality1": "30",
+      "quality2": "70",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $5000, and the quality rating is 30.\nBrand 2 - price is $15000, and the quality rating is 70.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.035857222974300385
+        ],
+        [
+          " ",
+          -0.014408357441425323
+        ],
+        [
+          "2",
+          -0.0015026956098154187
+        ],
+        [
+          "<|endoftext|>",
+          -0.00032074074260890484
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "63": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $15000, and the quality rating is 70.\nBrand 2 - price is $5000, and the quality rating is 30.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$15000",
+      "price2": "$5000",
+      "quality1": "70",
+      "quality2": "30",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $15000, and the quality rating is 70.\nBrand 2 - price is $5000, and the quality rating is 30.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.019103236496448517
+        ],
+        [
+          " ",
+          -0.22575397789478302
+        ],
+        [
+          "1",
+          -0.0004881620698142797
+        ],
+        [
+          "<|endoftext|>",
+          -0.0018328310688957572
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "64": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $5000, and the quality rating is 40.\nBrand 2 - price is $15000, and the quality rating is 80.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$5000",
+      "price2": "$15000",
+      "quality1": "40",
+      "quality2": "80",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $5000, and the quality rating is 40.\nBrand 2 - price is $15000, and the quality rating is 80.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.01930086873471737
+        ],
+        [
+          " ",
+          -0.02398231439292431
+        ],
+        [
+          "2",
+          -0.004341106861829758
+        ],
+        [
+          "<|endoftext|>",
+          -0.0003135904553346336
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "65": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $15000, and the quality rating is 80.\nBrand 2 - price is $5000, and the quality rating is 40.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$15000",
+      "price2": "$5000",
+      "quality1": "80",
+      "quality2": "40",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $15000, and the quality rating is 80.\nBrand 2 - price is $5000, and the quality rating is 40.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0049098399467766285
+        ],
+        [
+          " ",
+          -0.11288794130086899
+        ],
+        [
+          "1",
+          -1.5020257706055418e-05
+        ],
+        [
+          "<|endoftext|>",
+          -0.001342110801488161
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "66": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $6000, and the quality rating is 20.\nBrand 2 - price is $20000, and the quality rating is 60.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$6000",
+      "price2": "$20000",
+      "quality1": "20",
+      "quality2": "60",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $6000, and the quality rating is 20.\nBrand 2 - price is $20000, and the quality rating is 60.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.01749347895383835
+        ],
+        [
+          " ",
+          -0.09000935405492783
+        ],
+        [
+          "2",
+          -0.16022470593452454
+        ],
+        [
+          "<|endoftext|>",
+          -0.0004832768754567951
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "67": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $20000, and the quality rating is 60.\nBrand 2 - price is $6000, and the quality rating is 20.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$20000",
+      "price2": "$6000",
+      "quality1": "60",
+      "quality2": "20",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $20000, and the quality rating is 60.\nBrand 2 - price is $6000, and the quality rating is 20.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.015537990257143974
+        ],
+        [
+          " ",
+          -0.3874555826187134
+        ],
+        [
+          "1",
+          -0.0003355178632773459
+        ],
+        [
+          "<|endoftext|>",
+          -0.0016897936584427953
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "68": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $6000, and the quality rating is 30.\nBrand 2 - price is $20000, and the quality rating is 70.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$6000",
+      "price2": "$20000",
+      "quality1": "30",
+      "quality2": "70",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $6000, and the quality rating is 30.\nBrand 2 - price is $20000, and the quality rating is 70.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.02777019329369068
+        ],
+        [
+          " ",
+          -0.03676987439393997
+        ],
+        [
+          "2",
+          -0.021853124722838402
+        ],
+        [
+          "<|endoftext|>",
+          -0.0003798478574026376
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "69": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $20000, and the quality rating is 70.\nBrand 2 - price is $6000, and the quality rating is 30.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$20000",
+      "price2": "$6000",
+      "quality1": "70",
+      "quality2": "30",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $20000, and the quality rating is 70.\nBrand 2 - price is $6000, and the quality rating is 30.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.009518005885183811
+        ],
+        [
+          " ",
+          -0.25243937969207764
+        ],
+        [
+          "1",
+          -0.0008563903393223882
+        ],
+        [
+          "<|endoftext|>",
+          -0.0015074567636474967
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "70": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $6000, and the quality rating is 40.\nBrand 2 - price is $20000, and the quality rating is 80.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$6000",
+      "price2": "$20000",
+      "quality1": "40",
+      "quality2": "80",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $6000, and the quality rating is 40.\nBrand 2 - price is $20000, and the quality rating is 80.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.013455533422529697
+        ],
+        [
+          " ",
+          -0.060439590364694595
+        ],
+        [
+          "2",
+          -0.08894000202417374
+        ],
+        [
+          "<|endoftext|>",
+          -0.000379132863599807
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "71": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $20000, and the quality rating is 80.\nBrand 2 - price is $6000, and the quality rating is 40.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$20000",
+      "price2": "$6000",
+      "quality1": "80",
+      "quality2": "40",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $20000, and the quality rating is 80.\nBrand 2 - price is $6000, and the quality rating is 40.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.004234752152115107
+        ],
+        [
+          " ",
+          -0.11287974566221237
+        ],
+        [
+          "1",
+          -1.585470999998506e-05
+        ],
+        [
+          "<|endoftext|>",
+          -0.0009882333688437939
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "72": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $7000, and the quality rating is 20.\nBrand 2 - price is $25000, and the quality rating is 60.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$7000",
+      "price2": "$25000",
+      "quality1": "20",
+      "quality2": "60",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $7000, and the quality rating is 20.\nBrand 2 - price is $25000, and the quality rating is 60.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.01844281516969204
+        ],
+        [
+          " ",
+          -0.05616552382707596
+        ],
+        [
+          "2",
+          -0.2519296109676361
+        ],
+        [
+          "<|endoftext|>",
+          -0.0004621868138201535
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "73": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $25000, and the quality rating is 60.\nBrand 2 - price is $7000, and the quality rating is 20.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$25000",
+      "price2": "$7000",
+      "quality1": "60",
+      "quality2": "20",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $25000, and the quality rating is 60.\nBrand 2 - price is $7000, and the quality rating is 20.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.009898386895656586
+        ],
+        [
+          " ",
+          -0.2821781039237976
+        ],
+        [
+          "1",
+          -0.0017021704697981477
+        ],
+        [
+          "<|endoftext|>",
+          -0.001650877296924591
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "74": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $7000, and the quality rating is 30.\nBrand 2 - price is $25000, and the quality rating is 70.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$7000",
+      "price2": "$25000",
+      "quality1": "30",
+      "quality2": "70",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $7000, and the quality rating is 30.\nBrand 2 - price is $25000, and the quality rating is 70.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.026821551844477654
+        ],
+        [
+          " ",
+          -0.028396213427186012
+        ],
+        [
+          "2",
+          -0.06196795031428337
+        ],
+        [
+          "<|endoftext|>",
+          -0.00038509105797857046
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "75": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $25000, and the quality rating is 70.\nBrand 2 - price is $7000, and the quality rating is 30.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$25000",
+      "price2": "$7000",
+      "quality1": "70",
+      "quality2": "30",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $25000, and the quality rating is 70.\nBrand 2 - price is $7000, and the quality rating is 30.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.008804429322481155
+        ],
+        [
+          " ",
+          -0.22564752399921417
+        ],
+        [
+          "1",
+          -0.00029595286468975246
+        ],
+        [
+          "<|endoftext|>",
+          -0.0013024666113778949
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "76": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $7000, and the quality rating is 40.\nBrand 2 - price is $25000, and the quality rating is 80.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$7000",
+      "price2": "$25000",
+      "quality1": "40",
+      "quality2": "80",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $7000, and the quality rating is 40.\nBrand 2 - price is $25000, and the quality rating is 80.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.014250889420509338
+        ],
+        [
+          " ",
+          -0.03287262097001076
+        ],
+        [
+          "2",
+          -0.06196795031428337
+        ],
+        [
+          "<|endoftext|>",
+          -0.00035661060246638954
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "77": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $25000, and the quality rating is 80.\nBrand 2 - price is $7000, and the quality rating is 40.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$25000",
+      "price2": "$7000",
+      "quality1": "80",
+      "quality2": "40",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $25000, and the quality rating is 80.\nBrand 2 - price is $7000, and the quality rating is 40.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.003092390252277255
+        ],
+        [
+          " ",
+          -0.10026050359010696
+        ],
+        [
+          "1",
+          -1.07287787614041e-05
+        ],
+        [
+          "<|endoftext|>",
+          -0.0009945451747626066
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "78": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $8000, and the quality rating is 20.\nBrand 2 - price is $30000, and the quality rating is 60.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$8000",
+      "price2": "$30000",
+      "quality1": "20",
+      "quality2": "60",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $8000, and the quality rating is 20.\nBrand 2 - price is $30000, and the quality rating is 60.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.02080731838941574
+        ],
+        [
+          " ",
+          -0.08680266886949539
+        ],
+        [
+          "1",
+          -0.6931475400924683
+        ],
+        [
+          "<|endoftext|>",
+          -0.001049920916557312
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "79": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $30000, and the quality rating is 60.\nBrand 2 - price is $8000, and the quality rating is 20.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$30000",
+      "price2": "$8000",
+      "quality1": "60",
+      "quality2": "20",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $30000, and the quality rating is 60.\nBrand 2 - price is $8000, and the quality rating is 20.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.024223200976848602
+        ],
+        [
+          " ",
+          -0.4305691123008728
+        ],
+        [
+          "1",
+          -0.002805228577926755
+        ],
+        [
+          "<|endoftext|>",
+          -0.0019223083509132266
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "80": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $8000, and the quality rating is 30.\nBrand 2 - price is $30000, and the quality rating is 70.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$8000",
+      "price2": "$30000",
+      "quality1": "30",
+      "quality2": "70",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $8000, and the quality rating is 30.\nBrand 2 - price is $30000, and the quality rating is 70.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.025968652218580246
+        ],
+        [
+          " ",
+          -0.060484252870082855
+        ],
+        [
+          "2",
+          -0.2014138251543045
+        ],
+        [
+          "<|endoftext|>",
+          -0.0004576589271891862
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "81": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $30000, and the quality rating is 70.\nBrand 2 - price is $8000, and the quality rating is 30.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$30000",
+      "price2": "$8000",
+      "quality1": "70",
+      "quality2": "30",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $30000, and the quality rating is 70.\nBrand 2 - price is $8000, and the quality rating is 30.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.018375637009739876
+        ],
+        [
+          " ",
+          -0.28246673941612244
+        ],
+        [
+          "1",
+          -0.0024756519123911858
+        ],
+        [
+          "<|endoftext|>",
+          -0.0015095992712303996
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "82": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $8000, and the quality rating is 40.\nBrand 2 - price is $30000, and the quality rating is 80.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$8000",
+      "price2": "$30000",
+      "quality1": "40",
+      "quality2": "80",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $8000, and the quality rating is 40.\nBrand 2 - price is $30000, and the quality rating is 80.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.01623915508389473
+        ],
+        [
+          " ",
+          -0.06341935694217682
+        ],
+        [
+          "2",
+          -0.20141372084617615
+        ],
+        [
+          "<|endoftext|>",
+          -0.00042703570215962827
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "83": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $30000, and the quality rating is 80.\nBrand 2 - price is $8000, and the quality rating is 40.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$30000",
+      "price2": "$8000",
+      "quality1": "80",
+      "quality2": "40",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $30000, and the quality rating is 80.\nBrand 2 - price is $8000, and the quality rating is 40.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.004954442381858826
+        ],
+        [
+          " ",
+          -0.1602865606546402
+        ],
+        [
+          "1",
+          -1.3828182090946939e-05
+        ],
+        [
+          "<|endoftext|>",
+          -0.0012685356196016073
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "84": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $9000, and the quality rating is 20.\nBrand 2 - price is $35000, and the quality rating is 60.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$9000",
+      "price2": "$35000",
+      "quality1": "20",
+      "quality2": "60",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $9000, and the quality rating is 20.\nBrand 2 - price is $35000, and the quality rating is 60.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.02324160374701023
+        ],
+        [
+          " ",
+          -0.05661587789654732
+        ],
+        [
+          "2",
+          -0.1128227710723877
+        ],
+        [
+          "<|endoftext|>",
+          -0.000482442817883566
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "85": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $35000, and the quality rating is 60.\nBrand 2 - price is $9000, and the quality rating is 20.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$35000",
+      "price2": "$9000",
+      "quality1": "60",
+      "quality2": "20",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $35000, and the quality rating is 60.\nBrand 2 - price is $9000, and the quality rating is 20.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0134210716933012
+        ],
+        [
+          " ",
+          -0.25956374406814575
+        ],
+        [
+          "1",
+          -0.03577751666307449
+        ],
+        [
+          "<|endoftext|>",
+          -0.0018585327779874206
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "86": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $9000, and the quality rating is 30.\nBrand 2 - price is $35000, and the quality rating is 70.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$9000",
+      "price2": "$35000",
+      "quality1": "30",
+      "quality2": "70",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $9000, and the quality rating is 30.\nBrand 2 - price is $35000, and the quality rating is 70.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.03867308050394058
+        ],
+        [
+          " ",
+          -0.03555573523044586
+        ],
+        [
+          "2",
+          -0.06196795031428337
+        ],
+        [
+          "<|endoftext|>",
+          -0.00038092033355496824
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "87": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $35000, and the quality rating is 70.\nBrand 2 - price is $9000, and the quality rating is 30.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$35000",
+      "price2": "$9000",
+      "quality1": "70",
+      "quality2": "30",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $35000, and the quality rating is 70.\nBrand 2 - price is $9000, and the quality rating is 30.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.010528496466577053
+        ],
+        [
+          " ",
+          -0.14459942281246185
+        ],
+        [
+          "1",
+          -0.013311090879142284
+        ],
+        [
+          "<|endoftext|>",
+          -0.00146793806925416
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "88": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $9000, and the quality rating is 40.\nBrand 2 - price is $35000, and the quality rating is 80.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$9000",
+      "price2": "$35000",
+      "quality1": "40",
+      "quality2": "80",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $9000, and the quality rating is 40.\nBrand 2 - price is $35000, and the quality rating is 80.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.018077027052640915
+        ],
+        [
+          " ",
+          -0.049745719879865646
+        ],
+        [
+          "2",
+          -0.179745152592659
+        ],
+        [
+          "<|endoftext|>",
+          -0.0003817544784396887
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "89": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $35000, and the quality rating is 80.\nBrand 2 - price is $9000, and the quality rating is 40.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$35000",
+      "price2": "$9000",
+      "quality1": "80",
+      "quality2": "40",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 3,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThe following are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nBrand 1 - price is $35000, and the quality rating is 80.\nBrand 2 - price is $9000, and the quality rating is 40.\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.004122687969356775
+        ],
+        [
+          " ",
+          -0.11289007216691971
+        ],
+        [
+          "1",
+          -3.5523738915799186e-05
+        ],
+        [
+          "<|endoftext|>",
+          -0.0011147005716338754
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "90": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $5000, and the quality rating is 20.\nBrand 2 - price is $15000, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$5000",
+      "price2": "$15000",
+      "quality1": "20",
+      "quality2": "60",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $5000, and the quality rating is 20.\nBrand 2 - price is $15000, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0007194076315499842
+        ],
+        [
+          " ",
+          -0.004815646912902594
+        ],
+        [
+          "2",
+          -0.0023258081637322903
+        ],
+        [
+          "<|endoftext|>",
+          -0.00026425207033753395
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "91": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $15000, and the quality rating is 60.\nBrand 2 - price is $5000, and the quality rating is 20.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$15000",
+      "price2": "$5000",
+      "quality1": "60",
+      "quality2": "20",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $15000, and the quality rating is 60.\nBrand 2 - price is $5000, and the quality rating is 20.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0005760917556472123
+        ],
+        [
+          " ",
+          -0.056820761412382126
+        ],
+        [
+          "1",
+          -0.3484448194503784
+        ],
+        [
+          "<|endoftext|>",
+          -0.000417741306591779
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "92": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $5000, and the quality rating is 30.\nBrand 2 - price is $15000, and the quality rating is 70.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$5000",
+      "price2": "$15000",
+      "quality1": "30",
+      "quality2": "70",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $5000, and the quality rating is 30.\nBrand 2 - price is $15000, and the quality rating is 70.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0007666985620744526
+        ],
+        [
+          " ",
+          -0.004966067150235176
+        ],
+        [
+          "2",
+          -0.005233753472566605
+        ],
+        [
+          "<|endoftext|>",
+          -0.00024482590379193425
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "93": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $15000, and the quality rating is 70.\nBrand 2 - price is $5000, and the quality rating is 30.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$15000",
+      "price2": "$5000",
+      "quality1": "70",
+      "quality2": "30",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $15000, and the quality rating is 70.\nBrand 2 - price is $5000, and the quality rating is 30.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.00047672350774519145
+        ],
+        [
+          " ",
+          -0.09270316362380981
+        ],
+        [
+          "1",
+          -0.07889018952846527
+        ],
+        [
+          "<|endoftext|>",
+          -0.00034421717282384634
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "94": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $5000, and the quality rating is 40.\nBrand 2 - price is $15000, and the quality rating is 80.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$5000",
+      "price2": "$15000",
+      "quality1": "40",
+      "quality2": "80",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $5000, and the quality rating is 40.\nBrand 2 - price is $15000, and the quality rating is 80.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0006586528033949435
+        ],
+        [
+          " ",
+          -0.009180830791592598
+        ],
+        [
+          "2",
+          -0.004917432088404894
+        ],
+        [
+          "<|endoftext|>",
+          -0.0002162222663173452
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "95": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $15000, and the quality rating is 80.\nBrand 2 - price is $5000, and the quality rating is 40.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$15000",
+      "price2": "$5000",
+      "quality1": "80",
+      "quality2": "40",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $15000, and the quality rating is 80.\nBrand 2 - price is $5000, and the quality rating is 40.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.00029976642690598965
+        ],
+        [
+          " ",
+          -0.026416322216391563
+        ],
+        [
+          "1",
+          -0.0011701886542141438
+        ],
+        [
+          "<|endoftext|>",
+          -0.00029059001826681197
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "96": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $6000, and the quality rating is 20.\nBrand 2 - price is $20000, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$6000",
+      "price2": "$20000",
+      "quality1": "20",
+      "quality2": "60",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $6000, and the quality rating is 20.\nBrand 2 - price is $20000, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0006760457181371748
+        ],
+        [
+          " ",
+          -0.009183901362121105
+        ],
+        [
+          "2",
+          -0.005233753472566605
+        ],
+        [
+          "<|endoftext|>",
+          -0.0003034608089365065
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "97": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $20000, and the quality rating is 60.\nBrand 2 - price is $6000, and the quality rating is 20.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$20000",
+      "price2": "$6000",
+      "quality1": "60",
+      "quality2": "20",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $20000, and the quality rating is 60.\nBrand 2 - price is $6000, and the quality rating is 20.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0005969410995021462
+        ],
+        [
+          " ",
+          -0.1254979819059372
+        ],
+        [
+          "1",
+          -0.20141363143920898
+        ],
+        [
+          "<|endoftext|>",
+          -0.00037353215157054365
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "98": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $6000, and the quality rating is 30.\nBrand 2 - price is $20000, and the quality rating is 70.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$6000",
+      "price2": "$20000",
+      "quality1": "30",
+      "quality2": "70",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $6000, and the quality rating is 30.\nBrand 2 - price is $20000, and the quality rating is 70.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0007658647373318672
+        ],
+        [
+          " ",
+          -0.008524223230779171
+        ],
+        [
+          "2",
+          -0.012509571388363838
+        ],
+        [
+          "<|endoftext|>",
+          -0.0002464944263920188
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "99": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $20000, and the quality rating is 70.\nBrand 2 - price is $6000, and the quality rating is 30.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$20000",
+      "price2": "$6000",
+      "quality1": "70",
+      "quality2": "30",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $20000, and the quality rating is 70.\nBrand 2 - price is $6000, and the quality rating is 30.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0004670721245929599
+        ],
+        [
+          " ",
+          -0.14669817686080933
+        ],
+        [
+          "1",
+          -0.04858778417110443
+        ],
+        [
+          "<|endoftext|>",
+          -0.00033825874561443925
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "100": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $6000, and the quality rating is 40.\nBrand 2 - price is $20000, and the quality rating is 80.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$6000",
+      "price2": "$20000",
+      "quality1": "40",
+      "quality2": "80",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $6000, and the quality rating is 40.\nBrand 2 - price is $20000, and the quality rating is 80.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.000667468411847949
+        ],
+        [
+          " ",
+          -0.014686333015561104
+        ],
+        [
+          "2",
+          -0.018149960786104202
+        ],
+        [
+          "<|endoftext|>",
+          -0.0002530493075028062
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "101": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $20000, and the quality rating is 80.\nBrand 2 - price is $6000, and the quality rating is 40.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$20000",
+      "price2": "$6000",
+      "quality1": "80",
+      "quality2": "40",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $20000, and the quality rating is 80.\nBrand 2 - price is $6000, and the quality rating is 40.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.00033361115492880344
+        ],
+        [
+          " ",
+          -0.04318796843290329
+        ],
+        [
+          "1",
+          -0.0019287331961095333
+        ],
+        [
+          "<|endoftext|>",
+          -0.0003297977091278881
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "102": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $7000, and the quality rating is 20.\nBrand 2 - price is $25000, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$7000",
+      "price2": "$25000",
+      "quality1": "20",
+      "quality2": "60",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $7000, and the quality rating is 20.\nBrand 2 - price is $25000, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0006095697171986103
+        ],
+        [
+          " ",
+          -0.0071079242043197155
+        ],
+        [
+          "2",
+          -0.023245446383953094
+        ],
+        [
+          "<|endoftext|>",
+          -0.00024136967840604484
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "103": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $25000, and the quality rating is 60.\nBrand 2 - price is $7000, and the quality rating is 20.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$25000",
+      "price2": "$7000",
+      "quality1": "60",
+      "quality2": "20",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $25000, and the quality rating is 60.\nBrand 2 - price is $7000, and the quality rating is 20.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0005138983833603561
+        ],
+        [
+          " ",
+          -0.055843155831098557
+        ],
+        [
+          "1",
+          -0.3132619261741638
+        ],
+        [
+          "<|endoftext|>",
+          -0.00030310326837934554
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "104": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $7000, and the quality rating is 30.\nBrand 2 - price is $25000, and the quality rating is 70.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$7000",
+      "price2": "$25000",
+      "quality1": "30",
+      "quality2": "70",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $7000, and the quality rating is 30.\nBrand 2 - price is $25000, and the quality rating is 70.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0007236960809677839
+        ],
+        [
+          " ",
+          -0.006941134110093117
+        ],
+        [
+          "2",
+          -0.04858732968568802
+        ],
+        [
+          "<|endoftext|>",
+          -0.0002302858338225633
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "105": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $25000, and the quality rating is 70.\nBrand 2 - price is $7000, and the quality rating is 30.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$25000",
+      "price2": "$7000",
+      "quality1": "70",
+      "quality2": "30",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $25000, and the quality rating is 70.\nBrand 2 - price is $7000, and the quality rating is 30.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0004551566671580076
+        ],
+        [
+          " ",
+          -0.07331158965826035
+        ],
+        [
+          "1",
+          -0.07889040559530258
+        ],
+        [
+          "<|endoftext|>",
+          -0.0003398079425096512
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "106": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $7000, and the quality rating is 40.\nBrand 2 - price is $25000, and the quality rating is 80.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$7000",
+      "price2": "$25000",
+      "quality1": "40",
+      "quality2": "80",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $7000, and the quality rating is 40.\nBrand 2 - price is $25000, and the quality rating is 80.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0006699701189063489
+        ],
+        [
+          " ",
+          -0.010079083032906055
+        ],
+        [
+          "2",
+          -0.03804141283035278
+        ],
+        [
+          "<|endoftext|>",
+          -0.00023040501400828362
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "107": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $25000, and the quality rating is 80.\nBrand 2 - price is $7000, and the quality rating is 40.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$25000",
+      "price2": "$7000",
+      "quality1": "80",
+      "quality2": "40",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $25000, and the quality rating is 80.\nBrand 2 - price is $7000, and the quality rating is 40.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0002967870968859643
+        ],
+        [
+          " ",
+          -0.029903149232268333
+        ],
+        [
+          "1",
+          -0.002635103417560458
+        ],
+        [
+          "<|endoftext|>",
+          -0.0002944036095868796
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "108": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $8000, and the quality rating is 20.\nBrand 2 - price is $30000, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$8000",
+      "price2": "$30000",
+      "quality1": "20",
+      "quality2": "60",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $8000, and the quality rating is 20.\nBrand 2 - price is $30000, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0007390628452412784
+        ],
+        [
+          " ",
+          -0.010546544566750526
+        ],
+        [
+          "2",
+          -0.029750533401966095
+        ],
+        [
+          "<|endoftext|>",
+          -0.00030119650182314217
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "109": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $30000, and the quality rating is 60.\nBrand 2 - price is $8000, and the quality rating is 20.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$30000",
+      "price2": "$8000",
+      "quality1": "60",
+      "quality2": "20",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $30000, and the quality rating is 60.\nBrand 2 - price is $8000, and the quality rating is 20.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0006283930852077901
+        ],
+        [
+          " ",
+          -0.09906420111656189
+        ],
+        [
+          "1",
+          -0.17974494397640228
+        ],
+        [
+          "<|endoftext|>",
+          -0.0004209585895296186
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "110": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $8000, and the quality rating is 30.\nBrand 2 - price is $30000, and the quality rating is 70.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$8000",
+      "price2": "$30000",
+      "quality1": "30",
+      "quality2": "70",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $8000, and the quality rating is 30.\nBrand 2 - price is $30000, and the quality rating is 70.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0008256602450273931
+        ],
+        [
+          " ",
+          -0.0121982516720891
+        ],
+        [
+          "2",
+          -0.06993623077869415
+        ],
+        [
+          "<|endoftext|>",
+          -0.00024625606602057815
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "111": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $30000, and the quality rating is 70.\nBrand 2 - price is $8000, and the quality rating is 30.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$30000",
+      "price2": "$8000",
+      "quality1": "70",
+      "quality2": "30",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $30000, and the quality rating is 70.\nBrand 2 - price is $8000, and the quality rating is 30.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0005368936690501869
+        ],
+        [
+          " ",
+          -0.1629510372877121
+        ],
+        [
+          "1",
+          -0.020542368292808533
+        ],
+        [
+          "<|endoftext|>",
+          -0.00039152585668489337
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "112": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $8000, and the quality rating is 40.\nBrand 2 - price is $30000, and the quality rating is 80.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$8000",
+      "price2": "$30000",
+      "quality1": "40",
+      "quality2": "80",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $8000, and the quality rating is 40.\nBrand 2 - price is $30000, and the quality rating is 80.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0007034449372440577
+        ],
+        [
+          " ",
+          -0.014688682742416859
+        ],
+        [
+          "2",
+          -0.018149960786104202
+        ],
+        [
+          "<|endoftext|>",
+          -0.0002731903805397451
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "113": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $30000, and the quality rating is 80.\nBrand 2 - price is $8000, and the quality rating is 40.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$30000",
+      "price2": "$8000",
+      "quality1": "80",
+      "quality2": "40",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $30000, and the quality rating is 80.\nBrand 2 - price is $8000, and the quality rating is 40.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.00035315475543029606
+        ],
+        [
+          " ",
+          -0.03819781914353371
+        ],
+        [
+          "1",
+          -0.001599105424247682
+        ],
+        [
+          "<|endoftext|>",
+          -0.0003675738989841193
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "114": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $9000, and the quality rating is 20.\nBrand 2 - price is $35000, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$9000",
+      "price2": "$35000",
+      "quality1": "20",
+      "quality2": "60",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $9000, and the quality rating is 20.\nBrand 2 - price is $35000, and the quality rating is 60.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0008068405441008508
+        ],
+        [
+          " ",
+          -0.01012475322932005
+        ],
+        [
+          "2",
+          -0.020541900768876076
+        ],
+        [
+          "<|endoftext|>",
+          -0.0002675890573300421
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "115": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $35000, and the quality rating is 60.\nBrand 2 - price is $9000, and the quality rating is 20.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$35000",
+      "price2": "$9000",
+      "quality1": "60",
+      "quality2": "20",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $35000, and the quality rating is 60.\nBrand 2 - price is $9000, and the quality rating is 20.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0005623904871754348
+        ],
+        [
+          " ",
+          -0.05658726394176483
+        ],
+        [
+          "1",
+          -0.5759397745132446
+        ],
+        [
+          "<|endoftext|>",
+          -0.0003796095261350274
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "116": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $9000, and the quality rating is 30.\nBrand 2 - price is $35000, and the quality rating is 70.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$9000",
+      "price2": "$35000",
+      "quality1": "30",
+      "quality2": "70",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $9000, and the quality rating is 30.\nBrand 2 - price is $35000, and the quality rating is 70.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0008289953111670911
+        ],
+        [
+          " ",
+          -0.010403214022517204
+        ],
+        [
+          "2",
+          -0.06196761503815651
+        ],
+        [
+          "<|endoftext|>",
+          -0.00029988560709170997
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "117": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $35000, and the quality rating is 70.\nBrand 2 - price is $9000, and the quality rating is 30.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$35000",
+      "price2": "$9000",
+      "quality1": "70",
+      "quality2": "30",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $35000, and the quality rating is 70.\nBrand 2 - price is $9000, and the quality rating is 30.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0005411829333752394
+        ],
+        [
+          " ",
+          -0.07008638978004456
+        ],
+        [
+          "1",
+          -0.31326234340667725
+        ],
+        [
+          "<|endoftext|>",
+          -0.00037698791129514575
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "118": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $9000, and the quality rating is 40.\nBrand 2 - price is $35000, and the quality rating is 80.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$9000",
+      "price2": "$35000",
+      "quality1": "40",
+      "quality2": "80",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 1,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 0,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $9000, and the quality rating is 40.\nBrand 2 - price is $35000, and the quality rating is 80.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0006602014764212072
+        ],
+        [
+          " ",
+          -0.012924239039421082
+        ],
+        [
+          "2",
+          -0.042999111115932465
+        ],
+        [
+          "<|endoftext|>",
+          -0.0002650863316375762
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "119": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $35000, and the quality rating is 80.\nBrand 2 - price is $9000, and the quality rating is 40.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "car",
+      "product_type": "brand",
+      "package": "vehicle",
+      "quality_measurment": "the average riding quality rating made by car experts",
+      "price1": "$35000",
+      "price2": "$9000",
+      "quality1": "80",
+      "quality2": "40",
+      "price3": "-1",
+      "quality3": -1,
+      "vals_range": "[5000, 6000, 7000, 8000, 9000][15000, 20000, 25000, 30000, 35000][20, 30, 40][60, 70, 80]",
+      "bias_type": "Decoy_type.TWO_OPTIONS",
+      "human_or_right_answer": 2,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 0,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 4,
+      "with_bias": false,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nHere are two car brands.\nThe only details you know are the price per vehicle and the average riding quality rating made by car experts (100 = best, 0 = awful).\nIn the event that you had to make a decision based solely on the information presented here, which would be the brand you would buy?\nBrand 1 - price is $35000, and the quality rating is 80.\nBrand 2 - price is $9000, and the quality rating is 40.\nThe brand I would choose would be:\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0003399271226953715
+        ],
+        [
+          " ",
+          -0.033999573439359665
+        ],
+        [
+          "1",
+          -0.00809483788907528
+        ],
+        [
+          "<|endoftext|>",
+          -0.00031382881570607424
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
   }
 }
