@@ -17478,5 +17478,2305 @@
       ]
     },
     "human_or_right_answer": 1
+  },
+  "381": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 60.\nBrand 2 - price is $150.98, quality rating is 60.\nBrand 3 - price is $19.99, quality rating is 40.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$150.98",
+      "quality1": "60",
+      "quality2": "60",
+      "price3": "$19.99",
+      "quality3": "40",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 1,
+      "competitor": 3,
+      "target": 1,
+      "decoy": 2,
+      "permutation_id": 3,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 60.\nBrand 2 - price is $150.98, quality rating is 60.\nBrand 3 - price is $19.99, quality rating is 40.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.006156290881335735
+        ],
+        [
+          " ",
+          -0.014884487725794315
+        ],
+        [
+          "3",
+          -0.007184503600001335
+        ],
+        [
+          "<|endoftext|>",
+          -0.0004923323867842555
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "382": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 60.\nBrand 2 - price is $19.99, quality rating is 40.\nBrand 3 - price is $99.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$150.98",
+      "price2": "$19.99",
+      "quality1": "60",
+      "quality2": "40",
+      "price3": "$99.99",
+      "quality3": "60",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 3,
+      "competitor": 2,
+      "target": 3,
+      "decoy": 1,
+      "permutation_id": 4,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 60.\nBrand 2 - price is $19.99, quality rating is 40.\nBrand 3 - price is $99.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.010182811878621578
+        ],
+        [
+          " ",
+          -0.011081107892096043
+        ],
+        [
+          "1",
+          -0.5419967174530029
+        ],
+        [
+          "<|endoftext|>",
+          -0.0003868784988299012
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "383": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 60.\nBrand 3 - price is $19.99, quality rating is 40.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$150.98",
+      "price2": "$99.99",
+      "quality1": "60",
+      "quality2": "60",
+      "price3": "$19.99",
+      "quality3": "40",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 2,
+      "competitor": 3,
+      "target": 2,
+      "decoy": 1,
+      "permutation_id": 5,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 60.\nBrand 3 - price is $19.99, quality rating is 40.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.007475971709936857
+        ],
+        [
+          " ",
+          -0.043482713401317596
+        ],
+        [
+          "2",
+          -0.1017826497554779
+        ],
+        [
+          "<|endoftext|>",
+          -0.00014530557382386178
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "384": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $125.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$99.99",
+      "quality1": "50",
+      "quality2": "70",
+      "price3": "$125.98",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R",
+      "human_or_right_answer": 2,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 3,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $125.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.007125441916286945
+        ],
+        [
+          " ",
+          -0.0005538121913559735
+        ],
+        [
+          "2",
+          -0.03577912598848343
+        ],
+        [
+          "<|endoftext|>",
+          -0.01283985935151577
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "385": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $125.98, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$125.98",
+      "quality1": "50",
+      "quality2": "70",
+      "price3": "$99.99",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R",
+      "human_or_right_answer": 3,
+      "competitor": 1,
+      "target": 3,
+      "decoy": 2,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $125.98, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0035959123633801937
+        ],
+        [
+          " ",
+          -0.00037281715776771307
+        ],
+        [
+          "2",
+          -0.005929854232817888
+        ],
+        [
+          "<|endoftext|>",
+          -0.00548643060028553
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "386": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $125.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$19.99",
+      "quality1": "70",
+      "quality2": "50",
+      "price3": "$125.98",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R",
+      "human_or_right_answer": 1,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 3,
+      "permutation_id": 2,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $125.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0071431961841881275
+        ],
+        [
+          " ",
+          -0.003400141606107354
+        ],
+        [
+          "1",
+          -0.06957823783159256
+        ],
+        [
+          "<|endoftext|>",
+          -0.0007113072206266224
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "387": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $125.98, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$125.98",
+      "quality1": "70",
+      "quality2": "70",
+      "price3": "$19.99",
+      "quality3": "50",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R",
+      "human_or_right_answer": 1,
+      "competitor": 3,
+      "target": 1,
+      "decoy": 2,
+      "permutation_id": 3,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $125.98, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.007617355789989233
+        ],
+        [
+          " ",
+          -0.026954077184200287
+        ],
+        [
+          "3",
+          -0.03389367461204529
+        ],
+        [
+          "<|endoftext|>",
+          -0.0005687049706466496
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "388": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$125.98",
+      "price2": "$19.99",
+      "quality1": "70",
+      "quality2": "50",
+      "price3": "$99.99",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R",
+      "human_or_right_answer": 3,
+      "competitor": 2,
+      "target": 3,
+      "decoy": 1,
+      "permutation_id": 4,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.005125714931637049
+        ],
+        [
+          " ",
+          -0.0016617074143141508
+        ],
+        [
+          "1",
+          -0.43104758858680725
+        ],
+        [
+          "<|endoftext|>",
+          -0.00038628268521279097
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "389": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$125.98",
+      "price2": "$99.99",
+      "quality1": "70",
+      "quality2": "70",
+      "price3": "$19.99",
+      "quality3": "50",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R",
+      "human_or_right_answer": 2,
+      "competitor": 3,
+      "target": 2,
+      "decoy": 1,
+      "permutation_id": 5,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.005641491152346134
+        ],
+        [
+          " ",
+          -0.031051594763994217
+        ],
+        [
+          "2",
+          -0.013196391984820366
+        ],
+        [
+          "<|endoftext|>",
+          -0.0001389883691444993
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "390": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $125.98, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$99.99",
+      "quality1": "50",
+      "quality2": "70",
+      "price3": "$125.98",
+      "quality3": "60",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.RF",
+      "human_or_right_answer": 2,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 3,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $125.98, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.00950702466070652
+        ],
+        [
+          " ",
+          -0.002495748223736882
+        ],
+        [
+          "2",
+          -5.07818695041351e-05
+        ],
+        [
+          "<|endoftext|>",
+          -0.0001431601122021675
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "391": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $125.98, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$125.98",
+      "quality1": "50",
+      "quality2": "60",
+      "price3": "$99.99",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.RF",
+      "human_or_right_answer": 3,
+      "competitor": 1,
+      "target": 3,
+      "decoy": 2,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $125.98, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.005397983361035585
+        ],
+        [
+          " ",
+          -0.0036322588566690683
+        ],
+        [
+          "3",
+          -0.00043358939001336694
+        ],
+        [
+          "<|endoftext|>",
+          -0.0004337085410952568
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "392": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $125.98, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$19.99",
+      "quality1": "70",
+      "quality2": "50",
+      "price3": "$125.98",
+      "quality3": "60",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.RF",
+      "human_or_right_answer": 1,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 3,
+      "permutation_id": 2,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $125.98, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.004913991782814264
+        ],
+        [
+          " ",
+          -0.01559937372803688
+        ],
+        [
+          "2",
+          -0.32832247018814087
+        ],
+        [
+          "<|endoftext|>",
+          -0.00013517419574782252
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "393": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $125.98, quality rating is 60.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$125.98",
+      "quality1": "70",
+      "quality2": "60",
+      "price3": "$19.99",
+      "quality3": "50",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.RF",
+      "human_or_right_answer": 1,
+      "competitor": 3,
+      "target": 1,
+      "decoy": 2,
+      "permutation_id": 3,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $125.98, quality rating is 60.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0068268864415585995
+        ],
+        [
+          " ",
+          -0.021779177710413933
+        ],
+        [
+          "1",
+          -0.35042762756347656
+        ],
+        [
+          "<|endoftext|>",
+          -0.0003292018664069474
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "394": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 60.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$125.98",
+      "price2": "$19.99",
+      "quality1": "60",
+      "quality2": "50",
+      "price3": "$99.99",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.RF",
+      "human_or_right_answer": 3,
+      "competitor": 2,
+      "target": 3,
+      "decoy": 1,
+      "permutation_id": 4,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 60.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.00839266087859869
+        ],
+        [
+          " ",
+          -0.004688935354351997
+        ],
+        [
+          "3",
+          -0.0003233625029679388
+        ],
+        [
+          "<|endoftext|>",
+          -0.0003010773507412523
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "395": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$125.98",
+      "price2": "$99.99",
+      "quality1": "60",
+      "quality2": "70",
+      "price3": "$19.99",
+      "quality3": "50",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.RF",
+      "human_or_right_answer": 2,
+      "competitor": 3,
+      "target": 2,
+      "decoy": 1,
+      "permutation_id": 5,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.005548078566789627
+        ],
+        [
+          " ",
+          -0.004646813031286001
+        ],
+        [
+          "2",
+          -9.77468371274881e-05
+        ],
+        [
+          "<|endoftext|>",
+          -0.0001740304142003879
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "396": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$99.99",
+      "quality1": "50",
+      "quality2": "70",
+      "price3": "$99.99",
+      "quality3": "60",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.F",
+      "human_or_right_answer": 2,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 3,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.007272319868206978
+        ],
+        [
+          " ",
+          -0.0028219898231327534
+        ],
+        [
+          "2",
+          -6.031808152329177e-05
+        ],
+        [
+          "<|endoftext|>",
+          -0.00014768941036891192
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "397": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$99.99",
+      "quality1": "50",
+      "quality2": "60",
+      "price3": "$99.99",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.F",
+      "human_or_right_answer": 3,
+      "competitor": 1,
+      "target": 3,
+      "decoy": 2,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.006685982458293438
+        ],
+        [
+          " ",
+          -0.0052597238682210445
+        ],
+        [
+          "3",
+          -3.0517112463712692e-05
+        ],
+        [
+          "<|endoftext|>",
+          -0.0003965306677855551
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "398": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$19.99",
+      "quality1": "70",
+      "quality2": "50",
+      "price3": "$99.99",
+      "quality3": "60",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.F",
+      "human_or_right_answer": 1,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 3,
+      "permutation_id": 2,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.001830213237553835
+        ],
+        [
+          " ",
+          -0.011305084452033043
+        ],
+        [
+          "3",
+          -0.08895930647850037
+        ],
+        [
+          "<|endoftext|>",
+          -0.0004285847535356879
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "399": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 60.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$99.99",
+      "quality1": "70",
+      "quality2": "60",
+      "price3": "$19.99",
+      "quality3": "50",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.F",
+      "human_or_right_answer": 1,
+      "competitor": 3,
+      "target": 1,
+      "decoy": 2,
+      "permutation_id": 3,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 60.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.006033184938132763
+        ],
+        [
+          " ",
+          -0.029132308438420296
+        ],
+        [
+          "3",
+          -0.0555141419172287
+        ],
+        [
+          "<|endoftext|>",
+          -0.0007035640883259475
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "400": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 60.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$19.99",
+      "quality1": "60",
+      "quality2": "50",
+      "price3": "$99.99",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.F",
+      "human_or_right_answer": 3,
+      "competitor": 2,
+      "target": 3,
+      "decoy": 1,
+      "permutation_id": 4,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 60.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.003303905250504613
+        ],
+        [
+          " ",
+          -0.003257803386077285
+        ],
+        [
+          "3",
+          -0.00010954733443213627
+        ],
+        [
+          "<|endoftext|>",
+          -0.00036399890086613595
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "401": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$99.99",
+      "quality1": "60",
+      "quality2": "70",
+      "price3": "$19.99",
+      "quality3": "50",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.F",
+      "human_or_right_answer": 2,
+      "competitor": 3,
+      "target": 2,
+      "decoy": 1,
+      "permutation_id": 5,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0019143365789204836
+        ],
+        [
+          " ",
+          -0.0022087718825787306
+        ],
+        [
+          "2",
+          -4.792098479811102e-05
+        ],
+        [
+          "<|endoftext|>",
+          -0.00010013079008786008
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "402": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $150.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$99.99",
+      "quality1": "50",
+      "quality2": "70",
+      "price3": "$150.98",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 2,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 3,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $150.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.009282408282160759
+        ],
+        [
+          " ",
+          -0.000667468411847949
+        ],
+        [
+          "2",
+          -0.005235888063907623
+        ],
+        [
+          "<|endoftext|>",
+          -0.0061763133853673935
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "403": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $150.98, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$150.98",
+      "quality1": "50",
+      "quality2": "70",
+      "price3": "$99.99",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 3,
+      "competitor": 1,
+      "target": 3,
+      "decoy": 2,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $150.98, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.004753835499286652
+        ],
+        [
+          " ",
+          -0.00035255891270935535
+        ],
+        [
+          "2",
+          -0.016036342829465866
+        ],
+        [
+          "<|endoftext|>",
+          -0.0042968331836164
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "404": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $150.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$19.99",
+      "quality1": "70",
+      "quality2": "50",
+      "price3": "$150.98",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 1,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 3,
+      "permutation_id": 2,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $150.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.006119206547737122
+        ],
+        [
+          " ",
+          -0.004247928503900766
+        ],
+        [
+          "1",
+          -0.02728867717087269
+        ],
+        [
+          "<|endoftext|>",
+          -0.0005670370301231742
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "405": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $150.98, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$150.98",
+      "quality1": "70",
+      "quality2": "70",
+      "price3": "$19.99",
+      "quality3": "50",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 1,
+      "competitor": 3,
+      "target": 1,
+      "decoy": 2,
+      "permutation_id": 3,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $150.98, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.005296484101563692
+        ],
+        [
+          " ",
+          -0.014664013870060444
+        ],
+        [
+          "3",
+          -0.005968722980469465
+        ],
+        [
+          "<|endoftext|>",
+          -0.0004751745145767927
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "406": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$150.98",
+      "price2": "$19.99",
+      "quality1": "70",
+      "quality2": "50",
+      "price3": "$99.99",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 3,
+      "competitor": 2,
+      "target": 3,
+      "decoy": 1,
+      "permutation_id": 4,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.006546953693032265
+        ],
+        [
+          " ",
+          -0.0033721032086759806
+        ],
+        [
+          "1",
+          -0.6977420449256897
+        ],
+        [
+          "<|endoftext|>",
+          -0.0004337085410952568
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "407": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$150.98",
+      "price2": "$99.99",
+      "quality1": "70",
+      "quality2": "70",
+      "price3": "$19.99",
+      "quality3": "50",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 2,
+      "competitor": 3,
+      "target": 2,
+      "decoy": 1,
+      "permutation_id": 5,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.00545513117685914
+        ],
+        [
+          " ",
+          -0.04134573042392731
+        ],
+        [
+          "2",
+          -0.04985879734158516
+        ],
+        [
+          "<|endoftext|>",
+          -0.00015198028995655477
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "408": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $125.98, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$99.99",
+      "quality1": "60",
+      "quality2": "80",
+      "price3": "$125.98",
+      "quality3": "80",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R",
+      "human_or_right_answer": 2,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 3,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $125.98, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.003704829141497612
+        ],
+        [
+          " ",
+          -0.00043335105874575675
+        ],
+        [
+          "2",
+          -0.020543301478028297
+        ],
+        [
+          "<|endoftext|>",
+          -0.014549586921930313
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "409": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $125.98, quality rating is 80.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$125.98",
+      "quality1": "60",
+      "quality2": "80",
+      "price3": "$99.99",
+      "quality3": "80",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R",
+      "human_or_right_answer": 3,
+      "competitor": 1,
+      "target": 3,
+      "decoy": 2,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $125.98, quality rating is 80.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.001972516765818
+        ],
+        [
+          " ",
+          -0.0002517383254598826
+        ],
+        [
+          "2",
+          -0.008096019737422466
+        ],
+        [
+          "<|endoftext|>",
+          -0.011397960595786572
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "410": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $125.98, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$19.99",
+      "quality1": "80",
+      "quality2": "60",
+      "price3": "$125.98",
+      "quality3": "80",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R",
+      "human_or_right_answer": 1,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 3,
+      "permutation_id": 2,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $125.98, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.004069263115525246
+        ],
+        [
+          " ",
+          -0.0020086844451725483
+        ],
+        [
+          "1",
+          -0.018847191706299782
+        ],
+        [
+          "<|endoftext|>",
+          -0.0007989790174178779
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "411": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $125.98, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$125.98",
+      "quality1": "80",
+      "quality2": "80",
+      "price3": "$19.99",
+      "quality3": "60",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R",
+      "human_or_right_answer": 1,
+      "competitor": 3,
+      "target": 1,
+      "decoy": 2,
+      "permutation_id": 3,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $125.98, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0069208899512887
+        ],
+        [
+          " ",
+          -0.011224458925426006
+        ],
+        [
+          "1",
+          -0.26166751980781555
+        ],
+        [
+          "<|endoftext|>",
+          -0.00042381841922178864
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "412": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$125.98",
+      "price2": "$19.99",
+      "quality1": "80",
+      "quality2": "60",
+      "price3": "$99.99",
+      "quality3": "80",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R",
+      "human_or_right_answer": 3,
+      "competitor": 2,
+      "target": 3,
+      "decoy": 1,
+      "permutation_id": 4,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.002190454164519906
+        ],
+        [
+          " ",
+          -0.0010627818992361426
+        ],
+        [
+          "1",
+          -0.28183868527412415
+        ],
+        [
+          "<|endoftext|>",
+          -0.0005297449533827603
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "413": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 80.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$125.98",
+      "price2": "$99.99",
+      "quality1": "80",
+      "quality2": "80",
+      "price3": "$19.99",
+      "quality3": "60",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R",
+      "human_or_right_answer": 2,
+      "competitor": 3,
+      "target": 2,
+      "decoy": 1,
+      "permutation_id": 5,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 80.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.003983183763921261
+        ],
+        [
+          " ",
+          -0.010829486884176731
+        ],
+        [
+          "2",
+          -0.02054423652589321
+        ],
+        [
+          "<|endoftext|>",
+          -0.00013100242358632386
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "414": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $125.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$99.99",
+      "quality1": "60",
+      "quality2": "80",
+      "price3": "$125.98",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.RF",
+      "human_or_right_answer": 2,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 3,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $125.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0050490968860685825
+        ],
+        [
+          " ",
+          -0.002495034597814083
+        ],
+        [
+          "2",
+          -6.603976362384856e-05
+        ],
+        [
+          "<|endoftext|>",
+          -0.00011634149996098131
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "415": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $125.98, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$125.98",
+      "quality1": "60",
+      "quality2": "70",
+      "price3": "$99.99",
+      "quality3": "80",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.RF",
+      "human_or_right_answer": 3,
+      "competitor": 1,
+      "target": 3,
+      "decoy": 2,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $125.98, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0031918552704155445
+        ],
+        [
+          " ",
+          -0.00195693108253181
+        ],
+        [
+          "3",
+          -0.0007120219524949789
+        ],
+        [
+          "<|endoftext|>",
+          -0.0003369478799868375
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "416": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $125.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$19.99",
+      "quality1": "80",
+      "quality2": "60",
+      "price3": "$125.98",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.RF",
+      "human_or_right_answer": 1,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 3,
+      "permutation_id": 2,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $125.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.004586296156048775
+        ],
+        [
+          " ",
+          -0.013678391464054585
+        ],
+        [
+          "1",
+          -0.39713239669799805
+        ],
+        [
+          "<|endoftext|>",
+          -0.0002613918040879071
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "417": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $125.98, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$125.98",
+      "quality1": "80",
+      "quality2": "70",
+      "price3": "$19.99",
+      "quality3": "60",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.RF",
+      "human_or_right_answer": 1,
+      "competitor": 3,
+      "target": 1,
+      "decoy": 2,
+      "permutation_id": 3,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $125.98, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.007731513120234013
+        ],
+        [
+          " ",
+          -0.021401189267635345
+        ],
+        [
+          "1",
+          -0.04196925461292267
+        ],
+        [
+          "<|endoftext|>",
+          -0.00033682872890494764
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "418": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$125.98",
+      "price2": "$19.99",
+      "quality1": "70",
+      "quality2": "60",
+      "price3": "$99.99",
+      "quality3": "80",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.RF",
+      "human_or_right_answer": 3,
+      "competitor": 2,
+      "target": 3,
+      "decoy": 1,
+      "permutation_id": 4,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.003347034566104412
+        ],
+        [
+          " ",
+          -0.005998940207064152
+        ],
+        [
+          "3",
+          -0.00029702542815357447
+        ],
+        [
+          "<|endoftext|>",
+          -0.00025328766787424684
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "419": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$125.98",
+      "price2": "$99.99",
+      "quality1": "70",
+      "quality2": "80",
+      "price3": "$19.99",
+      "quality3": "60",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.RF",
+      "human_or_right_answer": 2,
+      "competitor": 3,
+      "target": 2,
+      "decoy": 1,
+      "permutation_id": 5,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.003341569099575281
+        ],
+        [
+          " ",
+          -0.005954621359705925
+        ],
+        [
+          "2",
+          -3.9219088648678735e-05
+        ],
+        [
+          "<|endoftext|>",
+          -0.00015770144818816334
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "420": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$99.99",
+      "quality1": "60",
+      "quality2": "80",
+      "price3": "$99.99",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.F",
+      "human_or_right_answer": 2,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 3,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.005578189622610807
+        ],
+        [
+          " ",
+          -0.0028257938101887703
+        ],
+        [
+          "2",
+          -0.00026842328952625394
+        ],
+        [
+          "<|endoftext|>",
+          -0.0001479277852922678
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "421": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$99.99",
+      "quality1": "60",
+      "quality2": "70",
+      "price3": "$99.99",
+      "quality3": "80",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.F",
+      "human_or_right_answer": 3,
+      "competitor": 1,
+      "target": 3,
+      "decoy": 2,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0036639717873185873
+        ],
+        [
+          " ",
+          -0.00363107118755579
+        ],
+        [
+          "3",
+          -2.0861407392658293e-05
+        ],
+        [
+          "<|endoftext|>",
+          -0.00033861625706776977
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "422": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$19.99",
+      "quality1": "80",
+      "quality2": "60",
+      "price3": "$99.99",
+      "quality3": "70",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.F",
+      "human_or_right_answer": 1,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 3,
+      "permutation_id": 2,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.0038194339722394943
+        ],
+        [
+          " ",
+          -0.008160463534295559
+        ],
+        [
+          "3",
+          -0.1135411188006401
+        ],
+        [
+          "<|endoftext|>",
+          -0.0004752936656586826
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "423": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$99.99",
+      "quality1": "80",
+      "quality2": "70",
+      "price3": "$19.99",
+      "quality3": "60",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.F",
+      "human_or_right_answer": 1,
+      "competitor": 3,
+      "target": 1,
+      "decoy": 2,
+      "permutation_id": 3,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.005109704099595547
+        ],
+        [
+          " ",
+          -0.023570695891976357
+        ],
+        [
+          "1",
+          -0.2918626070022583
+        ],
+        [
+          "<|endoftext|>",
+          -0.0001908358681248501
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "424": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$19.99",
+      "quality1": "70",
+      "quality2": "60",
+      "price3": "$99.99",
+      "quality3": "80",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.F",
+      "human_or_right_answer": 3,
+      "competitor": 2,
+      "target": 3,
+      "decoy": 1,
+      "permutation_id": 4,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.001739775761961937
+        ],
+        [
+          " ",
+          -0.004160202573984861
+        ],
+        [
+          "3",
+          -0.00015984688070602715
+        ],
+        [
+          "<|endoftext|>",
+          -0.00031919151660986245
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "425": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$99.99",
+      "quality1": "70",
+      "quality2": "80",
+      "price3": "$19.99",
+      "quality3": "60",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.F",
+      "human_or_right_answer": 2,
+      "competitor": 3,
+      "target": 2,
+      "decoy": 1,
+      "permutation_id": 5,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.000874851830303669
+        ],
+        [
+          " ",
+          -0.0019502682844176888
+        ],
+        [
+          "2",
+          -5.8412379075889476e-06
+        ],
+        [
+          "<|endoftext|>",
+          -0.00010406429646536708
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "426": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $150.98, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$99.99",
+      "quality1": "60",
+      "quality2": "80",
+      "price3": "$150.98",
+      "quality3": "80",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 2,
+      "competitor": 1,
+      "target": 2,
+      "decoy": 3,
+      "permutation_id": 0,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $150.98, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.003937944304198027
+        ],
+        [
+          " ",
+          -0.0004646890447475016
+        ],
+        [
+          "2",
+          -0.0018133163684979081
+        ],
+        [
+          "<|endoftext|>",
+          -0.006982567720115185
+        ]
+      ]
+    },
+    "human_or_right_answer": 2
+  },
+  "427": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $150.98, quality rating is 80.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$19.99",
+      "price2": "$150.98",
+      "quality1": "60",
+      "quality2": "80",
+      "price3": "$99.99",
+      "quality3": "80",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 3,
+      "competitor": 1,
+      "target": 3,
+      "decoy": 2,
+      "permutation_id": 1,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $150.98, quality rating is 80.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.002680877223610878
+        ],
+        [
+          " ",
+          -0.00029392691794782877
+        ],
+        [
+          "2",
+          -0.03164137899875641
+        ],
+        [
+          "<|endoftext|>",
+          -0.006217897403985262
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
+  },
+  "428": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $150.98, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$19.99",
+      "quality1": "80",
+      "quality2": "60",
+      "price3": "$150.98",
+      "quality3": "80",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 1,
+      "competitor": 2,
+      "target": 1,
+      "decoy": 3,
+      "permutation_id": 2,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $150.98, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.004428816959261894
+        ],
+        [
+          " ",
+          -0.0025519919581711292
+        ],
+        [
+          "1",
+          -0.00863863155245781
+        ],
+        [
+          "<|endoftext|>",
+          -0.0006971312686800957
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "429": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $150.98, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$99.99",
+      "price2": "$150.98",
+      "quality1": "80",
+      "quality2": "80",
+      "price3": "$19.99",
+      "quality3": "60",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 1,
+      "competitor": 3,
+      "target": 1,
+      "decoy": 2,
+      "permutation_id": 3,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $150.98, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.00665093120187521
+        ],
+        [
+          " ",
+          -0.009332248941063881
+        ],
+        [
+          "3",
+          -0.3885543942451477
+        ],
+        [
+          "<|endoftext|>",
+          -0.0005870526074431837
+        ]
+      ]
+    },
+    "human_or_right_answer": 1
+  },
+  "430": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "metadata": {
+      "product": "frying_pan",
+      "product_type": "brand",
+      "package": "frying pan",
+      "quality_measurment": "the average quality rating made by professional chefs",
+      "price1": "$150.98",
+      "price2": "$19.99",
+      "quality1": "80",
+      "quality2": "60",
+      "price3": "$99.99",
+      "quality3": "80",
+      "vals_range": "[9.99, 19.99, 29.99, 39.99][59.99, 99.99, 139.99, 179.99][40, 50, 60][60, 70, 80]",
+      "bias_type": "Decoy_type.R_EXTREAM",
+      "human_or_right_answer": 3,
+      "competitor": 2,
+      "target": 3,
+      "decoy": 1,
+      "permutation_id": 4,
+      "bias_name": "decoy",
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "log_probs": [
+        [
+          "Brand",
+          -0.003161672269925475
+        ],
+        [
+          " ",
+          -0.0016976482002064586
+        ],
+        [
+          "1",
+          -0.525543212890625
+        ],
+        [
+          "<|endoftext|>",
+          -0.0005952732171863317
+        ]
+      ]
+    },
+    "human_or_right_answer": 3
   }
 }

@@ -4078,5 +4078,3413 @@
       ]
     },
     "human_or_right_answer": true
+  },
+  "121": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "metadata": {
+      "premise_1": "Some trees are tall things.",
+      "premise_2": "All trees are plants.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "yes",
+          -0.0003026265767402947
+        ],
+        [
+          "<|endoftext|>",
+          -5.173549288883805e-05
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "122": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll trees are plants.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All trees are plants.",
+      "premise_2": "Some trees are tall things.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll trees are plants.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.05341358855366707
+        ],
+        [
+          "<|endoftext|>",
+          -0.04934990406036377
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "123": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "Some trees are tall things.",
+      "premise_2": "All trees are plants.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.05226532369852066
+        ],
+        [
+          "<|endoftext|>",
+          -0.04944203794002533
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "124": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll trees are plants.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All trees are plants.",
+      "premise_2": "Some trees are tall things.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll trees are plants.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.07376791536808014
+        ],
+        [
+          "<|endoftext|>",
+          -0.04348248243331909
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "125": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "Some trees are tall things.",
+      "premise_2": "All trees are plants.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.11751098930835724
+        ],
+        [
+          "<|endoftext|>",
+          -0.04368220269680023
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "126": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Affirmative",
+    "metadata": {
+      "premise_1": "Some plants are trees.",
+      "premise_2": "Some trees are tall things.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Aff",
+          -1.1036629676818848
+        ],
+        [
+          "irm",
+          -0.000832449528388679
+        ],
+        [
+          "ative",
+          -0.6178193688392639
+        ],
+        [
+          "<|endoftext|>",
+          -0.1411820948123932
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "127": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "Some plants are trees.",
+      "premise_2": "Some trees are tall things.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.11351600289344788
+        ],
+        [
+          "<|endoftext|>",
+          -0.11245222389698029
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "128": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "Some plants are trees.",
+      "premise_2": "Some trees are tall things.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.11228825896978378
+        ],
+        [
+          "<|endoftext|>",
+          -0.14429959654808044
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "129": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "Some plants are trees.",
+      "premise_2": "Some trees are tall things.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.162990540266037
+        ],
+        [
+          "<|endoftext|>",
+          -0.11523953080177307
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "130": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "metadata": {
+      "premise_1": "Some plants are trees.",
+      "premise_2": "Some trees are tall things.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "yes",
+          -0.0006279165390878916
+        ],
+        [
+          "<|endoftext|>",
+          -9.48860906646587e-05
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "131": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "metadata": {
+      "premise_1": "Some trees are tall things.",
+      "premise_2": "Some plants are trees.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "True",
+          -0.7414063811302185
+        ],
+        [
+          "<|endoftext|>",
+          -0.10589632391929626
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "132": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "Some trees are tall things.",
+      "premise_2": "Some plants are trees.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.23606063425540924
+        ],
+        [
+          "<|endoftext|>",
+          -0.08782528340816498
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "133": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "Some trees are tall things.",
+      "premise_2": "Some plants are trees.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.10204221308231354
+        ],
+        [
+          "<|endoftext|>",
+          -0.11468441784381866
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "134": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "Some trees are tall things.",
+      "premise_2": "Some plants are trees.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.13593940436840057
+        ],
+        [
+          "<|endoftext|>",
+          -0.09168215841054916
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "135": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "metadata": {
+      "premise_1": "Some trees are tall things.",
+      "premise_2": "Some plants are trees.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "yes",
+          -0.0009529816452413797
+        ],
+        [
+          "<|endoftext|>",
+          -6.949660019017756e-05
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "136": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "Some plants are trees.",
+      "premise_2": "Some trees are tall things.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.029458077624440193
+        ],
+        [
+          "<|endoftext|>",
+          -0.08034354448318481
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "137": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "Some trees are tall things.",
+      "premise_2": "Some plants are trees.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.06565386056900024
+        ],
+        [
+          "<|endoftext|>",
+          -0.05598011612892151
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "138": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "Some plants are trees.",
+      "premise_2": "Some trees are tall things.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.03675803914666176
+        ],
+        [
+          "<|endoftext|>",
+          -0.07069458812475204
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "139": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "Some trees are tall things.",
+      "premise_2": "Some plants are trees.",
+      "conclusion": "Some plants are tall things.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.08357777446508408
+        ],
+        [
+          "<|endoftext|>",
+          -0.0435999259352684
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "140": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "All plants are trees.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.6537355184555054
+        ],
+        [
+          "<|endoftext|>",
+          -0.05172098055481911
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "141": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "All plants are trees.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.04553051292896271
+        ],
+        [
+          "<|endoftext|>",
+          -0.09885191917419434
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "142": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "All plants are trees.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.11768819391727448
+        ],
+        [
+          "<|endoftext|>",
+          -0.14472796022891998
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "143": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "All plants are trees.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.11053220182657242
+        ],
+        [
+          "<|endoftext|>",
+          -0.09169934689998627
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "144": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "All plants are trees.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "yes",
+          -0.000795762927737087
+        ],
+        [
+          "<|endoftext|>",
+          -0.00010871296399272978
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "145": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All plants are trees.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.3167658746242523
+        ],
+        [
+          "<|endoftext|>",
+          -0.06901609152555466
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "146": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All plants are trees.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.04355461522936821
+        ],
+        [
+          "<|endoftext|>",
+          -0.10289611667394638
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "147": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "All plants are trees.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.09708862751722336
+        ],
+        [
+          "<|endoftext|>",
+          -0.16183994710445404
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "148": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "All plants are trees.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.17619158327579498
+        ],
+        [
+          "<|endoftext|>",
+          -0.10297839343547821
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "149": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "metadata": {
+      "premise_1": "All plants are trees.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "yes",
+          -0.0005081792478449643
+        ],
+        [
+          "<|endoftext|>",
+          -9.48860906646587e-05
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "150": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "All plants are trees.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.03664300963282585
+        ],
+        [
+          "<|endoftext|>",
+          -0.05609700083732605
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "151": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All plants are trees.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.031884122639894485
+        ],
+        [
+          "<|endoftext|>",
+          -0.05648835375905037
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "152": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "All plants are trees.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.052419520914554596
+        ],
+        [
+          "<|endoftext|>",
+          -0.055450309067964554
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "153": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All plants are trees.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are tall things.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.04046037048101425
+        ],
+        [
+          "<|endoftext|>",
+          -0.0628819465637207
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "154": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "Some plants are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.3031062185764313
+        ],
+        [
+          "<|endoftext|>",
+          -0.04482235014438629
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "155": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "Some plants are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.22437427937984467
+        ],
+        [
+          "<|endoftext|>",
+          -0.043622978031635284
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "156": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "Some plants are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.03166620805859566
+        ],
+        [
+          "<|endoftext|>",
+          -0.013502226211130619
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "157": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "Some plants are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.03930240124464035
+        ],
+        [
+          "<|endoftext|>",
+          -0.013898025266826153
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "158": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "no",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "Some plants are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "no",
+          -0.000717025191988796
+        ],
+        [
+          "<|endoftext|>",
+          -3.8980677345534787e-05
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "159": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "Some plants are tall things.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.3845697045326233
+        ],
+        [
+          "<|endoftext|>",
+          -0.04115435108542442
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "160": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "Some plants are tall things.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.310192346572876
+        ],
+        [
+          "<|endoftext|>",
+          -0.0387367308139801
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "161": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "Some plants are tall things.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.045799288898706436
+        ],
+        [
+          "<|endoftext|>",
+          -0.012461066246032715
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "162": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "Some plants are tall things.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.04444009065628052
+        ],
+        [
+          "<|endoftext|>",
+          -0.016160333529114723
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "163": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "no",
+    "metadata": {
+      "premise_1": "Some plants are tall things.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "no",
+          -0.0007310817018151283
+        ],
+        [
+          "<|endoftext|>",
+          -4.386805812828243e-05
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "164": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "Some plants are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.23768188059329987
+        ],
+        [
+          "<|endoftext|>",
+          -0.03820022940635681
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "165": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "Some plants are tall things.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.3746519982814789
+        ],
+        [
+          "<|endoftext|>",
+          -0.04319322109222412
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "166": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "All trees are tall things.",
+      "premise_2": "Some plants are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.2651348412036896
+        ],
+        [
+          "<|endoftext|>",
+          -0.026362450793385506
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "167": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "Some plants are tall things.",
+      "premise_2": "All trees are tall things.",
+      "conclusion": "All plants are trees.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.44865864515304565
+        ],
+        [
+          "<|endoftext|>",
+          -0.038118183612823486
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "168": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.3941774368286133
+        ],
+        [
+          "<|endoftext|>",
+          -0.04848410189151764
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "169": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.08631005138158798
+        ],
+        [
+          "<|endoftext|>",
+          -0.10328259319067001
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "170": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.13763754069805145
+        ],
+        [
+          "<|endoftext|>",
+          -0.1614927053451538
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "171": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.12365143746137619
+        ],
+        [
+          "<|endoftext|>",
+          -0.11625705659389496
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "172": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "yes",
+          -0.005824498366564512
+        ],
+        [
+          "<|endoftext|>",
+          -8.689979586051777e-05
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "173": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.8253867626190186
+        ],
+        [
+          "<|endoftext|>",
+          -0.07262749969959259
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "174": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.07944340258836746
+        ],
+        [
+          "<|endoftext|>",
+          -0.10272563248872757
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "175": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.09831193089485168
+        ],
+        [
+          "<|endoftext|>",
+          -0.12901964783668518
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "176": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.13150623440742493
+        ],
+        [
+          "<|endoftext|>",
+          -0.08287937939167023
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "177": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "yes",
+          -0.024649323895573616
+        ],
+        [
+          "<|endoftext|>",
+          -0.00011169286881340668
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "178": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.10780546069145203
+        ],
+        [
+          "<|endoftext|>",
+          -0.0707857757806778
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "179": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.11009982973337173
+        ],
+        [
+          "<|endoftext|>",
+          -0.06259633600711823
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "180": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.08973117172718048
+        ],
+        [
+          "<|endoftext|>",
+          -0.0491563081741333
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "181": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No flowers are reptiles.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.12473504990339279
+        ],
+        [
+          "<|endoftext|>",
+          -0.04357527196407318
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "182": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "metadata": {
+      "premise_1": "No flowers are reptiles.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "True",
+          -0.9462584257125854
+        ],
+        [
+          "<|endoftext|>",
+          -0.03667323291301727
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "183": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "No flowers are reptiles.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.707301676273346
+        ],
+        [
+          "<|endoftext|>",
+          -0.07077178359031677
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "184": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "No flowers are reptiles.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.06041131168603897
+        ],
+        [
+          "<|endoftext|>",
+          -0.003254595212638378
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "185": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "No flowers are reptiles.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.03347643092274666
+        ],
+        [
+          "<|endoftext|>",
+          -0.0022553978487849236
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "186": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "metadata": {
+      "premise_1": "No flowers are reptiles.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "yes",
+          -0.330093115568161
+        ],
+        [
+          "<|endoftext|>",
+          -0.000102037942269817
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "187": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are reptiles.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "True",
+          -0.9663421511650085
+        ],
+        [
+          "<|endoftext|>",
+          -0.052885472774505615
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "188": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are reptiles.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.057487841695547104
+        ],
+        [
+          "<|endoftext|>",
+          -0.07343510538339615
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "189": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are reptiles.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.3611915707588196
+        ],
+        [
+          "<|endoftext|>",
+          -0.1456754207611084
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "190": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are reptiles.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.09107114374637604
+        ],
+        [
+          "<|endoftext|>",
+          -0.007894386537373066
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "191": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are reptiles.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "yes",
+          -0.0552232600748539
+        ],
+        [
+          "<|endoftext|>",
+          -0.0001433984871255234
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "192": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "No flowers are reptiles.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.5273028016090393
+        ],
+        [
+          "<|endoftext|>",
+          -0.062108784914016724
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "193": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are reptiles.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.24433158338069916
+        ],
+        [
+          "<|endoftext|>",
+          -0.03938022255897522
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "194": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "No flowers are reptiles.",
+      "premise_2": "All reptiles are animals.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.6931771039962769
+        ],
+        [
+          "<|endoftext|>",
+          -0.04866193234920502
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "195": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All reptiles are animals.",
+      "premise_2": "No flowers are reptiles.",
+      "conclusion": "No flowers are animals.",
+      "is_valid": false,
+      "is_believable": true,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.3225390613079071
+        ],
+        [
+          "<|endoftext|>",
+          -0.02453417330980301
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "196": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "metadata": {
+      "premise_1": "All reptiles are flowers.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "True",
+          -0.6237159967422485
+        ],
+        [
+          "<|endoftext|>",
+          -0.05098671838641167
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "197": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All reptiles are flowers.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.09006055444478989
+        ],
+        [
+          "<|endoftext|>",
+          -0.07219350337982178
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "198": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "All reptiles are flowers.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.593478798866272
+        ],
+        [
+          "<|endoftext|>",
+          -0.116268090903759
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "199": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "All reptiles are flowers.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.5046184659004211
+        ],
+        [
+          "<|endoftext|>",
+          -0.0740085020661354
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "200": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "metadata": {
+      "premise_1": "All reptiles are flowers.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "yes",
+          -0.06711341440677643
+        ],
+        [
+          "<|endoftext|>",
+          -8.49926145747304e-05
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "201": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are flowers.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "True",
+          -0.7295085787773132
+        ],
+        [
+          "<|endoftext|>",
+          -0.03478278964757919
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "202": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are flowers.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.27625584602355957
+        ],
+        [
+          "<|endoftext|>",
+          -0.08197987079620361
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "203": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are flowers.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.3788224160671234
+        ],
+        [
+          "<|endoftext|>",
+          -0.14575961232185364
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "204": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are flowers.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.7594960331916809
+        ],
+        [
+          "<|endoftext|>",
+          -0.0036605275236070156
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "205": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are flowers.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "yes",
+          -0.36738088726997375
+        ],
+        [
+          "<|endoftext|>",
+          -0.00010716341057559475
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "206": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "All reptiles are flowers.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.8507539629936218
+        ],
+        [
+          "<|endoftext|>",
+          -0.03819196671247482
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "207": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are flowers.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.9188735485076904
+        ],
+        [
+          "<|endoftext|>",
+          -0.03543113172054291
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "208": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "All reptiles are flowers.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -1.0017074346542358
+        ],
+        [
+          "<|endoftext|>",
+          -0.02638404630124569
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "209": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All reptiles are flowers.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": true,
+      "is_believable": false,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.4304307699203491
+        ],
+        [
+          "<|endoftext|>",
+          -0.019063003361225128
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "210": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "All flowers are reptiles.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -1.0345758199691772
+        ],
+        [
+          "<|endoftext|>",
+          -0.026674730703234673
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "211": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "All flowers are reptiles.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.2932471036911011
+        ],
+        [
+          "<|endoftext|>",
+          -0.0704125389456749
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "212": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "All flowers are reptiles.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.01606672629714012
+        ],
+        [
+          "<|endoftext|>",
+          -0.014903513714671135
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "213": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "All flowers are reptiles.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.01897960901260376
+        ],
+        [
+          "<|endoftext|>",
+          -0.008594783954322338
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "214": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "no",
+    "metadata": {
+      "premise_1": "All flowers are reptiles.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "no",
+          -0.5298084616661072
+        ],
+        [
+          "<|endoftext|>",
+          -4.684815212385729e-05
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "215": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All flowers are reptiles.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.7507302165031433
+        ],
+        [
+          "<|endoftext|>",
+          -0.008046472445130348
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "216": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All flowers are reptiles.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.5817430019378662
+        ],
+        [
+          "<|endoftext|>",
+          -0.07949503511190414
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "217": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All flowers are reptiles.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.045511603355407715
+        ],
+        [
+          "<|endoftext|>",
+          -0.00825587846338749
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "218": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All flowers are reptiles.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "No",
+          -0.05280553176999092
+        ],
+        [
+          "<|endoftext|>",
+          -0.0057126120664179325
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "219": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All flowers are reptiles.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "yes",
+          -0.5918247103691101
+        ],
+        [
+          "<|endoftext|>",
+          -7.557583012385294e-05
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "220": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "All flowers are reptiles.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.5255681276321411
+        ],
+        [
+          "<|endoftext|>",
+          -0.04870269447565079
+        ]
+      ]
+    },
+    "human_or_right_answer": false
   }
 }

@@ -598,5 +598,505 @@
     "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
     "prediction": "Yes",
     "human_or_right_answer": true
+  },
+  "121": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "122": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll trees are plants.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "123": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "124": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll trees are plants.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "125": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome trees are tall things.\nAll trees are plants.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "126": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Affirmative",
+    "human_or_right_answer": false
+  },
+  "127": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "128": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": false
+  },
+  "129": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": false
+  },
+  "130": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": false
+  },
+  "131": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": false
+  },
+  "132": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "133": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": false
+  },
+  "134": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": false
+  },
+  "135": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": false
+  },
+  "136": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "137": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "138": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome plants are trees.\nSome trees are tall things.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "139": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome trees are tall things.\nSome plants are trees.\nConclusion: Some plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "140": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "141": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "142": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "143": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "144": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "145": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "146": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "147": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "148": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "149": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "150": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "151": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "152": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll trees are tall things.\nAll plants are trees.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "153": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll plants are trees.\nAll trees are tall things.\nConclusion: All plants are tall things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "154": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "155": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "156": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "157": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "158": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "no",
+    "human_or_right_answer": false
+  },
+  "159": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "160": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "161": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "162": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "163": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "no",
+    "human_or_right_answer": false
+  },
+  "164": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "165": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "166": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll trees are tall things.\nSome plants are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "167": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nSome plants are tall things.\nAll trees are tall things.\nConclusion: All plants are trees.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "168": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "169": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "170": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "171": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "172": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "173": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "174": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "175": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "176": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "177": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "178": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "179": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "180": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll reptiles are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "181": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll reptiles are animals.\nNo flowers are animals.\nConclusion: No flowers are reptiles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "182": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": false
+  },
+  "183": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "184": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "185": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "186": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": false
+  },
+  "187": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": false
+  },
+  "188": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "189": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": false
+  },
+  "190": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "191": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": false
+  },
+  "192": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "193": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "194": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo flowers are reptiles.\nAll reptiles are animals.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "195": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll reptiles are animals.\nNo flowers are reptiles.\nConclusion: No flowers are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "196": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": true
+  },
+  "197": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "198": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "199": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "200": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "201": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": true
+  },
+  "202": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "203": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "204": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": true
+  },
+  "205": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "206": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": true
+  },
+  "207": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "208": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll reptiles are flowers.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": true
+  },
+  "209": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll reptiles are flowers.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "210": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": false
+  },
+  "211": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "212": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "213": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "214": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "no",
+    "human_or_right_answer": false
+  },
+  "215": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "216": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "217": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "218": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "219": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": false
+  },
+  "220": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
   }
 }

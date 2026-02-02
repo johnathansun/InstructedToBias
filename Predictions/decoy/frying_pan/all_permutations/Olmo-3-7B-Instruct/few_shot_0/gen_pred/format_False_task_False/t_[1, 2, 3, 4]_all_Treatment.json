@@ -1898,5 +1898,255 @@
     "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 60.\nBrand 2 - price is $19.99, quality rating is 40.\nBrand 3 - price is $150.98, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
     "prediction": "Brand 2",
     "human_or_right_answer": 1
+  },
+  "381": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 60.\nBrand 2 - price is $150.98, quality rating is 60.\nBrand 3 - price is $19.99, quality rating is 40.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 1
+  },
+  "382": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 60.\nBrand 2 - price is $19.99, quality rating is 40.\nBrand 3 - price is $99.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 3
+  },
+  "383": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 60.\nBrand 3 - price is $19.99, quality rating is 40.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "384": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $125.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "385": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $125.98, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 3
+  },
+  "386": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $125.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "387": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $125.98, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 1
+  },
+  "388": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 3
+  },
+  "389": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "390": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $125.98, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "391": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $125.98, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "392": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $125.98, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 1
+  },
+  "393": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $125.98, quality rating is 60.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "394": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 60.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "395": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "396": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "397": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "398": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 1
+  },
+  "399": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 60.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 1
+  },
+  "400": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 60.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "401": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "402": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $150.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "403": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 50.\nBrand 2 - price is $150.98, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 3
+  },
+  "404": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $150.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "405": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $150.98, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 1
+  },
+  "406": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 50.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 3
+  },
+  "407": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 50.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "408": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $125.98, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "409": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $125.98, quality rating is 80.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 3
+  },
+  "410": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $125.98, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "411": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $125.98, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "412": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 3
+  },
+  "413": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 80.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "414": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $125.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "415": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $125.98, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "416": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $125.98, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "417": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $125.98, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "418": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "419": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $125.98, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "420": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "421": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "422": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 70.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 1
+  },
+  "423": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $99.99, quality rating is 70.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "424": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 3
+  },
+  "425": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 70.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "426": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $99.99, quality rating is 80.\nBrand 3 - price is $150.98, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 2
+  },
+  "427": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $19.99, quality rating is 60.\nBrand 2 - price is $150.98, quality rating is 80.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 2",
+    "human_or_right_answer": 3
+  },
+  "428": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $150.98, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 1
+  },
+  "429": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $99.99, quality rating is 80.\nBrand 2 - price is $150.98, quality rating is 80.\nBrand 3 - price is $19.99, quality rating is 60.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 3",
+    "human_or_right_answer": 1
+  },
+  "430": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nBelow you will find three frying pan brands.\nYou know only the price per frying pan and the average quality rating made by professional chefs (100 = best, 0 = worst).\nBrand 1 - price is $150.98, quality rating is 80.\nBrand 2 - price is $19.99, quality rating is 60.\nBrand 3 - price is $99.99, quality rating is 80.\nGiven that you had to choose one brand to buy on this information alone, which one would it be?\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Brand 1",
+    "human_or_right_answer": 3
   }
 }

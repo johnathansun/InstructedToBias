@@ -2348,5 +2348,170 @@
     "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $6000 with a 85% chance, $0 with a 15% chance.\nOption B - $5000 for sure.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
     "prediction": "A",
     "human_or_right_answer": 2
+  },
+  "471": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $5000 for sure.\nOption B - $6000 with a 85% chance, $0 with a 15% chance.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 1
+  },
+  "472": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $6000 with a 85% chance, $0 with a 15% chance.\nOption B - 100% to win $5000.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 2
+  },
+  "473": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 100% to win $5000.\nOption B - $6000 with a 85% chance, $0 with a 15% chance.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 1
+  },
+  "474": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 85% to win $6000, 15% to win $0.\nOption B - $5000 with certainty.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "B",
+    "human_or_right_answer": 2
+  },
+  "475": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $5000 with certainty.\nOption B - 85% to win $6000, 15% to win $0.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "B",
+    "human_or_right_answer": 1
+  },
+  "476": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 85% to win $6000, 15% to win $0.\nOption B - $5000 for sure.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 2
+  },
+  "477": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $5000 for sure.\nOption B - 85% to win $6000, 15% to win $0.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "B",
+    "human_or_right_answer": 1
+  },
+  "478": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 85% to win $6000, 15% to win $0.\nOption B - 100% to win $5000.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 2
+  },
+  "479": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 100% to win $5000.\nOption B - 85% to win $6000, 15% to win $0.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "B",
+    "human_or_right_answer": 1
+  },
+  "480": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $3000 with a 70% chance, $0 with a 30% chance.\nOption B - $2000 with certainty.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "B",
+    "human_or_right_answer": 2
+  },
+  "481": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $2000 with certainty.\nOption B - $3000 with a 70% chance, $0 with a 30% chance.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 1
+  },
+  "482": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $3000 with a 70% chance, $0 with a 30% chance.\nOption B - $2000 for sure.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 2
+  },
+  "483": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $2000 for sure.\nOption B - $3000 with a 70% chance, $0 with a 30% chance.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 1
+  },
+  "484": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $3000 with a 70% chance, $0 with a 30% chance.\nOption B - 100% to win $2000.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "B",
+    "human_or_right_answer": 2
+  },
+  "485": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 100% to win $2000.\nOption B - $3000 with a 70% chance, $0 with a 30% chance.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 1
+  },
+  "486": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 70% to win $3000, 30% to win $0.\nOption B - $2000 with certainty.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "B",
+    "human_or_right_answer": 2
+  },
+  "487": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $2000 with certainty.\nOption B - 70% to win $3000, 30% to win $0.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 1
+  },
+  "488": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 70% to win $3000, 30% to win $0.\nOption B - $2000 for sure.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 2
+  },
+  "489": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $2000 for sure.\nOption B - 70% to win $3000, 30% to win $0.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 1
+  },
+  "490": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 70% to win $3000, 30% to win $0.\nOption B - 100% to win $2000.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 2
+  },
+  "491": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 100% to win $2000.\nOption B - 70% to win $3000, 30% to win $0.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "B",
+    "human_or_right_answer": 1
+  },
+  "492": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $2000 with a 60% chance, $0 with a 40% chance.\nOption B - $1000 with certainty.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "B",
+    "human_or_right_answer": 2
+  },
+  "493": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $1000 with certainty.\nOption B - $2000 with a 60% chance, $0 with a 40% chance.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 1
+  },
+  "494": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $2000 with a 60% chance, $0 with a 40% chance.\nOption B - $1000 for sure.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 2
+  },
+  "495": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $1000 for sure.\nOption B - $2000 with a 60% chance, $0 with a 40% chance.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 1
+  },
+  "496": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $2000 with a 60% chance, $0 with a 40% chance.\nOption B - 100% to win $1000.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 2
+  },
+  "497": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 100% to win $1000.\nOption B - $2000 with a 60% chance, $0 with a 40% chance.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 1
+  },
+  "498": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 60% to win $2000, 40% to win $0.\nOption B - $1000 with certainty.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "B",
+    "human_or_right_answer": 2
+  },
+  "499": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $1000 with certainty.\nOption B - 60% to win $2000, 40% to win $0.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 1
+  },
+  "500": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 60% to win $2000, 40% to win $0.\nOption B - $1000 for sure.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "B",
+    "human_or_right_answer": 2
+  },
+  "501": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - $1000 for sure.\nOption B - 60% to win $2000, 40% to win $0.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "B",
+    "human_or_right_answer": 1
+  },
+  "502": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 60% to win $2000, 40% to win $0.\nOption B - 100% to win $1000.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "A",
+    "human_or_right_answer": 2
+  },
+  "503": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nWhich of the following would you prefer?\nOption A - 100% to win $1000.\nOption B - 60% to win $2000, 40% to win $0.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "B",
+    "human_or_right_answer": 1
   }
 }
