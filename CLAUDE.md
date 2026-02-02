@@ -36,6 +36,9 @@ python run_analysis.py --bias_name $BIAS_NAME --all_models $MODELS
 ### Few-shot Experiments
 Add `--with_format_few_shot` or `--with_task_few_shot` flags when predicting and analyzing.
 
+### Recreate Paper Figures
+Open `analysis_plots.ipynb` in Jupyter to recreate figures and tables from the paper.
+
 ## Architecture
 
 ### Core Pipeline
@@ -44,22 +47,29 @@ Add `--with_format_few_shot` or `--with_task_few_shot` flags when predicting and
 3. **Analysis/** - Computes bias scores and generates results
 
 ### Predictor System
-All model predictors inherit from `Predict/Predictor.py` (abstract base class). To add a new model:
+Model predictors use a class hierarchy:
+- `Predictor` (abstract base class in `Predict/Predictor.py`)
+  - `HFPredictor` (abstract base for HuggingFace models in `Predict/hugging_face_perdictor.py`)
+    - `T5Predictor`, `Llama2Predictor`, `MistralPredictor`, `OlmoPredictor`
+  - `OpenAIPredictor`
+
+To add a new model:
 - Create a new predictor file inheriting from `Predictor` or `HFPredictor`
-- Register the model in the appropriate list in `utils.py` (INSTRUCT_MODELS, VANILLA_MODELS, etc.)
+- Register the model in the appropriate list in `utils.py` (note: variable is `INSTURCT_MODELS` with typo)
 - Add model loading logic in `Predict/predict.py:load_predictor()`
 
 ### Model Categories (utils.py)
-- **INSTRUCT_MODELS**: Instruction-tuned models (Flan-T5, GPT-4, Llama-2-chat, Mistral-Instruct)
-- **VANILLA_MODELS**: Base models without instruction tuning (T5, Llama-2, davinci)
+- **INSTURCT_MODELS**: Instruction-tuned models (Flan-T5, GPT-4, Llama-2-chat, Mistral-Instruct, OLMo-Instruct)
+- **VANILLA_MODELS**: Base models without instruction tuning (T5, Llama-2, Mistral, davinci)
 - Model type determines prediction method (log-prob vs generation) and normalization settings
 
 ### Data Flow
-- Generated data: `Data/{bias_name}/all_permutations/t_{templates}_{bias_types}_{Control|Treatment}.json`
+- Generated data for decoy: `Data/decoy/{product}/all_permutations/t_{templates}_{bias_types}_{Control|Treatment}.json`
+- Generated data for other biases: `Data/{bias_name}/all_permutations/t_{templates}_{bias_types}_{Control|Treatment}.json`
 - Predictions: `Predictions/{bias_name}/{product}/{model}/few_shot_{k}/{pred_type}/`
 - Analysis outputs: CSV files with bias scores in prediction directories
 
 ### Key Configuration
 - Templates define question formats per bias (configured in `Data_generation/templates.py`)
-- Bias types: decoy (R, RF, F, R_EXTREAM), certainty (three_probs, two_probs), false_belief (dm_1, dm_2)
+- Bias types: decoy (R, RF, F, R_EXTREAM), certainty (three_probs, two_probs), false_belief (dm_1, dm_2, dm_full)
 - Prediction modes: `predict_according_to_log_probs` (probability-based) vs generation (free-form text)
