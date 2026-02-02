@@ -1,0 +1,1017 @@
+,index,match_key,control_idx,treatment_idx,control_text,treatment_text,template,bias_type_index,vals_index,permutation_index,treatment_answer,control_answer,treatment_prob,control_prob,target_position,control_resp,treatment_resp,control_resp_full,treatment_resp_full,control_resp_eq_treatment_resp
+0,0,"(1, 1, 1, 1, 1, 1)",0,0,"Choose between:
+Option A - $2500 with a 33% chance, $0 with a 67% chance.
+Option B - $2400 with a 34% chance, $0 with a 66% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $2500 with a 33% chance, $2400 with a 66% chance, $0 with a 1% chance.
+Option B - $2400 with certainty.
+What is your choice?
+Answer:",1,1,1,1,target,better_expected_value,-0.2117257863283157,-0.3073574304580688,Option B (second),A,B,A,Option B,False
+1,3,"(1, 1, 1, 1, 1, 2)",3,3,"Choose between:
+Option A - 34% to win $2400, 66% to win $0.
+Option B - $2500 with a 33% chance, $0 with a 67% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $2400 for sure.
+Option B - $2500 with a 33% chance, $2400 with a 66% chance, $0 with a 1% chance.
+What is your choice?
+Answer:",1,1,1,2,target,better_expected_value,-0.8871822357177734,-0.5739141702651978,Option A (first),A,A,Option A,A,True
+2,5,"(1, 1, 1, 1, 2, 1)",6,8,"Choose between:
+Option A - 33% to win $2500, 67% to win $0.
+Option B - 34% to win $2400, 66% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - 33% to win $2500, 66% to win $2400, 1% to win $0.
+Option B - $2400 for sure.
+What is your choice?
+Answer:",1,1,1,1,target,better_expected_value,-0.4381121397018432,-0.2016312330961227,Option B (second),A,A,Option A,Option A,True
+3,6,"(1, 1, 1, 1, 2, 2)",5,7,"Choose between:
+Option A - $2400 with a 34% chance, $0 with a 66% chance.
+Option B - 33% to win $2500, 67% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $2400 with certainty.
+Option B - 33% to win $2500, 66% to win $2400, 1% to win $0.
+What is your choice?
+Answer:",1,1,1,2,target,better_expected_value,-0.4592736959457397,-0.2439176887273788,Option A (first),A,A,A,A,True
+4,7,"(1, 1, 1, 1, 2, 2)",7,9,"Choose between:
+Option A - 34% to win $2400, 66% to win $0.
+Option B - 33% to win $2500, 67% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $2400 for sure.
+Option B - 33% to win $2500, 66% to win $2400, 1% to win $0.
+What is your choice?
+Answer:",1,1,1,2,target,better_expected_value,-0.9837876558303832,-0.5760915875434875,Option A (first),B,A,Option B,A,False
+5,10,"(1, 1, 2, 1, 1, 2)",9,13,"Choose between:
+Option A - $2500 with a 35% chance, $0 with a 65% chance.
+Option B - $3000 with a 34% chance, $0 with a 66% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $2500 with certainty.
+Option B - $3000 with a 34% chance, $2500 with a 65% chance, $0 with a 1% chance.
+What is your choice?
+Answer:",1,1,2,2,target,better_expected_value,-0.3164957463741302,-0.3487418591976166,Option A (first),A,A,A,A,True
+6,12,"(1, 1, 2, 1, 2, 1)",12,18,"Choose between:
+Option A - 34% to win $3000, 66% to win $0.
+Option B - $2500 with a 35% chance, $0 with a 65% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - 34% to win $3000, 65% to win $2500, 1% to win $0.
+Option B - $2500 with certainty.
+What is your choice?
+Answer:",1,1,2,1,target,better_expected_value,-0.7669304013252258,-0.5085538029670715,Option B (second),A,A,Option A,Option A,True
+7,14,"(1, 1, 2, 1, 2, 2)",13,19,"Choose between:
+Option A - $2500 with a 35% chance, $0 with a 65% chance.
+Option B - 34% to win $3000, 66% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $2500 with certainty.
+Option B - 34% to win $3000, 65% to win $2500, 1% to win $0.
+What is your choice?
+Answer:",1,1,2,2,target,better_expected_value,-0.038130234926939,-0.225582554936409,Option A (first),A,A,A,A,True
+8,15,"(1, 1, 2, 1, 2, 2)",15,21,"Choose between:
+Option A - 35% to win $2500, 65% to win $0.
+Option B - 34% to win $3000, 66% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $2500 for sure.
+Option B - 34% to win $3000, 65% to win $2500, 1% to win $0.
+What is your choice?
+Answer:",1,1,2,2,target,better_expected_value,-0.5415599942207336,-0.3870271742343902,Option A (first),B,A,Option B,A,False
+9,20,"(1, 1, 3, 1, 2, 1)",20,30,"Choose between:
+Option A - 35% to win $3500, 65% to win $0.
+Option B - $2600 with a 36% chance, $0 with a 64% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - 35% to win $3500, 64% to win $2600, 1% to win $0.
+Option B - $2600 with certainty.
+What is your choice?
+Answer:",1,1,3,1,target,better_expected_value,-0.1002510115504264,-0.5508265495300293,Option B (second),A,A,Option A,A,True
+10,23,"(1, 1, 3, 1, 2, 2)",23,33,"Choose between:
+Option A - 36% to win $2600, 64% to win $0.
+Option B - 35% to win $3500, 65% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $2600 for sure.
+Option B - 35% to win $3500, 64% to win $2600, 1% to win $0.
+What is your choice?
+Answer:",1,1,3,2,target,better_expected_value,-0.7119101285934448,-0.4010332822799682,Option A (first),A,A,A,A,True
+11,24,"(1, 1, 4, 1, 1, 1)",24,36,"Choose between:
+Option A - $1000 with a 20% chance, $0 with a 80% chance.
+Option B - $800 with a 21% chance, $0 with a 79% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $1000 with a 20% chance, $800 with a 79% chance, $0 with a 1% chance.
+Option B - $800 with certainty.
+What is your choice?
+Answer:",1,1,4,1,target,better_expected_value,-0.5550523996353149,-0.2744776904582977,Option B (second),A,B,A,Option B,False
+12,27,"(1, 1, 4, 1, 1, 2)",27,39,"Choose between:
+Option A - 21% to win $800, 79% to win $0.
+Option B - $1000 with a 20% chance, $0 with a 80% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $800 for sure.
+Option B - $1000 with a 20% chance, $800 with a 79% chance, $0 with a 1% chance.
+What is your choice?
+Answer:",1,1,4,2,target,better_expected_value,-0.6468160152435303,-0.4004128277301788,Option A (first),B,A,B,A,False
+13,38,"(1, 1, 5, 1, 2, 2)",37,55,"Choose between:
+Option A - $850 with a 26% chance, $0 with a 74% chance.
+Option B - 25% to win $1000, 75% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $850 with certainty.
+Option B - 25% to win $1000, 74% to win $850, 1% to win $0.
+What is your choice?
+Answer:",1,1,5,2,target,better_expected_value,-0.4784096479415893,-0.3371548950672149,Option A (first),A,A,A,A,True
+14,41,"(1, 1, 6, 1, 1, 1)",42,62,"Choose between:
+Option A - $1500 with a 25% chance, $0 with a 75% chance.
+Option B - 26% to win $1300, 74% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $1500 with a 25% chance, $1300 with a 74% chance, $0 with a 1% chance.
+Option B - $1300 for sure.
+What is your choice?
+Answer:",1,1,6,1,target,better_expected_value,-0.3133649230003357,-0.2843657732009887,Option B (second),A,B,A,Option B,False
+15,43,"(1, 1, 6, 1, 1, 2)",43,63,"Choose between:
+Option A - 26% to win $1300, 74% to win $0.
+Option B - $1500 with a 25% chance, $0 with a 75% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $1300 for sure.
+Option B - $1500 with a 25% chance, $1300 with a 74% chance, $0 with a 1% chance.
+What is your choice?
+Answer:",1,1,6,2,target,better_expected_value,-0.2963851690292358,-0.2521906793117523,Option A (first),B,A,B,A,False
+16,46,"(1, 1, 6, 1, 2, 2)",45,67,"Choose between:
+Option A - $1300 with a 26% chance, $0 with a 74% chance.
+Option B - 25% to win $1500, 75% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $1300 with certainty.
+Option B - 25% to win $1500, 74% to win $1300, 1% to win $0.
+What is your choice?
+Answer:",1,1,6,2,target,better_expected_value,-0.589932918548584,-0.4243942201137543,Option A (first),A,A,A,A,True
+17,47,"(1, 1, 6, 1, 2, 2)",47,69,"Choose between:
+Option A - 26% to win $1300, 74% to win $0.
+Option B - 25% to win $1500, 75% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $1300 for sure.
+Option B - 25% to win $1500, 74% to win $1300, 1% to win $0.
+What is your choice?
+Answer:",1,1,6,2,target,better_expected_value,-0.2782872915267944,-0.5202299952507019,Option A (first),B,A,B,A,False
+18,51,"(1, 1, 7, 1, 1, 2)",51,75,"Choose between:
+Option A - 26% to win $4800, 74% to win $0.
+Option B - $5000 with a 25% chance, $0 with a 75% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $4800 for sure.
+Option B - $5000 with a 25% chance, $4800 with a 74% chance, $0 with a 1% chance.
+What is your choice?
+Answer:",1,1,7,2,target,better_expected_value,-0.2310831397771835,-0.4743026196956634,Option A (first),A,A,A,A,True
+19,52,"(1, 1, 7, 1, 2, 1)",52,78,"Choose between:
+Option A - 25% to win $5000, 75% to win $0.
+Option B - $4800 with a 26% chance, $0 with a 74% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - 25% to win $5000, 74% to win $4800, 1% to win $0.
+Option B - $4800 with certainty.
+What is your choice?
+Answer:",1,1,7,1,target,better_expected_value,-0.6327077746391296,-0.5760915875434875,Option B (second),A,B,A,B,False
+20,53,"(1, 1, 7, 1, 2, 1)",54,80,"Choose between:
+Option A - 25% to win $5000, 75% to win $0.
+Option B - 26% to win $4800, 74% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - 25% to win $5000, 74% to win $4800, 1% to win $0.
+Option B - $4800 for sure.
+What is your choice?
+Answer:",1,1,7,1,target,better_expected_value,-0.7806206345558167,-0.9140743017196656,Option B (second),A,B,A,B,False
+21,55,"(1, 1, 7, 1, 2, 2)",55,81,"Choose between:
+Option A - 26% to win $4800, 74% to win $0.
+Option B - 25% to win $5000, 75% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $4800 for sure.
+Option B - 25% to win $5000, 74% to win $4800, 1% to win $0.
+What is your choice?
+Answer:",1,1,7,2,target,better_expected_value,-0.2789478003978729,-0.0790309682488441,Option A (first),B,A,B,A,False
+22,56,"(1, 2, 1, 1, 1, 1)",56,84,"Choose between:
+Option A - $4000 with a 20% chance, $0 with a 80% chance.
+Option B - $3000 with a 25% chance, $0 with a 75% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $4000 with a 80% chance, $0 with a 20% chance.
+Option B - $3000 with certainty.
+What is your choice?
+Answer:",1,2,1,1,target,better_expected_value,-0.1799708157777786,-0.5519697666168213,Option B (second),A,A,A,A,True
+23,59,"(1, 2, 1, 1, 1, 2)",59,87,"Choose between:
+Option A - 25% to win $3000, 75% to win $0.
+Option B - $4000 with a 20% chance, $0 with a 80% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $3000 for sure.
+Option B - $4000 with a 80% chance, $0 with a 20% chance.
+What is your choice?
+Answer:",1,2,1,2,target,better_expected_value,-0.4403689801692962,-0.5760211944580078,Option A (first),B,A,B,A,False
+24,63,"(1, 2, 1, 1, 2, 2)",63,93,"Choose between:
+Option A - 25% to win $3000, 75% to win $0.
+Option B - 20% to win $4000, 80% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $3000 for sure.
+Option B - 80% to win $4000, 20% to win $0.
+What is your choice?
+Answer:",1,2,1,2,target,better_expected_value,-1.0709458589553833,-0.2521906793117523,Option A (first),B,A,Option B,A,False
+25,64,"(1, 2, 2, 1, 1, 1)",64,96,"Choose between:
+Option A - $5000 with a 20% chance, $0 with a 80% chance.
+Option B - $3000 with a 25% chance, $0 with a 75% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $5000 with a 80% chance, $0 with a 20% chance.
+Option B - $3000 with certainty.
+What is your choice?
+Answer:",1,2,2,1,target,better_expected_value,-0.1130222082138061,-0.64512038230896,Option B (second),A,B,A,Option B,False
+26,67,"(1, 2, 2, 1, 1, 2)",67,99,"Choose between:
+Option A - 25% to win $3000, 75% to win $0.
+Option B - $5000 with a 20% chance, $0 with a 80% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $3000 for sure.
+Option B - $5000 with a 80% chance, $0 with a 20% chance.
+What is your choice?
+Answer:",1,2,2,2,target,better_expected_value,-0.5134514570236206,-0.3869609534740448,Option A (first),B,A,B,A,False
+27,68,"(1, 2, 2, 1, 2, 1)",68,102,"Choose between:
+Option A - 20% to win $5000, 80% to win $0.
+Option B - $3000 with a 25% chance, $0 with a 75% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - 80% to win $5000, 20% to win $0.
+Option B - $3000 with certainty.
+What is your choice?
+Answer:",1,2,2,1,target,better_expected_value,-0.5249699950218201,-0.6937280297279358,Option B (second),A,B,Option A,B,False
+28,72,"(1, 2, 3, 1, 1, 1)",72,108,"Choose between:
+Option A - $6000 with a 20% chance, $0 with a 80% chance.
+Option B - $4000 with a 25% chance, $0 with a 75% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $6000 with a 80% chance, $0 with a 20% chance.
+Option B - $4000 with certainty.
+What is your choice?
+Answer:",1,2,3,1,target,better_expected_value,-0.1271261572837829,-0.6518409252166748,Option B (second),A,A,A,A,True
+29,75,"(1, 2, 3, 1, 1, 2)",75,111,"Choose between:
+Option A - 25% to win $4000, 75% to win $0.
+Option B - $6000 with a 20% chance, $0 with a 80% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $4000 for sure.
+Option B - $6000 with a 80% chance, $0 with a 20% chance.
+What is your choice?
+Answer:",1,2,3,2,target,better_expected_value,-0.3769232332706451,-0.9094723463058472,Option A (first),B,A,B,A,False
+30,80,"(1, 2, 4, 1, 1, 1)",80,120,"Choose between:
+Option A - $5000 with a 25% chance, $0 with a 75% chance.
+Option B - $4000 with a 30% chance, $0 with a 70% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $5000 with a 85% chance, $0 with a 15% chance.
+Option B - $4000 with certainty.
+What is your choice?
+Answer:",1,2,4,1,target,better_expected_value,-0.2520442008972168,-0.6272072196006775,Option B (second),A,B,A,Option B,False
+31,83,"(1, 2, 4, 1, 1, 2)",83,123,"Choose between:
+Option A - 30% to win $4000, 70% to win $0.
+Option B - $5000 with a 25% chance, $0 with a 75% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $4000 for sure.
+Option B - $5000 with a 85% chance, $0 with a 15% chance.
+What is your choice?
+Answer:",1,2,4,2,target,better_expected_value,-0.4190611541271209,-0.4288677275180816,Option A (first),B,A,Option B,A,False
+32,87,"(1, 2, 4, 1, 2, 2)",87,129,"Choose between:
+Option A - 30% to win $4000, 70% to win $0.
+Option B - 25% to win $5000, 75% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $4000 for sure.
+Option B - 85% to win $5000, 15% to win $0.
+What is your choice?
+Answer:",1,2,4,2,target,better_expected_value,-0.9176244139671326,-0.1009169071912765,Option A (first),B,A,Option B,A,False
+33,88,"(1, 2, 5, 1, 1, 1)",88,132,"Choose between:
+Option A - $6000 with a 30% chance, $0 with a 70% chance.
+Option B - $5000 with a 35% chance, $0 with a 65% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $6000 with a 85% chance, $0 with a 15% chance.
+Option B - $5000 with certainty.
+What is your choice?
+Answer:",1,2,5,1,target,better_expected_value,-0.0790599435567855,-0.5518767833709717,Option B (second),A,A,A,A,True
+34,91,"(1, 2, 5, 1, 1, 2)",91,135,"Choose between:
+Option A - 35% to win $5000, 65% to win $0.
+Option B - $6000 with a 30% chance, $0 with a 70% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $5000 for sure.
+Option B - $6000 with a 85% chance, $0 with a 15% chance.
+What is your choice?
+Answer:",1,2,5,2,target,better_expected_value,-0.4649685621261596,-0.4743070006370544,Option A (first),B,A,B,A,False
+35,92,"(1, 2, 5, 1, 2, 1)",92,138,"Choose between:
+Option A - 30% to win $6000, 70% to win $0.
+Option B - $5000 with a 35% chance, $0 with a 65% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - 85% to win $6000, 15% to win $0.
+Option B - $5000 with certainty.
+What is your choice?
+Answer:",1,2,5,1,target,better_expected_value,-1.0690854787826538,-0.523369312286377,Option B (second),A,A,A,A,True
+36,93,"(1, 2, 5, 1, 2, 1)",94,140,"Choose between:
+Option A - 30% to win $6000, 70% to win $0.
+Option B - 35% to win $5000, 65% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - 85% to win $6000, 15% to win $0.
+Option B - $5000 for sure.
+What is your choice?
+Answer:",1,2,5,1,target,better_expected_value,-0.8804168105125427,-0.4757410883903503,Option B (second),A,B,Option A,B,False
+37,95,"(1, 2, 5, 1, 2, 2)",95,141,"Choose between:
+Option A - 35% to win $5000, 65% to win $0.
+Option B - 30% to win $6000, 70% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $5000 for sure.
+Option B - 85% to win $6000, 15% to win $0.
+What is your choice?
+Answer:",1,2,5,2,target,better_expected_value,-1.1704822778701782,-0.1800906956195831,Option A (first),B,B,Option B,B,True
+38,96,"(1, 2, 6, 1, 1, 1)",96,144,"Choose between:
+Option A - $3000 with a 20% chance, $0 with a 80% chance.
+Option B - $2000 with a 25% chance, $0 with a 75% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $3000 with a 70% chance, $0 with a 30% chance.
+Option B - $2000 with certainty.
+What is your choice?
+Answer:",1,2,6,1,target,better_expected_value,-0.0430976562201976,-0.7345656752586365,Option B (second),A,B,A,Option B,False
+39,99,"(1, 2, 6, 1, 1, 2)",99,147,"Choose between:
+Option A - 25% to win $2000, 75% to win $0.
+Option B - $3000 with a 20% chance, $0 with a 80% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $2000 for sure.
+Option B - $3000 with a 70% chance, $0 with a 30% chance.
+What is your choice?
+Answer:",1,2,6,2,target,better_expected_value,-0.3980744779109955,-0.6326816082000732,Option A (first),B,A,B,A,False
+40,100,"(1, 2, 6, 1, 2, 1)",100,150,"Choose between:
+Option A - 20% to win $3000, 80% to win $0.
+Option B - $2000 with a 25% chance, $0 with a 75% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - 70% to win $3000, 30% to win $0.
+Option B - $2000 with certainty.
+What is your choice?
+Answer:",1,2,6,1,target,better_expected_value,-0.5767763257026672,-0.5235171318054199,Option B (second),A,B,Option A,B,False
+41,103,"(1, 2, 6, 1, 2, 2)",103,153,"Choose between:
+Option A - 25% to win $2000, 75% to win $0.
+Option B - 20% to win $3000, 80% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - $2000 for sure.
+Option B - 70% to win $3000, 30% to win $0.
+What is your choice?
+Answer:",1,2,6,2,target,better_expected_value,-1.0132189989089966,-0.1799047887325287,Option A (first),B,A,Option B,A,False
+42,104,"(1, 2, 7, 1, 1, 1)",104,156,"Choose between:
+Option A - $2000 with a 15% chance, $0 with a 85% chance.
+Option B - $1000 with a 20% chance, $0 with a 80% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - $2000 with a 60% chance, $0 with a 40% chance.
+Option B - $1000 with certainty.
+What is your choice?
+Answer:",1,2,7,1,target,better_expected_value,-0.1006481051445007,-0.616568922996521,Option B (second),A,A,A,A,True
+43,108,"(1, 2, 7, 1, 2, 1)",108,162,"Choose between:
+Option A - 15% to win $2000, 85% to win $0.
+Option B - $1000 with a 20% chance, $0 with a 80% chance.
+What is your choice?
+Answer:","Choose between:
+Option A - 60% to win $2000, 40% to win $0.
+Option B - $1000 with certainty.
+What is your choice?
+Answer:",1,2,7,1,target,better_expected_value,-0.1135495230555534,-0.6328210830688477,Option B (second),A,B,Option A,B,False
+44,109,"(1, 2, 7, 1, 2, 1)",110,164,"Choose between:
+Option A - 15% to win $2000, 85% to win $0.
+Option B - 20% to win $1000, 80% to win $0.
+What is your choice?
+Answer:","Choose between:
+Option A - 60% to win $2000, 40% to win $0.
+Option B - $1000 for sure.
+What is your choice?
+Answer:",1,2,7,1,target,better_expected_value,-0.738570511341095,-0.8729603290557861,Option B (second),A,B,A,B,False
+45,112,"(2, 1, 1, 1, 1, 1)",112,168,"Below you will find two options for getting a prize.
+Option A - $2500 with a 33% chance, $0 with a 67% chance.
+Option B - $2400 with a 34% chance, $0 with a 66% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $2500 with a 33% chance, $2400 with a 66% chance, $0 with a 1% chance.
+Option B - $2400 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,1,1,target,better_expected_value,-0.2811974585056305,-0.2744776904582977,Option B (second),A,A,A,A,True
+46,115,"(2, 1, 1, 1, 1, 2)",115,171,"Below you will find two options for getting a prize.
+Option A - 34% to win $2400, 66% to win $0.
+Option B - $2500 with a 33% chance, $0 with a 67% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $2400 for sure.
+Option B - $2500 with a 33% chance, $2400 with a 66% chance, $0 with a 1% chance.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,1,2,target,better_expected_value,-0.3936914801597595,-0.8202126622200012,Option A (first),B,A,B,A,False
+47,116,"(2, 1, 1, 1, 2, 1)",116,174,"Below you will find two options for getting a prize.
+Option A - 33% to win $2500, 67% to win $0.
+Option B - $2400 with a 34% chance, $0 with a 66% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 33% to win $2500, 66% to win $2400, 1% to win $0.
+Option B - $2400 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,1,1,target,better_expected_value,-0.9931837916374208,-0.9781692624092102,Option B (second),A,B,A,B,False
+48,117,"(2, 1, 1, 1, 2, 1)",118,176,"Below you will find two options for getting a prize.
+Option A - 33% to win $2500, 67% to win $0.
+Option B - 34% to win $2400, 66% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 33% to win $2500, 66% to win $2400, 1% to win $0.
+Option B - $2400 for sure.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,1,1,target,better_expected_value,-0.905716359615326,-0.459250271320343,Option B (second),A,B,A,B,False
+49,120,"(2, 1, 2, 1, 1, 1)",120,180,"Below you will find two options for getting a prize.
+Option A - $3000 with a 34% chance, $0 with a 66% chance.
+Option B - $2500 with a 35% chance, $0 with a 65% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $3000 with a 34% chance, $2500 with a 65% chance, $0 with a 1% chance.
+Option B - $2500 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,2,1,target,better_expected_value,-0.3133152425289154,-0.3333489894866943,Option B (second),A,B,A,Option B,False
+50,124,"(2, 1, 2, 1, 2, 1)",124,186,"Below you will find two options for getting a prize.
+Option A - 34% to win $3000, 66% to win $0.
+Option B - $2500 with a 35% chance, $0 with a 65% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 34% to win $3000, 65% to win $2500, 1% to win $0.
+Option B - $2500 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,2,1,target,better_expected_value,-0.038130234926939,-0.9008004069328308,Option B (second),A,B,A,B,False
+51,125,"(2, 1, 2, 1, 2, 1)",126,188,"Below you will find two options for getting a prize.
+Option A - 34% to win $3000, 66% to win $0.
+Option B - 35% to win $2500, 65% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 34% to win $3000, 65% to win $2500, 1% to win $0.
+Option B - $2500 for sure.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,2,1,target,better_expected_value,-0.7472242712974548,-0.3938757479190826,Option B (second),A,B,A,B,False
+52,139,"(2, 1, 4, 1, 1, 2)",139,207,"Below you will find two options for getting a prize.
+Option A - 21% to win $800, 79% to win $0.
+Option B - $1000 with a 20% chance, $0 with a 80% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $800 for sure.
+Option B - $1000 with a 20% chance, $800 with a 79% chance, $0 with a 1% chance.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,4,2,target,better_expected_value,-0.223403587937355,-0.7822535037994385,Option A (first),B,A,B,A,False
+53,140,"(2, 1, 4, 1, 2, 1)",140,210,"Below you will find two options for getting a prize.
+Option A - 20% to win $1000, 80% to win $0.
+Option B - $800 with a 21% chance, $0 with a 79% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 20% to win $1000, 79% to win $800, 1% to win $0.
+Option B - $800 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,4,1,target,better_expected_value,-0.3197691142559051,-0.5739141702651978,Option B (second),A,B,A,B,False
+54,141,"(2, 1, 4, 1, 2, 1)",142,212,"Below you will find two options for getting a prize.
+Option A - 20% to win $1000, 80% to win $0.
+Option B - 21% to win $800, 79% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 20% to win $1000, 79% to win $800, 1% to win $0.
+Option B - $800 for sure.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,4,1,target,better_expected_value,-0.3177854120731354,-0.4004128277301788,Option B (second),A,B,A,B,False
+55,144,"(2, 1, 5, 1, 1, 1)",144,216,"Below you will find two options for getting a prize.
+Option A - $1000 with a 25% chance, $0 with a 75% chance.
+Option B - $850 with a 26% chance, $0 with a 74% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $1000 with a 25% chance, $850 with a 74% chance, $0 with a 1% chance.
+Option B - $850 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,5,1,target,better_expected_value,-0.6326246857643127,-0.2523725032806396,Option B (second),A,A,A,A,True
+56,147,"(2, 1, 5, 1, 1, 2)",147,219,"Below you will find two options for getting a prize.
+Option A - 26% to win $850, 74% to win $0.
+Option B - $1000 with a 25% chance, $0 with a 75% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $850 for sure.
+Option B - $1000 with a 25% chance, $850 with a 74% chance, $0 with a 1% chance.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,5,2,target,better_expected_value,-0.2377854585647583,-0.5733300447463989,Option A (first),B,A,B,A,False
+57,148,"(2, 1, 5, 1, 2, 1)",148,222,"Below you will find two options for getting a prize.
+Option A - 25% to win $1000, 75% to win $0.
+Option B - $850 with a 26% chance, $0 with a 74% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 25% to win $1000, 74% to win $850, 1% to win $0.
+Option B - $850 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,5,1,target,better_expected_value,-0.5330697894096375,-0.8585424423217773,Option B (second),A,B,A,B,False
+58,149,"(2, 1, 5, 1, 2, 1)",150,224,"Below you will find two options for getting a prize.
+Option A - 25% to win $1000, 75% to win $0.
+Option B - 26% to win $850, 74% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 25% to win $1000, 74% to win $850, 1% to win $0.
+Option B - $850 for sure.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,5,1,target,better_expected_value,-0.3364568054676056,-0.5202299952507019,Option B (second),A,B,A,B,False
+59,151,"(2, 1, 5, 1, 2, 2)",151,225,"Below you will find two options for getting a prize.
+Option A - 26% to win $850, 74% to win $0.
+Option B - 25% to win $1000, 75% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $850 for sure.
+Option B - 25% to win $1000, 74% to win $850, 1% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,5,2,target,better_expected_value,-0.2177534699440002,-0.6277261972427368,Option A (first),B,A,B,A,False
+60,152,"(2, 1, 6, 1, 1, 1)",152,228,"Below you will find two options for getting a prize.
+Option A - $1500 with a 25% chance, $0 with a 75% chance.
+Option B - $1300 with a 26% chance, $0 with a 74% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $1500 with a 25% chance, $1300 with a 74% chance, $0 with a 1% chance.
+Option B - $1300 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,6,1,target,better_expected_value,-0.0297733284533023,-0.3108928501605987,Option B (second),A,B,A,Option B,False
+61,155,"(2, 1, 6, 1, 1, 2)",155,231,"Below you will find two options for getting a prize.
+Option A - 26% to win $1300, 74% to win $0.
+Option B - $1500 with a 25% chance, $0 with a 75% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $1300 for sure.
+Option B - $1500 with a 25% chance, $1300 with a 74% chance, $0 with a 1% chance.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,6,2,target,better_expected_value,-0.3961742222309112,-0.630264937877655,Option A (first),B,A,B,A,False
+62,156,"(2, 1, 6, 1, 2, 1)",156,234,"Below you will find two options for getting a prize.
+Option A - 25% to win $1500, 75% to win $0.
+Option B - $1300 with a 26% chance, $0 with a 74% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 25% to win $1500, 74% to win $1300, 1% to win $0.
+Option B - $1300 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,6,1,target,better_expected_value,-0.5835425853729248,-0.9247717261314392,Option B (second),A,B,A,B,False
+63,157,"(2, 1, 6, 1, 2, 1)",158,236,"Below you will find two options for getting a prize.
+Option A - 25% to win $1500, 75% to win $0.
+Option B - 26% to win $1300, 74% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 25% to win $1500, 74% to win $1300, 1% to win $0.
+Option B - $1300 for sure.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,6,1,target,better_expected_value,-0.5550523996353149,-0.4255405366420746,Option B (second),A,B,A,B,False
+64,159,"(2, 1, 6, 1, 2, 2)",159,237,"Below you will find two options for getting a prize.
+Option A - 26% to win $1300, 74% to win $0.
+Option B - 25% to win $1500, 75% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $1300 for sure.
+Option B - 25% to win $1500, 74% to win $1300, 1% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,6,2,target,better_expected_value,-0.5068498253822327,-0.6748899221420288,Option A (first),B,A,B,A,False
+65,163,"(2, 1, 7, 1, 1, 2)",163,243,"Below you will find two options for getting a prize.
+Option A - 26% to win $4800, 74% to win $0.
+Option B - $5000 with a 25% chance, $0 with a 75% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $4800 for sure.
+Option B - $5000 with a 25% chance, $4800 with a 74% chance, $0 with a 1% chance.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,7,2,target,better_expected_value,-0.2987264990806579,-0.6289511322975159,Option A (first),B,A,B,A,False
+66,164,"(2, 1, 7, 1, 2, 1)",164,246,"Below you will find two options for getting a prize.
+Option A - 25% to win $5000, 75% to win $0.
+Option B - $4800 with a 26% chance, $0 with a 74% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 25% to win $5000, 74% to win $4800, 1% to win $0.
+Option B - $4800 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,7,1,target,better_expected_value,-0.5150957107543945,-0.7613970637321472,Option B (second),A,B,A,B,False
+67,165,"(2, 1, 7, 1, 2, 1)",166,248,"Below you will find two options for getting a prize.
+Option A - 25% to win $5000, 75% to win $0.
+Option B - 26% to win $4800, 74% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 25% to win $5000, 74% to win $4800, 1% to win $0.
+Option B - $4800 for sure.
+Given that these are the only options, which one would you choose?
+Answer:",2,1,7,1,target,better_expected_value,-0.380639910697937,-0.3984386920928955,Option B (second),A,B,A,B,False
+68,171,"(2, 2, 1, 1, 1, 2)",171,255,"Below you will find two options for getting a prize.
+Option A - 25% to win $3000, 75% to win $0.
+Option B - $4000 with a 20% chance, $0 with a 80% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $3000 for sure.
+Option B - $4000 with a 80% chance, $0 with a 20% chance.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,1,2,target,better_expected_value,-0.6151169538497925,-0.7377694845199585,Option A (first),B,A,B,A,False
+69,172,"(2, 2, 1, 1, 2, 1)",172,258,"Below you will find two options for getting a prize.
+Option A - 20% to win $4000, 80% to win $0.
+Option B - $3000 with a 25% chance, $0 with a 75% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 80% to win $4000, 20% to win $0.
+Option B - $3000 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,1,1,target,better_expected_value,-0.3673528134822845,-0.6810669302940369,Option B (second),A,B,A,B,False
+70,173,"(2, 2, 1, 1, 2, 1)",174,260,"Below you will find two options for getting a prize.
+Option A - 20% to win $4000, 80% to win $0.
+Option B - 25% to win $3000, 75% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 80% to win $4000, 20% to win $0.
+Option B - $3000 for sure.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,1,1,target,better_expected_value,-0.3008892238140106,-0.3008670806884765,Option B (second),A,B,A,B,False
+71,179,"(2, 2, 2, 1, 1, 2)",179,267,"Below you will find two options for getting a prize.
+Option A - 25% to win $3000, 75% to win $0.
+Option B - $5000 with a 20% chance, $0 with a 80% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $3000 for sure.
+Option B - $5000 with a 80% chance, $0 with a 20% chance.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,2,2,target,better_expected_value,-0.5902524590492249,-0.8084858059883118,Option A (first),B,A,B,A,False
+72,180,"(2, 2, 2, 1, 2, 1)",180,270,"Below you will find two options for getting a prize.
+Option A - 20% to win $5000, 80% to win $0.
+Option B - $3000 with a 25% chance, $0 with a 75% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 80% to win $5000, 20% to win $0.
+Option B - $3000 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,2,1,target,better_expected_value,-0.34908127784729,-0.6868364214897156,Option B (second),A,B,A,B,False
+73,181,"(2, 2, 2, 1, 2, 1)",182,272,"Below you will find two options for getting a prize.
+Option A - 20% to win $5000, 80% to win $0.
+Option B - 25% to win $3000, 75% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 80% to win $5000, 20% to win $0.
+Option B - $3000 for sure.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,2,1,target,better_expected_value,-0.3488866984844208,-0.3767902553081512,Option B (second),A,B,A,B,False
+74,187,"(2, 2, 3, 1, 1, 2)",187,279,"Below you will find two options for getting a prize.
+Option A - 25% to win $4000, 75% to win $0.
+Option B - $6000 with a 20% chance, $0 with a 80% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $4000 for sure.
+Option B - $6000 with a 80% chance, $0 with a 20% chance.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,3,2,target,better_expected_value,-0.5536437034606934,-0.6497518420219421,Option A (first),B,A,B,A,False
+75,188,"(2, 2, 3, 1, 2, 1)",188,282,"Below you will find two options for getting a prize.
+Option A - 20% to win $6000, 80% to win $0.
+Option B - $4000 with a 25% chance, $0 with a 75% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 80% to win $6000, 20% to win $0.
+Option B - $4000 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,3,1,target,better_expected_value,-0.5140206217765808,-0.6819512248039246,Option B (second),A,B,A,B,False
+76,189,"(2, 2, 3, 1, 2, 1)",190,284,"Below you will find two options for getting a prize.
+Option A - 20% to win $6000, 80% to win $0.
+Option B - 25% to win $4000, 75% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 80% to win $6000, 20% to win $0.
+Option B - $4000 for sure.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,3,1,target,better_expected_value,-0.4427106082439422,-0.3500016629695892,Option B (second),A,B,A,B,False
+77,195,"(2, 2, 4, 1, 1, 2)",195,291,"Below you will find two options for getting a prize.
+Option A - 30% to win $4000, 70% to win $0.
+Option B - $5000 with a 25% chance, $0 with a 75% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $4000 for sure.
+Option B - $5000 with a 85% chance, $0 with a 15% chance.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,4,2,target,better_expected_value,-0.4517858624458313,-0.9128589630126952,Option A (first),B,A,B,A,False
+78,196,"(2, 2, 4, 1, 2, 1)",196,294,"Below you will find two options for getting a prize.
+Option A - 25% to win $5000, 75% to win $0.
+Option B - $4000 with a 30% chance, $0 with a 70% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 85% to win $5000, 15% to win $0.
+Option B - $4000 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,4,1,target,better_expected_value,-0.3860438764095306,-0.8887878656387329,Option B (second),A,B,A,B,False
+79,197,"(2, 2, 4, 1, 2, 1)",198,296,"Below you will find two options for getting a prize.
+Option A - 25% to win $5000, 75% to win $0.
+Option B - 30% to win $4000, 70% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 85% to win $5000, 15% to win $0.
+Option B - $4000 for sure.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,4,1,target,better_expected_value,-0.3440129160881042,-0.3584454655647278,Option B (second),A,B,A,B,False
+80,203,"(2, 2, 5, 1, 1, 2)",203,303,"Below you will find two options for getting a prize.
+Option A - 35% to win $5000, 65% to win $0.
+Option B - $6000 with a 30% chance, $0 with a 70% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $5000 for sure.
+Option B - $6000 with a 85% chance, $0 with a 15% chance.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,5,2,target,better_expected_value,-0.4493250846862793,-0.7186272740364075,Option A (first),B,A,B,A,False
+81,204,"(2, 2, 5, 1, 2, 1)",204,306,"Below you will find two options for getting a prize.
+Option A - 30% to win $6000, 70% to win $0.
+Option B - $5000 with a 35% chance, $0 with a 65% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 85% to win $6000, 15% to win $0.
+Option B - $5000 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,5,1,target,better_expected_value,-0.3831700086593628,-0.7939847707748413,Option B (second),A,B,A,B,False
+82,205,"(2, 2, 5, 1, 2, 1)",206,308,"Below you will find two options for getting a prize.
+Option A - 30% to win $6000, 70% to win $0.
+Option B - 35% to win $5000, 65% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 85% to win $6000, 15% to win $0.
+Option B - $5000 for sure.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,5,1,target,better_expected_value,-0.2811729609966278,-0.3932754099369049,Option B (second),A,B,A,B,False
+83,211,"(2, 2, 6, 1, 1, 2)",211,315,"Below you will find two options for getting a prize.
+Option A - 25% to win $2000, 75% to win $0.
+Option B - $3000 with a 20% chance, $0 with a 80% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - $2000 for sure.
+Option B - $3000 with a 70% chance, $0 with a 30% chance.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,6,2,target,better_expected_value,-0.3743786215782165,-0.6656611561775208,Option A (first),B,A,B,A,False
+84,212,"(2, 2, 6, 1, 2, 1)",212,318,"Below you will find two options for getting a prize.
+Option A - 20% to win $3000, 80% to win $0.
+Option B - $2000 with a 25% chance, $0 with a 75% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 70% to win $3000, 30% to win $0.
+Option B - $2000 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,6,1,target,better_expected_value,-0.3000307083129883,-0.7783128619194031,Option B (second),A,B,A,B,False
+85,213,"(2, 2, 6, 1, 2, 1)",214,320,"Below you will find two options for getting a prize.
+Option A - 20% to win $3000, 80% to win $0.
+Option B - 25% to win $2000, 75% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 70% to win $3000, 30% to win $0.
+Option B - $2000 for sure.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,6,1,target,better_expected_value,-0.2482703924179077,-0.4010332822799682,Option B (second),A,B,A,B,False
+86,220,"(2, 2, 7, 1, 2, 1)",220,330,"Below you will find two options for getting a prize.
+Option A - 15% to win $2000, 85% to win $0.
+Option B - $1000 with a 20% chance, $0 with a 80% chance.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 60% to win $2000, 40% to win $0.
+Option B - $1000 with certainty.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,7,1,target,better_expected_value,-0.3135581016540527,-0.7422600388526917,Option B (second),A,B,A,B,False
+87,221,"(2, 2, 7, 1, 2, 1)",222,332,"Below you will find two options for getting a prize.
+Option A - 15% to win $2000, 85% to win $0.
+Option B - 20% to win $1000, 80% to win $0.
+Given that these are the only options, which one would you choose?
+Answer:","Below you will find two options for getting a prize.
+Option A - 60% to win $2000, 40% to win $0.
+Option B - $1000 for sure.
+Given that these are the only options, which one would you choose?
+Answer:",2,2,7,1,target,better_expected_value,-0.2441476285457611,-0.3523596525192261,Option B (second),A,B,A,B,False
+88,231,"(3, 1, 1, 1, 2, 2)",231,345,"Which of the following would you prefer?
+Option A - 34% to win $2400, 66% to win $0.
+Option B - 33% to win $2500, 67% to win $0.
+Answer:","Which of the following would you prefer?
+Option A - $2400 for sure.
+Option B - 33% to win $2500, 66% to win $2400, 1% to win $0.
+Answer:",3,1,1,2,target,better_expected_value,-0.0658067911863327,-0.3923795223236084,Option A (first),B,A,B,A,False
+89,239,"(3, 1, 2, 1, 2, 2)",239,357,"Which of the following would you prefer?
+Option A - 35% to win $2500, 65% to win $0.
+Option B - 34% to win $3000, 66% to win $0.
+Answer:","Which of the following would you prefer?
+Option A - $2500 for sure.
+Option B - 34% to win $3000, 65% to win $2500, 1% to win $0.
+Answer:",3,1,2,2,target,better_expected_value,-0.4991630613803863,-0.5253763794898987,Option A (first),B,A,B,A,False
+90,243,"(3, 1, 3, 1, 1, 2)",243,363,"Which of the following would you prefer?
+Option A - 36% to win $2600, 64% to win $0.
+Option B - $3500 with a 35% chance, $0 with a 65% chance.
+Answer:","Which of the following would you prefer?
+Option A - $2600 for sure.
+Option B - $3500 with a 35% chance, $2600 with a 64% chance, $0 with a 1% chance.
+Answer:",3,1,3,2,target,better_expected_value,-0.0305161569267511,-0.7285224795341492,Option A (first),A,A,A,A,True
+91,248,"(3, 1, 4, 1, 1, 1)",248,372,"Which of the following would you prefer?
+Option A - $1000 with a 20% chance, $0 with a 80% chance.
+Option B - $800 with a 21% chance, $0 with a 79% chance.
+Answer:","Which of the following would you prefer?
+Option A - $1000 with a 20% chance, $800 with a 79% chance, $0 with a 1% chance.
+Option B - $800 with certainty.
+Answer:",3,1,4,1,target,better_expected_value,-0.5504828095436096,-0.1868719756603241,Option B (second),A,B,A,B,False
+92,251,"(3, 1, 4, 1, 1, 2)",251,375,"Which of the following would you prefer?
+Option A - 21% to win $800, 79% to win $0.
+Option B - $1000 with a 20% chance, $0 with a 80% chance.
+Answer:","Which of the following would you prefer?
+Option A - $800 for sure.
+Option B - $1000 with a 20% chance, $800 with a 79% chance, $0 with a 1% chance.
+Answer:",3,1,4,2,target,better_expected_value,-0.0528246387839317,-0.5690674781799316,Option A (first),B,A,B,A,False
+93,252,"(3, 1, 4, 1, 2, 1)",252,378,"Which of the following would you prefer?
+Option A - 20% to win $1000, 80% to win $0.
+Option B - $800 with a 21% chance, $0 with a 79% chance.
+Answer:","Which of the following would you prefer?
+Option A - 20% to win $1000, 79% to win $800, 1% to win $0.
+Option B - $800 with certainty.
+Answer:",3,1,4,1,target,better_expected_value,-0.5161202549934387,-0.3946027159690857,Option B (second),A,B,A,B,False
+94,253,"(3, 1, 4, 1, 2, 1)",254,380,"Which of the following would you prefer?
+Option A - 20% to win $1000, 80% to win $0.
+Option B - 21% to win $800, 79% to win $0.
+Answer:","Which of the following would you prefer?
+Option A - 20% to win $1000, 79% to win $800, 1% to win $0.
+Option B - $800 for sure.
+Answer:",3,1,4,1,target,better_expected_value,-0.6718047261238098,-0.2508747279644012,Option B (second),A,B,A,B,False
+95,255,"(3, 1, 4, 1, 2, 2)",255,381,"Which of the following would you prefer?
+Option A - 21% to win $800, 79% to win $0.
+Option B - 20% to win $1000, 80% to win $0.
+Answer:","Which of the following would you prefer?
+Option A - $800 for sure.
+Option B - 20% to win $1000, 79% to win $800, 1% to win $0.
+Answer:",3,1,4,2,target,better_expected_value,-0.1513763070106506,-0.5051554441452026,Option A (first),B,A,B,A,False
+96,256,"(3, 1, 5, 1, 1, 1)",256,384,"Which of the following would you prefer?
+Option A - $1000 with a 25% chance, $0 with a 75% chance.
+Option B - $850 with a 26% chance, $0 with a 74% chance.
+Answer:","Which of the following would you prefer?
+Option A - $1000 with a 25% chance, $850 with a 74% chance, $0 with a 1% chance.
+Option B - $850 with certainty.
+Answer:",3,1,5,1,target,better_expected_value,-0.4956597685813904,-0.2323537468910217,Option B (second),A,B,A,B,False
+97,258,"(3, 1, 5, 1, 1, 2)",257,385,"Which of the following would you prefer?
+Option A - $850 with a 26% chance, $0 with a 74% chance.
+Option B - $1000 with a 25% chance, $0 with a 75% chance.
+Answer:","Which of the following would you prefer?
+Option A - $850 with certainty.
+Option B - $1000 with a 25% chance, $850 with a 74% chance, $0 with a 1% chance.
+Answer:",3,1,5,2,target,better_expected_value,-0.0983364582061767,-0.6956109404563904,Option A (first),B,A,B,A,False
+98,259,"(3, 1, 5, 1, 1, 2)",259,387,"Which of the following would you prefer?
+Option A - 26% to win $850, 74% to win $0.
+Option B - $1000 with a 25% chance, $0 with a 75% chance.
+Answer:","Which of the following would you prefer?
+Option A - $850 for sure.
+Option B - $1000 with a 25% chance, $850 with a 74% chance, $0 with a 1% chance.
+Answer:",3,1,5,2,target,better_expected_value,-0.0812006816267967,-0.7486781477928162,Option A (first),B,A,B,A,False
+99,260,"(3, 1, 5, 1, 2, 1)",260,390,"Which of the following would you prefer?
+Option A - 25% to win $1000, 75% to win $0.
+Option B - $850 with a 26% chance, $0 with a 74% chance.
+Answer:","Which of the following would you prefer?
+Option A - 25% to win $1000, 74% to win $850, 1% to win $0.
+Option B - $850 with certainty.
+Answer:",3,1,5,1,target,better_expected_value,-0.6888900399208069,-0.5953350067138672,Option B (second),A,A,A,A,True
+100,263,"(3, 1, 5, 1, 2, 2)",263,393,"Which of the following would you prefer?
+Option A - 26% to win $850, 74% to win $0.
+Option B - 25% to win $1000, 75% to win $0.
+Answer:","Which of the following would you prefer?
+Option A - $850 for sure.
+Option B - 25% to win $1000, 74% to win $850, 1% to win $0.
+Answer:",3,1,5,2,target,better_expected_value,-0.1520262211561203,-0.4307758808135986,Option A (first),B,A,B,A,False
+101,267,"(3, 1, 6, 1, 1, 2)",267,399,"Which of the following would you prefer?
+Option A - 26% to win $1300, 74% to win $0.
+Option B - $1500 with a 25% chance, $0 with a 75% chance.
+Answer:","Which of the following would you prefer?
+Option A - $1300 for sure.
+Option B - $1500 with a 25% chance, $1300 with a 74% chance, $0 with a 1% chance.
+Answer:",3,1,6,2,target,better_expected_value,-0.0412161275744438,-0.6540583968162537,Option A (first),B,A,B,A,False
+102,271,"(3, 1, 6, 1, 2, 2)",271,405,"Which of the following would you prefer?
+Option A - 26% to win $1300, 74% to win $0.
+Option B - 25% to win $1500, 75% to win $0.
+Answer:","Which of the following would you prefer?
+Option A - $1300 for sure.
+Option B - 25% to win $1500, 74% to win $1300, 1% to win $0.
+Answer:",3,1,6,2,target,better_expected_value,-0.1924751847982406,-0.2272296994924545,Option A (first),B,A,B,A,False
+103,275,"(3, 1, 7, 1, 1, 2)",275,411,"Which of the following would you prefer?
+Option A - 26% to win $4800, 74% to win $0.
+Option B - $5000 with a 25% chance, $0 with a 75% chance.
+Answer:","Which of the following would you prefer?
+Option A - $4800 for sure.
+Option B - $5000 with a 25% chance, $4800 with a 74% chance, $0 with a 1% chance.
+Answer:",3,1,7,2,target,better_expected_value,-0.0301372930407524,-0.6051941514015198,Option A (first),B,A,B,A,False
+104,276,"(3, 1, 7, 1, 2, 1)",276,414,"Which of the following would you prefer?
+Option A - 25% to win $5000, 75% to win $0.
+Option B - $4800 with a 26% chance, $0 with a 74% chance.
+Answer:","Which of the following would you prefer?
+Option A - 25% to win $5000, 74% to win $4800, 1% to win $0.
+Option B - $4800 with certainty.
+Answer:",3,1,7,1,target,better_expected_value,-0.6281809210777283,-0.6968831419944763,Option B (second),A,B,A,B,False
+105,277,"(3, 1, 7, 1, 2, 1)",278,416,"Which of the following would you prefer?
+Option A - 25% to win $5000, 75% to win $0.
+Option B - 26% to win $4800, 74% to win $0.
+Answer:","Which of the following would you prefer?
+Option A - 25% to win $5000, 74% to win $4800, 1% to win $0.
+Option B - $4800 for sure.
+Answer:",3,1,7,1,target,better_expected_value,-0.6279612183570862,-0.4929402768611908,Option B (second),A,B,A,B,False
+106,279,"(3, 1, 7, 1, 2, 2)",279,417,"Which of the following would you prefer?
+Option A - 26% to win $4800, 74% to win $0.
+Option B - 25% to win $5000, 75% to win $0.
+Answer:","Which of the following would you prefer?
+Option A - $4800 for sure.
+Option B - 25% to win $5000, 74% to win $4800, 1% to win $0.
+Answer:",3,1,7,2,target,better_expected_value,-0.1682269722223281,-0.2561278641223907,Option A (first),B,A,B,A,False
+107,283,"(3, 2, 1, 1, 1, 2)",283,423,"Which of the following would you prefer?
+Option A - 25% to win $3000, 75% to win $0.
+Option B - $4000 with a 20% chance, $0 with a 80% chance.
+Answer:","Which of the following would you prefer?
+Option A - $3000 for sure.
+Option B - $4000 with a 80% chance, $0 with a 20% chance.
+Answer:",3,2,1,2,target,better_expected_value,-0.1379638761281967,-0.4539318382740021,Option A (first),B,A,B,A,False
+108,291,"(3, 2, 2, 1, 1, 2)",291,435,"Which of the following would you prefer?
+Option A - 25% to win $3000, 75% to win $0.
+Option B - $5000 with a 20% chance, $0 with a 80% chance.
+Answer:","Which of the following would you prefer?
+Option A - $3000 for sure.
+Option B - $5000 with a 80% chance, $0 with a 20% chance.
+Answer:",3,2,2,2,target,better_expected_value,-0.093609482049942,-0.4783388674259186,Option A (first),B,A,B,A,False
+109,295,"(3, 2, 2, 1, 2, 2)",295,441,"Which of the following would you prefer?
+Option A - 25% to win $3000, 75% to win $0.
+Option B - 20% to win $5000, 80% to win $0.
+Answer:","Which of the following would you prefer?
+Option A - $3000 for sure.
+Option B - 80% to win $5000, 20% to win $0.
+Answer:",3,2,2,2,target,better_expected_value,-0.7570182085037231,-0.5508445501327515,Option A (first),B,A,B,A,False
+110,299,"(3, 2, 3, 1, 1, 2)",299,447,"Which of the following would you prefer?
+Option A - 25% to win $4000, 75% to win $0.
+Option B - $6000 with a 20% chance, $0 with a 80% chance.
+Answer:","Which of the following would you prefer?
+Option A - $4000 for sure.
+Option B - $6000 with a 80% chance, $0 with a 20% chance.
+Answer:",3,2,3,2,target,better_expected_value,-0.0987114161252975,-0.3091545104980469,Option A (first),B,A,B,A,False
+111,307,"(3, 2, 4, 1, 1, 2)",307,459,"Which of the following would you prefer?
+Option A - 30% to win $4000, 70% to win $0.
+Option B - $5000 with a 25% chance, $0 with a 75% chance.
+Answer:","Which of the following would you prefer?
+Option A - $4000 for sure.
+Option B - $5000 with a 85% chance, $0 with a 15% chance.
+Answer:",3,2,4,2,target,better_expected_value,-0.2592741250991821,-0.4900879263877868,Option A (first),B,A,B,A,False
+112,312,"(3, 2, 5, 1, 1, 1)",312,468,"Which of the following would you prefer?
+Option A - $6000 with a 30% chance, $0 with a 70% chance.
+Option B - $5000 with a 35% chance, $0 with a 65% chance.
+Answer:","Which of the following would you prefer?
+Option A - $6000 with a 85% chance, $0 with a 15% chance.
+Option B - $5000 with certainty.
+Answer:",3,2,5,1,target,better_expected_value,-0.5810443162918091,-0.5681986808776855,Option B (second),A,B,A,B,False
+113,315,"(3, 2, 5, 1, 1, 2)",315,471,"Which of the following would you prefer?
+Option A - 35% to win $5000, 65% to win $0.
+Option B - $6000 with a 30% chance, $0 with a 70% chance.
+Answer:","Which of the following would you prefer?
+Option A - $5000 for sure.
+Option B - $6000 with a 85% chance, $0 with a 15% chance.
+Answer:",3,2,5,2,target,better_expected_value,-0.2168446630239486,-0.4607242345809936,Option A (first),B,A,B,A,False
+114,320,"(3, 2, 6, 1, 1, 1)",320,480,"Which of the following would you prefer?
+Option A - $3000 with a 20% chance, $0 with a 80% chance.
+Option B - $2000 with a 25% chance, $0 with a 75% chance.
+Answer:","Which of the following would you prefer?
+Option A - $3000 with a 70% chance, $0 with a 30% chance.
+Option B - $2000 with certainty.
+Answer:",3,2,6,1,target,better_expected_value,-0.4210851788520813,-0.7389980554580688,Option B (second),A,B,A,B,False
+115,323,"(3, 2, 6, 1, 1, 2)",323,483,"Which of the following would you prefer?
+Option A - 25% to win $2000, 75% to win $0.
+Option B - $3000 with a 20% chance, $0 with a 80% chance.
+Answer:","Which of the following would you prefer?
+Option A - $2000 for sure.
+Option B - $3000 with a 70% chance, $0 with a 30% chance.
+Answer:",3,2,6,2,target,better_expected_value,-0.0917304530739784,-0.4438901245594024,Option A (first),B,A,B,A,False
+116,324,"(3, 2, 6, 1, 2, 1)",324,486,"Which of the following would you prefer?
+Option A - 20% to win $3000, 80% to win $0.
+Option B - $2000 with a 25% chance, $0 with a 75% chance.
+Answer:","Which of the following would you prefer?
+Option A - 70% to win $3000, 30% to win $0.
+Option B - $2000 with certainty.
+Answer:",3,2,6,1,target,better_expected_value,-0.567919909954071,-0.7074803113937378,Option B (second),A,B,A,B,False
+117,327,"(3, 2, 6, 1, 2, 2)",327,489,"Which of the following would you prefer?
+Option A - 25% to win $2000, 75% to win $0.
+Option B - 20% to win $3000, 80% to win $0.
+Answer:","Which of the following would you prefer?
+Option A - $2000 for sure.
+Option B - 70% to win $3000, 30% to win $0.
+Answer:",3,2,6,2,target,better_expected_value,-0.6009042263031006,-0.3073574304580688,Option A (first),B,A,B,A,False
+118,328,"(3, 2, 7, 1, 1, 1)",328,492,"Which of the following would you prefer?
+Option A - $2000 with a 15% chance, $0 with a 85% chance.
+Option B - $1000 with a 20% chance, $0 with a 80% chance.
+Answer:","Which of the following would you prefer?
+Option A - $2000 with a 60% chance, $0 with a 40% chance.
+Option B - $1000 with certainty.
+Answer:",3,2,7,1,target,better_expected_value,-0.4423896074295044,-0.5729659199714661,Option B (second),A,B,A,B,False
+119,333,"(3, 2, 7, 1, 2, 1)",334,500,"Which of the following would you prefer?
+Option A - 15% to win $2000, 85% to win $0.
+Option B - 20% to win $1000, 80% to win $0.
+Answer:","Which of the following would you prefer?
+Option A - 60% to win $2000, 40% to win $0.
+Option B - $1000 for sure.
+Answer:",3,2,7,1,target,better_expected_value,-0.3982783555984497,-0.504974901676178,Option B (second),A,B,A,B,False
