@@ -1,0 +1,8 @@
+,experiment_name,model,k_shot,normalize,bias_score,p_value,full_df,Undecided Treatment Certainty,Undecided Control,Target mean Prob Treatment,Target mean Prob Control,Non-Target mean Prob Treatment,Non-Target mean Prob Control,Treatment Option 1 Percentage,Control Option 1 Percentage,Treatment Option 2 Percentage,Control Option 2 Percentage,Treatment Option 3 Percentage,Control Option 3 Percentage
+0,Olmo-3-7B-Instruct | k_shot =0 | ,Olmo-3-7B-Instruct,0,False,0.260,0.000,"{'Olmo-3-7B-Instruct | k_shot =0 | ':                                                                 0                      1    ...                    501                    502
+Target is prize with certainty                               target  better_expected_value  ...  better_expected_value  better_expected_value
+Probabilities Target is prize with certainty              -0.211726              -0.759256  ...              -0.175361              -0.584516
+Target is risky too                           better_expected_value                 target  ...                   None                   None
+Probabilities Target is risky too                         -0.307357              -0.425021  ...                   None                   None
+
+[4 rows x 503 columns]}",0.000,0.000,69.370,63.330,64.460,63.830,0.780,0.790,0.220,0.210,0.000,0.000

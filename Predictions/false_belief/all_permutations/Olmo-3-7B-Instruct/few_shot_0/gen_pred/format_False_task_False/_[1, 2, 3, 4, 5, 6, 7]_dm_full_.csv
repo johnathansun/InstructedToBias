@@ -1,0 +1,6 @@
+,Type,Real-life Objects,Non-real Objects
+0,Valid-Believable,1.0,1.0
+1,Valid-Unbelievable,1.0,1.0
+2,Invalid-Believable,1.0,0.7692307692307693
+3,Invalid-Unbelievable,0.2222222222222222,0.4166666666666667
+4,Undecided,0.0,0.0

@@ -1,0 +1,15 @@
+,experiment_name,model,k_shot,normalize,bias_score,p_value,full_df,real_valid_acceptance,real_invalid_acceptance,non_real_valid_acceptance,non_real_invalid_acceptance,Real Accuracy,Non-Real Accuracy,Real Valid-Believable Accuracy,Real Valid-Unbelievable Accuracy,Real Invalid-Believable Accuracy,Real Invalid-Unbelievable Accuracy,Non-Real Invalid Accuracy,Undecided Real-life Objects,Undecided Non-real Objects,Real-life Objects Answer Prob,Non-real Objects Answer Prob,Treatment Option 1 Percentage,Control Option 1 Percentage,Treatment Option 2 Percentage,Control Option 2 Percentage,Treatment Option 3 Percentage,Control Option 3 Percentage,Belief Valid,Belief Invalid
+0,Olmo-3-7B-Instruct | k_shot =0 | ,OLMo-7B-Inst,0,False,"[0.0, 0.41]","(1.0, 0.017)","{'Olmo-3-7B-Instruct | k_shot =0 | ':       Valid    Believable  Percentage  log_prob             Option
+0   Invalid  Unbelievable        True -0.053297  Real-life Objects
+1     Valid  Unbelievable        True -0.532911  Real-life Objects
+2     Valid  Unbelievable        True -0.623716  Real-life Objects
+3   Invalid    Believable        True -0.217844  Real-life Objects
+4   Invalid  Unbelievable       False -0.115197  Real-life Objects
+..      ...           ...         ...       ...                ...
+45    Valid  Unbelievable        True -0.002054   Non-real Objects
+46  Invalid    Believable       False -0.457633   Non-real Objects
+47    Valid    Believable        True -0.678080   Non-real Objects
+48  Invalid    Believable        True -0.100739   Non-real Objects
+49  Invalid    Believable        True -0.095995   Non-real Objects
+
+[100 rows x 5 columns]}",1.000,0.611,1.000,0.593,0.694,0.704,1.000,1.000,0.000,0.778,0.407,0.000,0.000,78.618,82.684,0.280,0.200,0.720,0.800,0.000,0.000,0.000,0.410

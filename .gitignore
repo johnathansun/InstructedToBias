@@ -24,10 +24,10 @@ huggingface/.cache/models--google--flan-t5-xxl/blobs/d504e620baa0735c20601aa5e41
 huggingface/.cache/models--google--flan-t5-xxl/refs/main
 huggingface/.cache/models--google--flan-t5-xxl/snapshots/ad196ce8c46191d6a52592960835ff96d30152b5/config.json
 huggingface/.cache/tmptbzidune
-*.csv
+# *.csv
 *pyc
-*pdf
-*.png
+# *pdf
+# *.png
 # /Predictions
 /Predictions_test
 /huggingface

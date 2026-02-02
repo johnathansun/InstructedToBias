@@ -7486,5 +7486,349 @@
       ]
     },
     "human_or_right_answer": false
+  },
+  "221": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All flowers are reptiles.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 6,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.755364716053009
+        ],
+        [
+          "<|endoftext|>",
+          -0.06212334707379341
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "222": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "metadata": {
+      "premise_1": "All flowers are reptiles.",
+      "premise_2": "No flowers are animals.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 1,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Invalid",
+          -0.8565468192100525
+        ],
+        [
+          "<|endoftext|>",
+          -0.029823314398527145
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "223": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "invalid",
+    "metadata": {
+      "premise_1": "No flowers are animals.",
+      "premise_2": "All flowers are reptiles.",
+      "conclusion": "No reptiles are animals.",
+      "is_valid": false,
+      "is_believable": false,
+      "human_or_right_answer": false,
+      "is_permuted_option": 2,
+      "template": 7,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "invalid",
+          -0.9663495421409607
+        ],
+        [
+          "<|endoftext|>",
+          -5.936446541454643e-05
+        ]
+      ]
+    },
+    "human_or_right_answer": false
+  },
+  "224": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All diamonds are gems.",
+      "premise_2": "Some diamonds are transparent things.",
+      "conclusion": "Some gems are transparent things.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -1.400547742843628
+        ],
+        [
+          "<|endoftext|>",
+          -0.07441183179616928
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "225": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "All diamonds are gems.",
+      "premise_2": "Some diamonds are transparent things.",
+      "conclusion": "Some gems are transparent things.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.1427898108959198
+        ],
+        [
+          "<|endoftext|>",
+          -0.08540628850460052
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "226": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "All diamonds are gems.",
+      "premise_2": "Some diamonds are transparent things.",
+      "conclusion": "Some gems are transparent things.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 2,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.13066962361335754
+        ],
+        [
+          "<|endoftext|>",
+          -0.10211960971355438
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "227": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "metadata": {
+      "premise_1": "All diamonds are gems.",
+      "premise_2": "Some diamonds are transparent things.",
+      "conclusion": "Some gems are transparent things.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 3,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Yes",
+          -0.150687113404274
+        ],
+        [
+          "<|endoftext|>",
+          -0.08169186115264893
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "228": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "metadata": {
+      "premise_1": "All diamonds are gems.",
+      "premise_2": "Some diamonds are transparent things.",
+      "conclusion": "Some gems are transparent things.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 1,
+      "template": 4,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "yes",
+          -0.00037293630884960294
+        ],
+        [
+          "<|endoftext|>",
+          -8.999896090244874e-05
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "229": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome diamonds are transparent things.\nAll diamonds are gems.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Affirm",
+    "metadata": {
+      "premise_1": "Some diamonds are transparent things.",
+      "premise_2": "All diamonds are gems.",
+      "conclusion": "Some gems are transparent things.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 5,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome diamonds are transparent things.\nAll diamonds are gems.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Aff",
+          -0.7290644645690918
+        ],
+        [
+          "irm",
+          -0.000987756997346878
+        ],
+        [
+          "<|endoftext|>",
+          -0.6020322442054749
+        ]
+      ]
+    },
+    "human_or_right_answer": true
+  },
+  "230": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome diamonds are transparent things.\nAll diamonds are gems.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "metadata": {
+      "premise_1": "Some diamonds are transparent things.",
+      "premise_2": "All diamonds are gems.",
+      "conclusion": "Some gems are transparent things.",
+      "is_valid": true,
+      "is_believable": true,
+      "human_or_right_answer": true,
+      "is_permuted_option": 2,
+      "template": 1,
+      "with_bias": true,
+      "text": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome diamonds are transparent things.\nAll diamonds are gems.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+      "are_events_switched": false,
+      "is_exp2": false,
+      "is_exp3": false,
+      "bias_type": "Belief_type.EXP_DM_FULL",
+      "bias_name": "false_belief",
+      "closing_line": "Answer:",
+      "closing_line_id": 1,
+      "log_probs": [
+        [
+          "Valid",
+          -0.2608610689640045
+        ],
+        [
+          "<|endoftext|>",
+          -0.0866861492395401
+        ]
+      ]
+    },
+    "human_or_right_answer": true
   }
 }

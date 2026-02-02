@@ -1,0 +1,9 @@
+,is_valid,is_believable,low,mean,high,Option
+0,False,False,0.05555555555555555,0.2222222222222222,0.4444444444444444,Real-life Objects
+1,False,True,1.0,1.0,1.0,Real-life Objects
+2,True,False,1.0,1.0,1.0,Real-life Objects
+3,True,True,1.0,1.0,1.0,Real-life Objects
+0,False,False,0.16666666666666666,0.4166666666666667,0.6666666666666666,Non-real Objects
+1,False,True,0.5384615384615384,0.7692307692307693,1.0,Non-real Objects
+2,True,False,1.0,1.0,1.0,Non-real Objects
+3,True,True,1.0,1.0,1.0,Non-real Objects

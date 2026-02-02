@@ -1391,3 +1391,15 @@ Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
 INFO:root:generated predictions up to id 435 for decoy using the Olmo-3-7B-Instruct model
 The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
 Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 436 for decoy using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 437 for decoy using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 438 for decoy using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 439 for decoy using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.

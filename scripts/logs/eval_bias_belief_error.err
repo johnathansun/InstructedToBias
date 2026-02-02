@@ -2553,3 +2553,18 @@ Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
 INFO:root:generated predictions up to id 224 for false_belief using the Olmo-3-7B-Instruct model
 The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
 Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 225 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 226 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 227 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 228 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.
+INFO:root:generated predictions up to id 229 for false_belief using the Olmo-3-7B-Instruct model
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100265 for open-end generation.

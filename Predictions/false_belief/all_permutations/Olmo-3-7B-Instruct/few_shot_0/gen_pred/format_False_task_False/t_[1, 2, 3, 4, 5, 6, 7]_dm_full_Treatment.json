@@ -1098,5 +1098,55 @@
     "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
     "prediction": "Invalid",
     "human_or_right_answer": false
+  },
+  "221": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "222": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll flowers are reptiles.\nNo flowers are animals.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "223": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo flowers are animals.\nAll flowers are reptiles.\nConclusion: No reptiles are animals.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "invalid",
+    "human_or_right_answer": false
+  },
+  "224": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "225": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "226": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "227": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "228": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll diamonds are gems.\nSome diamonds are transparent things.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "229": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nSome diamonds are transparent things.\nAll diamonds are gems.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Affirm",
+    "human_or_right_answer": true
+  },
+  "230": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nSome diamonds are transparent things.\nAll diamonds are gems.\nConclusion: Some gems are transparent things.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
   }
 }
