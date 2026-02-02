@@ -2,22 +2,22 @@
 Olmo-3-7B-Instruct | k_shot =0 | _[1, 2, 3, 4, 5, 6, 7]_dm_full_
 ================================================================================
 ===Treatment===
-Percentage in data of Option 1 - 56.00%
-Percentage in data of Option 2 - 44.00%
+Percentage in data of Option 1 - 50.82%
+Percentage in data of Option 2 - 49.18%
 Percentage in data of Option 3 - 0.00%
-Percentage of Option 1 - 28.00%
-Percentage of Option 2 - 72.00%
+Percentage of Option 1 - 27.27%
+Percentage of Option 2 - 70.79%
 Percentage of Option 3 - 0.00%
-Percentage of Undecided answers - 0.00%
---------------------------------------------------Number of groups - 38
-Mean percentage of elements that have agreement within each group - 98.68%
+Percentage of Undecided answers - 1.94%
+--------------------------------------------------Number of groups - 91
+Mean percentage of elements that have agreement within each group - 83.00%
 Percentage of correct answers in group 0 - 0.00%
-Percentage of correct answers in group 1 - 100.00%
-Percentage of correct answers in group 2 - 100.00%
+Percentage of correct answers in group 1 - 75.00%
+Percentage of correct answers in group 2 - 75.00%
 Percentage of correct answers in group 3 - 0.00%
 Percentage of correct answers in group 4 - 100.00%
-Percentage of correct answers in group 5 - 100.00%
-Percentage of correct answers in group 6 - 0.00%
+Percentage of correct answers in group 5 - 87.50%
+Percentage of correct answers in group 6 - 12.50%
 Percentage of correct answers in group 7 - 0.00%
 Percentage of correct answers in group 8 - 0.00%
 Percentage of correct answers in group 9 - 100.00%
@@ -27,38 +27,91 @@ Percentage of correct answers in group 12 - 100.00%
 Percentage of correct answers in group 13 - 100.00%
 Percentage of correct answers in group 14 - 100.00%
 Percentage of correct answers in group 15 - 100.00%
-Percentage of correct answers in group 16 - 0.00%
-Percentage of correct answers in group 17 - 100.00%
+Percentage of correct answers in group 16 - 25.00%
+Percentage of correct answers in group 17 - 87.50%
 Percentage of correct answers in group 18 - 100.00%
-Percentage of correct answers in group 19 - 50.00%
+Percentage of correct answers in group 19 - 66.67%
 Percentage of correct answers in group 20 - 100.00%
 Percentage of correct answers in group 21 - 100.00%
 Percentage of correct answers in group 22 - 0.00%
 Percentage of correct answers in group 23 - 100.00%
-Percentage of correct answers in group 24 - 100.00%
+Percentage of correct answers in group 24 - 88.89%
 Percentage of correct answers in group 25 - 100.00%
-Percentage of correct answers in group 26 - 100.00%
+Percentage of correct answers in group 26 - 87.50%
 Percentage of correct answers in group 27 - 100.00%
 Percentage of correct answers in group 28 - 100.00%
 Percentage of correct answers in group 29 - 100.00%
 Percentage of correct answers in group 30 - 100.00%
 Percentage of correct answers in group 31 - 0.00%
 Percentage of correct answers in group 32 - 100.00%
-Percentage of correct answers in group 33 - 100.00%
+Percentage of correct answers in group 33 - 88.89%
 Percentage of correct answers in group 34 - 0.00%
 Percentage of correct answers in group 35 - 100.00%
 Percentage of correct answers in group 36 - 100.00%
-Percentage of correct answers in group 37 - 0.00%
+Percentage of correct answers in group 37 - 62.50%
+Percentage of correct answers in group 38 - 66.67%
+Percentage of correct answers in group 39 - 100.00%
+Percentage of correct answers in group 40 - 100.00%
+Percentage of correct answers in group 41 - 100.00%
+Percentage of correct answers in group 42 - 100.00%
+Percentage of correct answers in group 43 - 100.00%
+Percentage of correct answers in group 44 - 0.00%
+Percentage of correct answers in group 45 - 0.00%
+Percentage of correct answers in group 46 - 100.00%
+Percentage of correct answers in group 47 - 100.00%
+Percentage of correct answers in group 48 - 100.00%
+Percentage of correct answers in group 49 - 71.43%
+Percentage of correct answers in group 50 - 14.29%
+Percentage of correct answers in group 51 - 85.71%
+Percentage of correct answers in group 52 - 0.00%
+Percentage of correct answers in group 53 - 71.43%
+Percentage of correct answers in group 54 - 100.00%
+Percentage of correct answers in group 55 - 85.71%
+Percentage of correct answers in group 56 - 14.29%
+Percentage of correct answers in group 57 - 14.29%
+Percentage of correct answers in group 58 - 71.43%
+Percentage of correct answers in group 59 - 100.00%
+Percentage of correct answers in group 60 - 100.00%
+Percentage of correct answers in group 61 - 100.00%
+Percentage of correct answers in group 62 - 0.00%
+Percentage of correct answers in group 63 - 0.00%
+Percentage of correct answers in group 64 - 85.71%
+Percentage of correct answers in group 65 - 0.00%
+Percentage of correct answers in group 66 - 85.71%
+Percentage of correct answers in group 67 - 57.14%
+Percentage of correct answers in group 68 - 100.00%
+Percentage of correct answers in group 69 - 100.00%
+Percentage of correct answers in group 70 - 0.00%
+Percentage of correct answers in group 71 - 0.00%
+Percentage of correct answers in group 72 - 71.43%
+Percentage of correct answers in group 73 - 85.71%
+Percentage of correct answers in group 74 - 71.43%
+Percentage of correct answers in group 75 - 71.43%
+Percentage of correct answers in group 76 - 85.71%
+Percentage of correct answers in group 77 - 85.71%
+Percentage of correct answers in group 78 - 42.86%
+Percentage of correct answers in group 79 - 100.00%
+Percentage of correct answers in group 80 - 100.00%
+Percentage of correct answers in group 81 - 0.00%
+Percentage of correct answers in group 82 - 85.71%
+Percentage of correct answers in group 83 - 0.00%
+Percentage of correct answers in group 84 - 42.86%
+Percentage of correct answers in group 85 - 100.00%
+Percentage of correct answers in group 86 - 100.00%
+Percentage of correct answers in group 87 - 100.00%
+Percentage of correct answers in group 88 - 0.00%
+Percentage of correct answers in group 89 - 0.00%
+Percentage of correct answers in group 90 - 85.71%
 ===Control===
-Percentage in data of Option 1 - 50.00%
-Percentage in data of Option 2 - 50.00%
+Percentage in data of Option 1 - 50.37%
+Percentage in data of Option 2 - 49.63%
 Percentage in data of Option 3 - 0.00%
-Percentage of Option 1 - 20.00%
-Percentage of Option 2 - 80.00%
+Percentage of Option 1 - 17.14%
+Percentage of Option 2 - 81.37%
 Percentage of Option 3 - 0.00%
-Percentage of Undecided answers - 0.00%
---------------------------------------------------Number of groups - 39
-Mean percentage of elements that have agreement within each group - 97.44%
+Percentage of Undecided answers - 1.49%
+--------------------------------------------------Number of groups - 93
+Mean percentage of elements that have agreement within each group - 81.56%
 Percentage of correct answers in group 0 - 100.00%
 Percentage of correct answers in group 1 - 100.00%
 Percentage of correct answers in group 2 - 0.00%
@@ -66,45 +119,99 @@ Percentage of correct answers in group 3 - 100.00%
 Percentage of correct answers in group 4 - 0.00%
 Percentage of correct answers in group 5 - 100.00%
 Percentage of correct answers in group 6 - 100.00%
-Percentage of correct answers in group 7 - 100.00%
-Percentage of correct answers in group 8 - 50.00%
+Percentage of correct answers in group 7 - 87.50%
+Percentage of correct answers in group 8 - 33.33%
 Percentage of correct answers in group 9 - 100.00%
-Percentage of correct answers in group 10 - 100.00%
+Percentage of correct answers in group 10 - 88.89%
 Percentage of correct answers in group 11 - 100.00%
 Percentage of correct answers in group 12 - 100.00%
 Percentage of correct answers in group 13 - 0.00%
 Percentage of correct answers in group 14 - 100.00%
 Percentage of correct answers in group 15 - 100.00%
-Percentage of correct answers in group 16 - 0.00%
+Percentage of correct answers in group 16 - 25.00%
 Percentage of correct answers in group 17 - 100.00%
 Percentage of correct answers in group 18 - 0.00%
 Percentage of correct answers in group 19 - 100.00%
 Percentage of correct answers in group 20 - 0.00%
 Percentage of correct answers in group 21 - 100.00%
-Percentage of correct answers in group 22 - 50.00%
+Percentage of correct answers in group 22 - 55.56%
 Percentage of correct answers in group 23 - 100.00%
-Percentage of correct answers in group 24 - 0.00%
+Percentage of correct answers in group 24 - 12.50%
 Percentage of correct answers in group 25 - 100.00%
 Percentage of correct answers in group 26 - 100.00%
 Percentage of correct answers in group 27 - 100.00%
-Percentage of correct answers in group 28 - 100.00%
+Percentage of correct answers in group 28 - 62.50%
 Percentage of correct answers in group 29 - 0.00%
-Percentage of correct answers in group 30 - 100.00%
-Percentage of correct answers in group 31 - 100.00%
-Percentage of correct answers in group 32 - 100.00%
-Percentage of correct answers in group 33 - 100.00%
+Percentage of correct answers in group 30 - 37.50%
+Percentage of correct answers in group 31 - 87.50%
+Percentage of correct answers in group 32 - 66.67%
+Percentage of correct answers in group 33 - 87.50%
 Percentage of correct answers in group 34 - 0.00%
-Percentage of correct answers in group 35 - 100.00%
-Percentage of correct answers in group 36 - 100.00%
-Percentage of correct answers in group 37 - 0.00%
+Percentage of correct answers in group 35 - 87.50%
+Percentage of correct answers in group 36 - 75.00%
+Percentage of correct answers in group 37 - 25.00%
 Percentage of correct answers in group 38 - 0.00%
+Percentage of correct answers in group 39 - 0.00%
+Percentage of correct answers in group 40 - 85.71%
+Percentage of correct answers in group 41 - 100.00%
+Percentage of correct answers in group 42 - 28.57%
+Percentage of correct answers in group 43 - 100.00%
+Percentage of correct answers in group 44 - 0.00%
+Percentage of correct answers in group 45 - 100.00%
+Percentage of correct answers in group 46 - 100.00%
+Percentage of correct answers in group 47 - 100.00%
+Percentage of correct answers in group 48 - 85.71%
+Percentage of correct answers in group 49 - 0.00%
+Percentage of correct answers in group 50 - 0.00%
+Percentage of correct answers in group 51 - 100.00%
+Percentage of correct answers in group 52 - 71.43%
+Percentage of correct answers in group 53 - 0.00%
+Percentage of correct answers in group 54 - 100.00%
+Percentage of correct answers in group 55 - 100.00%
+Percentage of correct answers in group 56 - 57.14%
+Percentage of correct answers in group 57 - 100.00%
+Percentage of correct answers in group 58 - 28.57%
+Percentage of correct answers in group 59 - 100.00%
+Percentage of correct answers in group 60 - 100.00%
+Percentage of correct answers in group 61 - 71.43%
+Percentage of correct answers in group 62 - 85.71%
+Percentage of correct answers in group 63 - 28.57%
+Percentage of correct answers in group 64 - 0.00%
+Percentage of correct answers in group 65 - 100.00%
+Percentage of correct answers in group 66 - 85.71%
+Percentage of correct answers in group 67 - 85.71%
+Percentage of correct answers in group 68 - 0.00%
+Percentage of correct answers in group 69 - 28.57%
+Percentage of correct answers in group 70 - 57.14%
+Percentage of correct answers in group 71 - 100.00%
+Percentage of correct answers in group 72 - 0.00%
+Percentage of correct answers in group 73 - 100.00%
+Percentage of correct answers in group 74 - 28.57%
+Percentage of correct answers in group 75 - 14.29%
+Percentage of correct answers in group 76 - 100.00%
+Percentage of correct answers in group 77 - 100.00%
+Percentage of correct answers in group 78 - 100.00%
+Percentage of correct answers in group 79 - 0.00%
+Percentage of correct answers in group 80 - 0.00%
+Percentage of correct answers in group 81 - 71.43%
+Percentage of correct answers in group 82 - 85.71%
+Percentage of correct answers in group 83 - 28.57%
+Percentage of correct answers in group 84 - 57.14%
+Percentage of correct answers in group 85 - 42.86%
+Percentage of correct answers in group 86 - 100.00%
+Percentage of correct answers in group 87 - 100.00%
+Percentage of correct answers in group 88 - 71.43%
+Percentage of correct answers in group 89 - 100.00%
+Percentage of correct answers in group 90 - 0.00%
+Percentage of correct answers in group 91 - 100.00%
+Percentage of correct answers in group 92 - 0.00%
 ===Bootstrapping Confidence Intervals===
    is_valid  is_believable       low      mean      high             Option
-0     False          False  0.055556  0.222222  0.444444  Real-life Objects
-1     False           True  1.000000  1.000000  1.000000  Real-life Objects
-2      True          False  1.000000  1.000000  1.000000  Real-life Objects
+0     False          False  0.135593  0.186441  0.248588  Real-life Objects
+1     False           True  0.891720  0.936306  0.968153  Real-life Objects
+2      True          False  0.760736  0.822086  0.877454  Real-life Objects
 3      True           True  1.000000  1.000000  1.000000  Real-life Objects
-0     False          False  0.166667  0.416667  0.666667   Non-real Objects
-1     False           True  0.538462  0.769231  1.000000   Non-real Objects
+0     False          False  0.479532  0.555556  0.631579   Non-real Objects
+1     False           True  0.748466  0.815951  0.871166   Non-real Objects
 2      True          False  1.000000  1.000000  1.000000   Non-real Objects
-3      True           True  1.000000  1.000000  1.000000   Non-real Objects
+3      True           True  0.900000  0.943750  0.975000   Non-real Objects

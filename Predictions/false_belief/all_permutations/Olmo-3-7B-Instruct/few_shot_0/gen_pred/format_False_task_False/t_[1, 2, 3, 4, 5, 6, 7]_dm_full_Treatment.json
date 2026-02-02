@@ -3198,5 +3198,160 @@
     "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll things that move are vehicles.\nNo buildings are things that move.\nConclusion: No buildings are vehicles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
     "prediction": "Valid",
     "human_or_right_answer": false
+  },
+  "641": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo buildings are things that move.\nAll things that move are vehicles.\nConclusion: No buildings are vehicles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "642": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll things that move are vehicles.\nNo buildings are things that move.\nConclusion: No buildings are vehicles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "643": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo buildings are things that move.\nAll things that move are vehicles.\nConclusion: No buildings are vehicles.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "644": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll vehicles are buildings.\nNo things that move are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": true
+  },
+  "645": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll vehicles are buildings.\nNo things that move are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "646": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll vehicles are buildings.\nNo things that move are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "647": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll vehicles are buildings.\nNo things that move are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "648": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll vehicles are buildings.\nNo things that move are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "649": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo things that move are buildings.\nAll vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": true
+  },
+  "650": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo things that move are buildings.\nAll vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "651": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo things that move are buildings.\nAll vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "652": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo things that move are buildings.\nAll vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Yes",
+    "human_or_right_answer": true
+  },
+  "653": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo things that move are buildings.\nAll vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": true
+  },
+  "654": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll vehicles are buildings.\nNo things that move are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": true
+  },
+  "655": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo things that move are buildings.\nAll vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "656": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll vehicles are buildings.\nNo things that move are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "657": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo things that move are buildings.\nAll vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": true
+  },
+  "658": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nNo vehicles are buildings.\nAll buildings are things that move.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": false
+  },
+  "659": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nNo vehicles are buildings.\nAll buildings are things that move.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "660": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nNo vehicles are buildings.\nAll buildings are things that move.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "661": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nNo vehicles are buildings.\nAll buildings are things that move.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "662": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nNo vehicles are buildings.\nAll buildings are things that move.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "yes",
+    "human_or_right_answer": false
+  },
+  "663": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nArgument:\nAll buildings are things that move.\nNo vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "True",
+    "human_or_right_answer": false
+  },
+  "664": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following argument is logically valid -\n\nAll buildings are things that move.\nNo vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Valid",
+    "human_or_right_answer": false
+  },
+  "665": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2-\n\nAll buildings are things that move.\nNo vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "666": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nDetermine if the following Conclusion stems from premise 1 and premise 2, regardless of other world knowledge -\n\nAll buildings are things that move.\nNo vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "No",
+    "human_or_right_answer": false
+  },
+  "667": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nThis is an experiment to test people's reasoning ability. You will be given premises to read and a certain conclusion that may be logically deduced from it. You should answer this question on the assumption that all the information given in the premises is, in fact, true. If you judge that the conclusion necessarily follows from the statements in the passage, you should answer 'yes', otherwise 'no'.\n\nAll buildings are things that move.\nNo vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "no",
+    "human_or_right_answer": false
+  },
+  "668": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nNo vehicles are buildings.\nAll buildings are things that move.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "669": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nCarefully evaluate these logical arguments, and determine whether each is valid or invalid.\n\nArgument:\nAll buildings are things that move.\nNo vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
+  },
+  "670": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nNo vehicles are buildings.\nAll buildings are things that move.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "invalid",
+    "human_or_right_answer": false
+  },
+  "671": {
+    "input": "<|im_start|>system\nYou are a helpful assistant. Answer shortly with only your choice with no explanation.\n\n<|im_end|>\n<|im_start|>user\nAnswer these logic problems carefully, by determining whether each argument is valid or invalid.\n\nArgument:\nAll buildings are things that move.\nNo vehicles are buildings.\nConclusion: No vehicles are things that move.\nAnswer:<|im_end|>\n<|im_start|>assistant\n",
+    "prediction": "Invalid",
+    "human_or_right_answer": false
   }
 }
